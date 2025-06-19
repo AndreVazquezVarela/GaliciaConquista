@@ -91,14 +91,14 @@ def preparar_mapa_base(gdf):
     for _, row in gdf.iterrows():
         centroide = row.geometry.centroid
         plt.annotate(row['Comarca'], (centroide.x, centroide.y), ha='center', fontsize=4, color='black', weight='bold')
-    plt.title("Provincias de Galicia")
-    plt.savefig("mapa_galicia.png", dpi=300, bbox_inches='tight')
+    plt.title("Comarcas de Galicia")
+    plt.savefig("Images/mapa_galicia.png", dpi=300, bbox_inches='tight')
     plt.close()
 
 def obtener_color(conquistador):
     if conquistador not in colores_fijos:
         if not colores_disponibles:
-            raise ValueError("No quedan colores disponibles.")
+            raise ValueError("Non quedan colores dispoñibles.")
         colores_fijos[conquistador] = colores_disponibles.pop()
     return colores_fijos[conquistador]
 
@@ -215,11 +215,11 @@ def dibujar_mapa_conquista(mapa, mapa_ant, G, G_ant, a_id, d_id, imperio_defenso
 
 
     plt.title(f"Conquista - Día {dia + 1}")
-    os.makedirs("imagenes6", exist_ok=True)
-    plt.savefig(f"imagenes6/mapa_galicia_con_nombres{dia + 1}.png", bbox_inches='tight', dpi=150)
+    os.makedirs("Images/imagenes6", exist_ok=True)
+    plt.savefig(f"Images/imagenes6/mapa_galicia_con_nombres{dia + 1}.png", bbox_inches='tight', dpi=150)
     plt.close()
 
-def guardar_log_narrado(ruta_csv="log_conquistas3.csv", ruta_txt="log_narrado.txt"):
+def guardar_log_narrado(ruta_csv="logs/log_conquistas3.csv", ruta_txt="logs/log_narrado.txt"):
     with open(ruta_csv, encoding="utf-8") as f_csv, open(ruta_txt, "w", encoding="utf-8") as f_txt:
         reader = csv.DictReader(f_csv)
         for fila in reader:
@@ -235,7 +235,7 @@ def guardar_log_narrado(ruta_csv="log_conquistas3.csv", ruta_txt="log_narrado.tx
                 f_txt.write(f"¡O imperio '{eliminado}' foi eliminado!\n")
 
 
-def generar_imagen_victoria(G, galicia_map, output="imagenes4/victoria.png"):
+def generar_imagen_victoria(G, galicia_map, output="Images/imagenes4/victoria.png"):
     imperios = list(set(G.nodes[n]['nombre'] for n in G.nodes))
     if len(imperios) != 1:
         return  # aún no hay victoria
@@ -263,7 +263,7 @@ def simular_conquistas_2(G, galicia_map):
     mapa = colorear_concellos(galicia_map, G)
     dia = 0
 
-    with open("log_conquistas4.csv", 'w', newline='', encoding='utf-8') as f:
+    with open("logs/log_conquistas4.csv", 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(["Día", "Atacante", "Comarca conquistada", "Pertenecía a", "Eliminado"])
 
@@ -278,7 +278,7 @@ def simular_conquistas_2(G, galicia_map):
 
         mapa = colorear_concellos(galicia_map, G)
 
-        with open("log_conquistas4.csv", 'a', newline='', encoding='utf-8') as f:
+        with open("logs/log_conquistas4.csv", 'a', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
             writer.writerow([dia + 1, imperio_atacante, G.nodes[d_id]['nombre_original'], imperio_defensor, eliminado or ""])
 
@@ -294,7 +294,7 @@ def simular_conquistas_2(G, galicia_map):
 
 def main():
     G = inicializar_grafo(concellos)
-    galicia_map = gpd.read_file("./Comarcas.shp", encoding="utf-8")
+    galicia_map = gpd.read_file("Geographic_data/Comarcas.shp", encoding="utf-8")
     preparar_mapa_base(galicia_map)
     simular_conquistas_2(G, galicia_map)
     guardar_log_narrado()

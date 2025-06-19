@@ -5,7 +5,7 @@ import networkx as nx
 import geopandas as gpd
 import matplotlib.pyplot as plt
 data = []
-galicia_map = gpd.read_file("./Concellos_IGN.shp", encoding = "utf-8")
+galicia_map = gpd.read_file("Geographic_data/Concellos_IGN.shp", encoding ="utf-8")
 #print(galicia_map['CONCELLO'])
 for i in range(len(galicia_map['CONCELLO'])):
     data.append(galicia_map['CONCELLO'][i])

@@ -29,7 +29,7 @@ for id_concello, datos in concellos.items():
     for vecino in datos["vecinos"]:
         G.add_edge(id_concello, vecino)
 
-galicia_map = gpd.read_file("./Concellos_IGN.shp", encoding = "utf-8")
+galicia_map = gpd.read_file("Geographic_data/Concellos_IGN.shp", encoding ="utf-8")
 
 
 
