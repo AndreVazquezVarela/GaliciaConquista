@@ -263,6 +263,7 @@ def generar_imagen_victoria(G, galicia_map, output="Images/imagenes4/victoria.pn
 def crear_mapa_interactivo_por_dia(mapa, G, dia, carpeta="mapas_interactivos"):
     import folium
     os.makedirs(carpeta, exist_ok=True)
+    mapa = mapa.to_crs(epsg=4326)
     m = folium.Map(location=[42.9, -8.2], zoom_start=8, tiles='cartodbpositron')
 
     for _, row in mapa.iterrows():
@@ -324,6 +325,8 @@ def simular_conquistas_2(G, galicia_map):
 def main():
     G = inicializar_grafo(concellos)
     galicia_map = gpd.read_file("Geographic_data/Comarcas.shp", encoding="utf-8")
+    if galicia_map.crs is None:
+        galicia_map.set_crs(epsg=25829, inplace=True)
     preparar_mapa_base(galicia_map)
     simular_conquistas_2(G, galicia_map)
     guardar_log_narrado()
