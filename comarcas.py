@@ -1,21 +1,22 @@
+import os
 import random
-
-import pandas as pd
+import csv
 import networkx as nx
-import geopandas as gpd
-import folium
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-import matplotlib as cm
-from distinctipy import distinctipy
-from shapely.geometry import Polygon, MultiPolygon
-import csv
-import os
-from shapely.ops import unary_union
 import matplotlib.patheffects as path_effects
+import geopandas as gpd
+import folium
+from shapely.geometry import Polygon, MultiPolygon
+from shapely.ops import unary_union
+from distinctipy import distinctipy
+from collections import Counter
 
-# Crear los concellos con identificadores únicos y nombres originales
-colores_fijos = {}
+
+
+
+
+
 
 concellos = {
     0: {'nombre': 'A Barcala', 'vecinos': [14, 17, 10]},
@@ -74,43 +75,76 @@ concellos = {
 }
 
 
-
-
-colores_disponibles = [mcolors.to_hex(rgb) for rgb in distinctipy.get_colors(len(concellos))]
+IMAGEN_DIR = "Images/imagenes6"
+LOG_PATH = "logs/log_conquistas4.csv"
+MAPA_BASE_PATH = "Images/mapa_galicia.png"
+VICTORIA_IMG_PATH = "Images/imagenes4/victoria.png"
+INTERACTIVOS_DIR = "mapas_interactivos"
+MAX_PROVINCES = len(concellos)
+# Crear los concellos con identificadores únicos y nombres originales
+colores_fijos = {}
+colores_disponibles = [mcolors.to_hex(rgb) for rgb in distinctipy.get_colors(MAX_PROVINCES)]
 
 def inicializar_grafo(concellos):
     G = nx.Graph()
+
     for id_concello, datos in concellos.items():
+        # Añadir nodo con nombre y nombre original
         G.add_node(id_concello, nombre=datos["nombre"], nombre_original=datos["nombre"])
+
+        # Añadir aristas a vecinos (asegura que no se repiten aunque esté en ambos sentidos)
         for vecino in datos["vecinos"]:
-            G.add_edge(id_concello, vecino)
+            if not G.has_edge(id_concello, vecino):
+                G.add_edge(id_concello, vecino)
+
     return G
 
-def preparar_mapa_base(gdf):
-    plt.figure(figsize=(20, 20))
-    gdf.plot(edgecolor="black", linewidth=0.1, color="white")
+
+
+def preparar_mapa_base(gdf, output_path="Images/mapa_galicia.png"):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    fig, ax = plt.subplots(figsize=(20, 20))
+    gdf.plot(ax=ax, edgecolor="black", linewidth=0.1, color="white")
+
     for _, row in gdf.iterrows():
         centroide = row.geometry.centroid
-        plt.annotate(row['Comarca'], (centroide.x, centroide.y), ha='center', fontsize=4, color='black', weight='bold')
-    plt.title("Comarcas de Galicia")
-    plt.savefig("Images/mapa_galicia.png", dpi=300, bbox_inches='tight')
+        ax.annotate(
+            row['Comarca'],
+            (centroide.x, centroide.y),
+            ha='center',
+            fontsize=4,
+            color='black',
+            weight='bold'
+        )
+
+    ax.set_title("Comarcas de Galicia")
+    ax.axis('off')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
+
 def obtener_color(conquistador):
-    if conquistador not in colores_fijos:
-        if not colores_disponibles:
-            raise ValueError("Non quedan colores dispoñibles.")
-        colores_fijos[conquistador] = colores_disponibles.pop()
-    return colores_fijos[conquistador]
+    color = colores_fijos.get(conquistador)
+    if color:
+        return color
+
+    if not colores_disponibles:
+        raise RuntimeError("Non quedan cores dispoñibles para asignar a novos imperios.")
+
+    novo_color = colores_disponibles.pop()
+    colores_fijos[conquistador] = novo_color
+    return novo_color
+
 
 def colorear_concellos(gdf, G):
     gdf_copy = gdf.copy()
     gdf_copy["color"] = "white"
+    nombres_actuales = nx.get_node_attributes(G, 'nombre')
+    originales = nx.get_node_attributes(G, 'nombre_original')
     for node in G.nodes:
-        nombre = G.nodes[node]['nombre']
-        original = G.nodes[node]['nombre_original']
-        color = obtener_color(nombre)
-        gdf_copy.loc[gdf_copy['Comarca'] == original, 'color'] = color
+        color = obtener_color(nombres_actuales[node])
+        gdf_copy.loc[gdf_copy['Comarca'] == originales[node], 'color'] = color
     return gdf_copy
 
 def dibujar_contorno_exterior(grupo, ax, color, excluir=None):
@@ -123,67 +157,60 @@ def dibujar_contorno_exterior(grupo, ax, color, excluir=None):
         ax.plot(x, y, color=color, linewidth=2.5, zorder=2.5)
 
 def conquistar_concello(G):
-    imperios = list(set(G.nodes[n]['nombre'] for n in G.nodes))
+    nombres = nx.get_node_attributes(G, 'nombre')
+    originales = nx.get_node_attributes(G, 'nombre_original')
+    imperios = list(set(nombres.values()))
+    tamanos = Counter(nombres.values())
 
     # Caso especial: solo quedan 2 imperios
     if len(imperios) == 2:
         imp1, imp2 = imperios
-        tam1 = sum(G.nodes[n]['nombre'] == imp1 for n in G.nodes)
-        tam2 = sum(G.nodes[n]['nombre'] == imp2 for n in G.nodes)
-
-        # Determinar quién ataca este turno, ponderado por tamaño
-        total = tam1 + tam2
-        prob_imp1 = tam1 / total
-        atacante = imp1 if random.random() < prob_imp1 else imp2
+        total = tamanos[imp1] + tamanos[imp2]
+        atacante = imp1 if random.random() < tamanos[imp1] / total else imp2
         defensor = imp2 if atacante == imp1 else imp1
 
-        # Buscar un nodo atacante con vecino enemigo
-        territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == atacante]
+        territorios = [n for n in G.nodes if nombres[n] == atacante]
         random.shuffle(territorios)
         for t in territorios:
             vecinos = list(G.neighbors(t))
             random.shuffle(vecinos)
             for v in vecinos:
-                if G.nodes[v]['nombre'] == defensor:
+                if nombres[v] == defensor:
                     G.nodes[v]['nombre'] = atacante
-                    print(f"(2 imperios) {atacante} conquistou a comarca de {G.nodes[v]['nombre_original']}")
-
+                    print(f"(2 imperios) {atacante} conquistou a comarca de {originales[v]}")
                     eliminado = None
-                    if not any(G.nodes[n]['nombre'] == defensor for n in G.nodes):
+                    if not any(nombres[n] == defensor for n in G.nodes):
                         eliminado = defensor
                         print(f"¡O imperio '{defensor}' foi eliminado!")
-
                     return G, t, v, defensor, atacante, eliminado
-
         print("Non quedan opcións de conquista entre os dous imperios.")
         return None
 
     # Comportamiento normal con más de 2 imperios
-    imperios.sort(key=lambda imp: -sum(G.nodes[n]['nombre'] == imp for n in G.nodes))
+    imperios.sort(key=lambda imp: -tamanos[imp])
     random.shuffle(imperios)
 
     for imperio in imperios:
-        territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == imperio]
+        territorios = [n for n in G.nodes if nombres[n] == imperio]
         vecinos_posibles = []
         for t in territorios:
             for v in G.neighbors(t):
-                if G.nodes[v]['nombre'] != imperio:
-                    vecinos_mismos = sum(G.nodes[n]['nombre'] == G.nodes[v]['nombre'] for n in G.neighbors(v))
+                if nombres[v] != imperio:
+                    vecinos_mismos = sum(nombres[n] == nombres[v] for n in G.neighbors(v))
                     vecinos_posibles.append((vecinos_mismos, t, v))
 
         if vecinos_posibles:
             vecinos_posibles.sort(key=lambda x: x[0])
             _, atacante_id, defensor_id = vecinos_posibles[0]
-
-            nombre_atacante = G.nodes[atacante_id]['nombre']
-            nombre_defensor = G.nodes[defensor_id]['nombre']
-            nombre_original_atacado = G.nodes[defensor_id]['nombre_original']
+            nombre_atacante = nombres[atacante_id]
+            nombre_defensor = nombres[defensor_id]
+            nombre_original_atacado = originales[defensor_id]
 
             print(f"A comarca de {nombre_atacante} conquistou a comarca de {nombre_original_atacado}, pertencente a {nombre_defensor}")
             G.nodes[defensor_id]['nombre'] = nombre_atacante
 
             eliminado = None
-            if not any(G.nodes[n]['nombre'] == nombre_defensor for n in G.nodes):
+            if not any(nombres[n] == nombre_defensor for n in G.nodes):
                 eliminado = nombre_defensor
                 print(f"¡O imperio '{nombre_defensor}' foi eliminado!")
 
@@ -193,24 +220,46 @@ def conquistar_concello(G):
     return None
 
 def mostrar_nombre_imperio(nombre_imperio, mapa, G, ax, color_texto):
-    territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == nombre_imperio]
+    nombres = nx.get_node_attributes(G, 'nombre')
+    originales = nx.get_node_attributes(G, 'nombre_original')
+
+    territorios = [n for n, val in nombres.items() if val == nombre_imperio]
     if not territorios:
         return
-    comarcas = [G.nodes[n]['nombre_original'] for n in territorios]
+
+    comarcas = [originales[n] for n in territorios]
     grupo = mapa[mapa['Comarca'].isin(comarcas)]
+    if grupo.empty:
+        return
+
     geometria = unary_union(grupo.geometry)
     if not geometria.is_empty:
         centro = geometria.centroid
-        txt = ax.annotate(nombre_imperio, (centro.x, centro.y + 0.02), ha='center', fontsize=10, fontstyle='italic', color=color_texto, zorder=10)
-        txt.set_path_effects([path_effects.Stroke(linewidth=1.2, foreground='black'),
-                              path_effects.Normal()])
+        txt = ax.annotate(
+            nombre_imperio,
+            (centro.x, centro.y + 0.02),  # Puedes parametrizar este offset si lo prefieres
+            ha='center',
+            fontsize=10,
+            fontstyle='italic',
+            color=color_texto,
+            zorder=10
+        )
+        txt.set_path_effects([
+            path_effects.Stroke(linewidth=1.2, foreground='black'),
+            path_effects.Normal()
+        ])
 
 def dibujar_mapa_conquista(mapa, mapa_ant, G, G_ant, a_id, d_id, imperio_defensor, imperio_atacante, dia):
+    nombres = nx.get_node_attributes(G, 'nombre')
+    originales = nx.get_node_attributes(G, 'nombre_original')
+
     fig, ax = plt.subplots(figsize=(12, 10))
     ax.axis('off')
+
+    # Colorear comarcas
     mapa.plot(ax=ax, edgecolor="black", linewidth=0.1, color=mapa["color"])
 
-
+    # Contornos generales de todos los colores
     for color, grupo in mapa.groupby("color"):
         union = grupo.geometry.union_all()
         geoms = [union] if isinstance(union, Polygon) else union.geoms
@@ -218,94 +267,119 @@ def dibujar_mapa_conquista(mapa, mapa_ant, G, G_ant, a_id, d_id, imperio_defenso
             x, y = geom.exterior.xy
             ax.plot(x, y, color='black', linewidth=1.0)
 
-    def_geom = mapa[mapa['Comarca'] == G.nodes[d_id]['nombre_original']].geometry.values[0]
-    ata_geom = mapa[mapa['Comarca'] == G.nodes[a_id]['nombre_original']].geometry.values[0]
+    # Geometría de atacante y defensor
+    def_comarca = originales[d_id]
+    ata_comarca = originales[a_id]
+    def_geom = mapa[mapa['Comarca'] == def_comarca].geometry.values[0]
 
-    atacantes = [G.nodes[n]['nombre_original'] for n in G.nodes if G.nodes[n]['nombre'] == imperio_atacante]
+    # Contorno del imperio atacante (sin incluir la zona recién conquistada)
+    atacantes = [originales[n] for n in G.nodes if nombres[n] == imperio_atacante]
     grupo_atacante = mapa[mapa['Comarca'].isin(atacantes)]
-    dibujar_contorno_exterior(grupo_atacante, ax, 'lime', excluir=G.nodes[d_id]['nombre_original'])
+    dibujar_contorno_exterior(grupo_atacante, ax, 'lime', excluir=def_comarca)
 
-    color_ant = mapa_ant.loc[mapa_ant['Comarca'] == G.nodes[d_id]['nombre_original'], 'color'].values[0]
+    # Contorno del imperio defensor (color antiguo)
+    color_ant = mapa_ant.loc[mapa_ant['Comarca'] == def_comarca, 'color'].values[0]
     grupo_defensor = mapa_ant[mapa_ant['color'] == color_ant]
     dibujar_contorno_exterior(grupo_defensor, ax, 'red')
 
-    mapa[mapa['Comarca'] == G.nodes[d_id]['nombre_original']].plot(
-        ax=ax, edgecolor='red', facecolor='none', hatch='///', linewidth=1.0, zorder=5)
+    # Hachurar zona conquistada
+    mapa[mapa['Comarca'] == def_comarca].plot(
+        ax=ax, edgecolor='red', facecolor='none', hatch='///', linewidth=1.0, zorder=5
+    )
 
-    # Mostrar nombre del imperio atacante usando su geometría antes del ataque
+    # Mostrar nombres de imperios
     mostrar_nombre_imperio(imperio_atacante, mapa_ant, G_ant, ax, '#90ee90')
-
-    if any(G.nodes[n]['nombre'] == imperio_defensor for n in G.nodes) and \
-       len([n for n in G.nodes if G.nodes[n]['nombre'] == imperio_defensor]) >= 2:
+    if sum(1 for v in nombres.values() if v == imperio_defensor) >= 2:
         mostrar_nombre_imperio(imperio_defensor, mapa, G, ax, 'red')
 
-    for geom, nombre in [(def_geom, G.nodes[d_id]['nombre_original'])]:
-        centro = geom.centroid
-        txt = ax.annotate(nombre, (centro.x, centro.y), ha='center', fontsize=6, fontweight='bold', color='white', zorder=10)
-        txt.set_path_effects([path_effects.Stroke(linewidth=1.2, foreground='black'),
-                      path_effects.Normal()])
+    # Mostrar nombre de la comarca conquistada
+    centro = def_geom.centroid
+    txt = ax.annotate(def_comarca, (centro.x, centro.y), ha='center', fontsize=6, fontweight='bold', color='white', zorder=10)
+    txt.set_path_effects([
+        path_effects.Stroke(linewidth=1.2, foreground='black'),
+        path_effects.Normal()
+    ])
 
-
+    # Guardar imagen
+    os.makedirs(IMAGEN_DIR, exist_ok=True)
     plt.title(f"Conquista - Día {dia + 1}")
-    os.makedirs("Images/imagenes6", exist_ok=True)
-    plt.savefig(f"Images/imagenes6/mapa_galicia_con_nombres{dia + 1}.png", bbox_inches='tight', dpi=150)
+    plt.savefig(f"{IMAGEN_DIR}/mapa_galicia_con_nombres{dia + 1}.png", bbox_inches='tight', dpi=150)
     plt.close()
 
-def guardar_log_narrado(ruta_csv="logs/log_conquistas3.csv", ruta_txt="logs/log_narrado.txt"):
+
+def guardar_log_narrado(ruta_csv=LOG_PATH, ruta_txt="logs/log_narrado.txt"):
+    os.makedirs(os.path.dirname(ruta_txt), exist_ok=True)
+
     with open(ruta_csv, encoding="utf-8") as f_csv, open(ruta_txt, "w", encoding="utf-8") as f_txt:
         reader = csv.DictReader(f_csv)
         for fila in reader:
-            dia = fila['Día']
-            atacante = fila['Atacante']
-            comarca = fila['Concello conquistado']
-            antiguo = fila['Pertenecía a']
-            eliminado = fila['Eliminado']
+            dia = fila.get('Día', '').strip()
+            atacante = fila.get('Atacante', '').strip()
+            comarca = fila.get('Concello conquistado', '').strip()
+            antiguo = fila.get('Pertenecía a', '').strip()
+            eliminado = fila.get('Eliminado', '').strip()
+
+            if not dia or not atacante or not comarca or not antiguo:
+                continue  # línea malformada
 
             texto = f"Día {dia}: O imperio de {atacante} conquistou á comarca de {comarca}, que pertencía a {antiguo}."
             f_txt.write(texto + "\n")
+
             if eliminado:
                 f_txt.write(f"¡O imperio '{eliminado}' foi eliminado!\n")
 
 
-def generar_imagen_victoria(G, galicia_map, output="Images/imagenes4/victoria.png"):
-    imperios = list(set(G.nodes[n]['nombre'] for n in G.nodes))
-    if len(imperios) != 1:
-        return  # aún no hay victoria
-    vencedor = imperios[0]
 
+def generar_imagen_victoria(G, galicia_map, output=VICTORIA_IMG_PATH):
+    nombres = nx.get_node_attributes(G, 'nombre')
+    originales = nx.get_node_attributes(G, 'nombre_original')
+
+    imperios = set(nombres.values())
+    if len(imperios) != 1:
+        return  # Aún no hay victoria
+
+    vencedor = next(iter(imperios))
     fig, ax = plt.subplots(figsize=(12, 10))
     ax.axis('off')
+
     mapa = colorear_concellos(galicia_map, G)
     mapa.plot(ax=ax, edgecolor="black", linewidth=0.1, color=mapa["color"])
 
-    # contorno general
-    grupo_vencedor = mapa[mapa['Comarca'].isin([G.nodes[n]['nombre_original'] for n in G.nodes])]
+    # Contorno del vencedor
+    comarcas = [originales[n] for n in G.nodes]
+    grupo_vencedor = mapa[mapa['Comarca'].isin(comarcas)]
     dibujar_contorno_exterior(grupo_vencedor, ax, 'gold')
 
-    # nombre en el centro
+    # Nombre del imperio en el centro
     mostrar_nombre_imperio(vencedor, mapa, G, ax, color_texto="black")
 
-    # título festivo
-    plt.title(f"🎉 ¡{vencedor} conquista toda Galicia! 🌟", fontsize=16, weight='bold')
+    # Título festivo
+    plt.title(f"¡{vencedor} conquista toda Galicia!", fontsize=16, weight='bold')
+
+    os.makedirs(os.path.dirname(output), exist_ok=True)
     plt.savefig(output, bbox_inches='tight', dpi=200)
     plt.close()
 
 
-def crear_mapa_interactivo(mapa, G, dia):
-    # Asegura que el mapa tenga CRS correcto para folium
+def crear_mapa_interactivo(mapa, G, dia, carpeta="mapas_interactivos"):
+    # Asegura CRS correcto para folium
     if mapa.crs is None:
-        mapa.set_crs(epsg=25829, inplace=True)  # O el que uses
-    mapa = mapa.to_crs(epsg=4326)
+        mapa.set_crs(epsg=25829, inplace=True)
+    if mapa.crs.to_epsg() != 4326:
+        mapa = mapa.to_crs(epsg=4326)
 
-    # Añade columna "Imperio" y "color"
-    mapa["Imperio"] = mapa["Comarca"].map({G.nodes[n]['nombre_original']: G.nodes[n]['nombre'] for n in G.nodes})
-    mapa["color"] = mapa["Comarca"].map({G.nodes[n]['nombre_original']: obtener_color(G.nodes[n]['nombre']) for n in G.nodes})
+    # Preparar atributos
+    nombres = nx.get_node_attributes(G, 'nombre')
+    originales = nx.get_node_attributes(G, 'nombre_original')
 
-    # Crear mapa centrado en Galicia
+    mapa["Imperio"] = mapa["Comarca"].map({originales[n]: nombres[n] for n in G.nodes})
+    mapa["color"] = mapa["Comarca"].map({originales[n]: obtener_color(nombres[n]) for n in G.nodes})
+
+    # Crear mapa base
     centro = mapa.geometry.union_all().centroid
-    m = folium.Map(location=[centro.y, centro.x], zoom_start=8, tiles=None)  # Estilo tipo político
+    m = folium.Map(location=[centro.y, centro.x], zoom_start=8, tiles=None)
 
-    # Añadir regiones
+    # Añadir regiones con estilos
     folium.GeoJson(
         mapa,
         style_function=lambda feature: {
@@ -322,54 +396,79 @@ def crear_mapa_interactivo(mapa, G, dia):
     ).add_to(m)
 
     # Guardar
-    output_path = f"mapas_interactivos/mapa_interactivo_dia_{dia + 1}.html"
+    os.makedirs(carpeta, exist_ok=True)
+    output_path = os.path.join(carpeta, f"mapa_interactivo_dia_{dia + 1}.html")
     m.save(output_path)
+
 
 
 def simular_conquistas_2(G, galicia_map):
     mapa = colorear_concellos(galicia_map, G)
     dia = 0
 
-    with open("logs/log_conquistas4.csv", 'w', newline='', encoding='utf-8') as f:
+    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+    with open(LOG_PATH, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(["Día", "Atacante", "Comarca conquistada", "Pertenecía a", "Eliminado"])
 
-    while len(set(G.nodes[n]['nombre'] for n in G.nodes)) > 1:
+    while len(set(nx.get_node_attributes(G, 'nombre').values())) > 1:
         mapa_ant = mapa.copy()
         G_ant = G.copy()
-        res = conquistar_concello(G)
-        if not res:
+
+        resultado = conquistar_concello(G)
+        if not resultado:
             break
 
-        G, a_id, d_id, imperio_defensor, imperio_atacante, eliminado = res
+        G, a_id, d_id, imperio_defensor, imperio_atacante, eliminado = resultado
 
+        nombre_original = G.nodes[d_id]['nombre_original']
+        nuevo_color = obtener_color(imperio_atacante)
+
+        # Actualizar colores en el mapa
         mapa = colorear_concellos(galicia_map, G)
 
-        with open("logs/log_conquistas4.csv", 'a', newline='', encoding='utf-8') as f:
+        # Log de conquista
+        with open(LOG_PATH, 'a', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
-            writer.writerow([dia + 1, imperio_atacante, G.nodes[d_id]['nombre_original'], imperio_defensor, eliminado or ""])
+            writer.writerow([dia + 1, imperio_atacante, nombre_original, imperio_defensor, eliminado or ""])
 
-        mapa.loc[mapa['Comarca'] == G.nodes[d_id]['nombre_original'], 'color'] = \
-            mapa_ant.loc[mapa_ant['Comarca'] == G.nodes[d_id]['nombre_original'], 'color'].values[0]
-
+        # Hacer que el cambio de color sea visualmente transitorio para destacar la conquista
+        mapa.loc[mapa['Comarca'] == nombre_original, 'color'] = mapa_ant.loc[mapa_ant['Comarca'] == nombre_original, 'color'].values[0]
         dibujar_mapa_conquista(mapa, mapa_ant, G, G_ant, a_id, d_id, imperio_defensor, imperio_atacante, dia)
+        mapa.loc[mapa['Comarca'] == nombre_original, 'color'] = nuevo_color
 
-        mapa.loc[mapa['Comarca'] == G.nodes[d_id]['nombre_original'], 'color'] = \
-            mapa[mapa['Comarca'] == G.nodes[a_id]['nombre_original']]['color'].values[0]
-
-        crear_mapa_interactivo(mapa, G, dia)
+        # Guardar HTML interactivo cada SAVE_EVERY_N_DAYS (o siempre)
+        if (dia + 1) % SAVE_EVERY_N_DAYS == 0:
+            crear_mapa_interactivo(mapa, G, dia)
 
         dia += 1
 
+
 def main():
+    # Cargar grafo y mapa
     G = inicializar_grafo(concellos)
-    galicia_map = gpd.read_file("Geographic_data/Comarcas.shp", encoding="utf-8")
+
+    galicia_map = gpd.read_file(MAPA_PATH, encoding="utf-8")
     if galicia_map.crs is None:
         galicia_map.set_crs(epsg=25829, inplace=True)
+    else:
+        galicia_map = galicia_map.to_crs(epsg=25829)
+
+    # Crear directorios si no existen
+    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+    os.makedirs(IMAGEN_DIR, exist_ok=True)
+    os.makedirs(INTERACTIVOS_DIR, exist_ok=True)
+
+    # Crear mapa base
     preparar_mapa_base(galicia_map)
+
+    # Ejecutar simulación
     simular_conquistas_2(G, galicia_map)
+
+    # Exportar resultados
     guardar_log_narrado()
     generar_imagen_victoria(G, galicia_map)
+
 
 if __name__ == "__main__":
     main()
