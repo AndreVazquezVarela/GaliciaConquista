@@ -260,31 +260,39 @@ def generar_imagen_victoria(G, galicia_map, output="Images/imagenes4/victoria.pn
     plt.close()
 
 
-def crear_mapa_interactivo_por_dia(mapa, G, dia, carpeta="mapas_interactivos"):
-    import folium
-    os.makedirs(carpeta, exist_ok=True)
+def crear_mapa_interactivo(mapa, G, dia):
+    # Asegura que el mapa tenga CRS correcto para folium
+    if mapa.crs is None:
+        mapa.set_crs(epsg=25829, inplace=True)  # O el que uses
     mapa = mapa.to_crs(epsg=4326)
-    m = folium.Map(location=[42.9, -8.2], zoom_start=8, tiles='cartodbpositron')
 
-    for _, row in mapa.iterrows():
-        comarca = row["Comarca"]
-        geometria = row["geometry"]
-        color = row["color"]
-        imperio = next(G.nodes[n]['nombre'] for n in G.nodes if G.nodes[n]['nombre_original'] == comarca)
+    # Añade columna "Imperio" y "color"
+    mapa["Imperio"] = mapa["Comarca"].map({G.nodes[n]['nombre_original']: G.nodes[n]['nombre'] for n in G.nodes})
+    mapa["color"] = mapa["Comarca"].map({G.nodes[n]['nombre_original']: obtener_color(G.nodes[n]['nombre']) for n in G.nodes})
 
-        folium.GeoJson(
-            data=geometria.__geo_interface__,
-            style_function=lambda x, color=color: {
-                'fillColor': color,
-                'color': 'black',
-                'weight': 0.5,
-                'fillOpacity': 0.7,
-            },
-            tooltip=folium.Tooltip(f"<strong>{comarca}</strong><br>Imperio: {imperio}")
-        ).add_to(m)
+    # Crear mapa centrado en Galicia
+    centro = mapa.geometry.union_all().centroid
+    m = folium.Map(location=[centro.y, centro.x], zoom_start=8, tiles=None)  # Estilo tipo político
 
-    archivo = os.path.join(carpeta, f"mapa_interactivo_dia_{dia + 1}.html")
-    m.save(archivo)
+    # Añadir regiones
+    folium.GeoJson(
+        mapa,
+        style_function=lambda feature: {
+            'fillColor': feature['properties']['color'],
+            'color': 'black',
+            'weight': 0.8,
+            'fillOpacity': 0.9,
+        },
+        tooltip=folium.GeoJsonTooltip(
+            fields=["Comarca", "Imperio"],
+            aliases=["Comarca:", "Controlada por:"],
+            sticky=True
+        )
+    ).add_to(m)
+
+    # Guardar
+    output_path = f"mapas_interactivos/mapa_interactivo_dia_{dia + 1}.html"
+    m.save(output_path)
 
 
 def simular_conquistas_2(G, galicia_map):
@@ -318,7 +326,7 @@ def simular_conquistas_2(G, galicia_map):
         mapa.loc[mapa['Comarca'] == G.nodes[d_id]['nombre_original'], 'color'] = \
             mapa[mapa['Comarca'] == G.nodes[a_id]['nombre_original']]['color'].values[0]
 
-        crear_mapa_interactivo_por_dia(mapa, G, dia)
+        crear_mapa_interactivo(mapa, G, dia)
 
         dia += 1
 
