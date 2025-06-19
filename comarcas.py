@@ -124,9 +124,43 @@ def dibujar_contorno_exterior(grupo, ax, color, excluir=None):
 
 def conquistar_concello(G):
     imperios = list(set(G.nodes[n]['nombre'] for n in G.nodes))
-    # Opción 2: ordenar imperios por tamaño descendente (prioriza los grandes)
+
+    # Caso especial: solo quedan 2 imperios
+    if len(imperios) == 2:
+        imp1, imp2 = imperios
+        tam1 = sum(G.nodes[n]['nombre'] == imp1 for n in G.nodes)
+        tam2 = sum(G.nodes[n]['nombre'] == imp2 for n in G.nodes)
+
+        # Determinar quién ataca este turno, ponderado por tamaño
+        total = tam1 + tam2
+        prob_imp1 = tam1 / total
+        atacante = imp1 if random.random() < prob_imp1 else imp2
+        defensor = imp2 if atacante == imp1 else imp1
+
+        # Buscar un nodo atacante con vecino enemigo
+        territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == atacante]
+        random.shuffle(territorios)
+        for t in territorios:
+            vecinos = list(G.neighbors(t))
+            random.shuffle(vecinos)
+            for v in vecinos:
+                if G.nodes[v]['nombre'] == defensor:
+                    G.nodes[v]['nombre'] = atacante
+                    print(f"(2 imperios) {atacante} conquistou a comarca de {G.nodes[v]['nombre_original']}")
+
+                    eliminado = None
+                    if not any(G.nodes[n]['nombre'] == defensor for n in G.nodes):
+                        eliminado = defensor
+                        print(f"¡O imperio '{defensor}' foi eliminado!")
+
+                    return G, t, v, defensor, atacante, eliminado
+
+        print("Non quedan opcións de conquista entre os dous imperios.")
+        return None
+
+    # Comportamiento normal con más de 2 imperios
     imperios.sort(key=lambda imp: -sum(G.nodes[n]['nombre'] == imp for n in G.nodes))
-    random.shuffle(imperios)  # Para introducir algo de aleatoriedad
+    random.shuffle(imperios)
 
     for imperio in imperios:
         territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == imperio]
@@ -134,12 +168,10 @@ def conquistar_concello(G):
         for t in territorios:
             for v in G.neighbors(t):
                 if G.nodes[v]['nombre'] != imperio:
-                    # Opción 3: calcular "vulnerabilidad" del defensor
                     vecinos_mismos = sum(G.nodes[n]['nombre'] == G.nodes[v]['nombre'] for n in G.neighbors(v))
                     vecinos_posibles.append((vecinos_mismos, t, v))
 
         if vecinos_posibles:
-            # Escoge el más vulnerable (menos vecinos de su mismo imperio)
             vecinos_posibles.sort(key=lambda x: x[0])
             _, atacante_id, defensor_id = vecinos_posibles[0]
 
@@ -147,8 +179,7 @@ def conquistar_concello(G):
             nombre_defensor = G.nodes[defensor_id]['nombre']
             nombre_original_atacado = G.nodes[defensor_id]['nombre_original']
 
-            print(f"A comarca de {nombre_atacante} conquistou a comarca de {nombre_original_atacado}, perteneciente a {nombre_defensor}")
-
+            print(f"A comarca de {nombre_atacante} conquistou a comarca de {nombre_original_atacado}, pertencente a {nombre_defensor}")
             G.nodes[defensor_id]['nombre'] = nombre_atacante
 
             eliminado = None
