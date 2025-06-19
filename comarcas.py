@@ -3,6 +3,7 @@ import random
 import pandas as pd
 import networkx as nx
 import geopandas as gpd
+import folium
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import matplotlib as cm
@@ -259,30 +260,30 @@ def generar_imagen_victoria(G, galicia_map, output="Images/imagenes4/victoria.pn
     plt.close()
 
 
-    def crear_mapa_interactivo_por_dia(mapa, G, dia, carpeta="mapas_interactivos"):
-        import folium
-        os.makedirs(carpeta, exist_ok=True)
-        m = folium.Map(location=[42.9, -8.2], zoom_start=8, tiles='cartodbpositron')
+def crear_mapa_interactivo_por_dia(mapa, G, dia, carpeta="mapas_interactivos"):
+    import folium
+    os.makedirs(carpeta, exist_ok=True)
+    m = folium.Map(location=[42.9, -8.2], zoom_start=8, tiles='cartodbpositron')
 
-        for _, row in mapa.iterrows():
-            comarca = row["Comarca"]
-            geometria = row["geometry"]
-            color = row["color"]
-            imperio = next(G.nodes[n]['nombre'] for n in G.nodes if G.nodes[n]['nombre_original'] == comarca)
+    for _, row in mapa.iterrows():
+        comarca = row["Comarca"]
+        geometria = row["geometry"]
+        color = row["color"]
+        imperio = next(G.nodes[n]['nombre'] for n in G.nodes if G.nodes[n]['nombre_original'] == comarca)
 
-            folium.GeoJson(
-                data=geometria.__geo_interface__,
-                style_function=lambda x, color=color: {
-                    'fillColor': color,
-                    'color': 'black',
-                    'weight': 0.5,
-                    'fillOpacity': 0.7,
-                },
-                tooltip=folium.Tooltip(f"<strong>{comarca}</strong><br>Imperio: {imperio}")
-            ).add_to(m)
+        folium.GeoJson(
+            data=geometria.__geo_interface__,
+            style_function=lambda x, color=color: {
+                'fillColor': color,
+                'color': 'black',
+                'weight': 0.5,
+                'fillOpacity': 0.7,
+            },
+            tooltip=folium.Tooltip(f"<strong>{comarca}</strong><br>Imperio: {imperio}")
+        ).add_to(m)
 
-        archivo = os.path.join(carpeta, f"mapa_interactivo_dia_{dia + 1}.html")
-        m.save(archivo)
+    archivo = os.path.join(carpeta, f"mapa_interactivo_dia_{dia + 1}.html")
+    m.save(archivo)
 
 
 def simular_conquistas_2(G, galicia_map):
