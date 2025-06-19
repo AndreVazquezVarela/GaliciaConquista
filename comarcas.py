@@ -78,8 +78,10 @@ concellos = {
 IMAGEN_DIR = "Images/imagenes6"
 LOG_PATH = "logs/log_conquistas4.csv"
 MAPA_BASE_PATH = "Images/mapa_galicia.png"
-VICTORIA_IMG_PATH = "Images/imagenes4/victoria.png"
+VICTORIA_IMG_PATH = "Images/imagenes6/victoria.png"
 INTERACTIVOS_DIR = "mapas_interactivos"
+MAPA_PATH = "Geographic_data/Comarcas.shp"
+SAVE_EVERY_N_DAYS = 1
 MAX_PROVINCES = len(concellos)
 # Crear los concellos con identificadores únicos y nombres originales
 colores_fijos = {}
@@ -157,60 +159,67 @@ def dibujar_contorno_exterior(grupo, ax, color, excluir=None):
         ax.plot(x, y, color=color, linewidth=2.5, zorder=2.5)
 
 def conquistar_concello(G):
-    nombres = nx.get_node_attributes(G, 'nombre')
-    originales = nx.get_node_attributes(G, 'nombre_original')
-    imperios = list(set(nombres.values()))
-    tamanos = Counter(nombres.values())
+    imperios = list(set(G.nodes[n]['nombre'] for n in G.nodes))
 
     # Caso especial: solo quedan 2 imperios
     if len(imperios) == 2:
         imp1, imp2 = imperios
-        total = tamanos[imp1] + tamanos[imp2]
-        atacante = imp1 if random.random() < tamanos[imp1] / total else imp2
+        tam1 = sum(G.nodes[n]['nombre'] == imp1 for n in G.nodes)
+        tam2 = sum(G.nodes[n]['nombre'] == imp2 for n in G.nodes)
+
+        # Determinar quién ataca este turno, ponderado por tamaño
+        total = tam1 + tam2
+        prob_imp1 = tam1 / total
+        atacante = imp1 if random.random() < prob_imp1 else imp2
         defensor = imp2 if atacante == imp1 else imp1
 
-        territorios = [n for n in G.nodes if nombres[n] == atacante]
+        # Buscar un nodo atacante con vecino enemigo
+        territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == atacante]
         random.shuffle(territorios)
         for t in territorios:
             vecinos = list(G.neighbors(t))
             random.shuffle(vecinos)
             for v in vecinos:
-                if nombres[v] == defensor:
+                if G.nodes[v]['nombre'] == defensor:
                     G.nodes[v]['nombre'] = atacante
-                    print(f"(2 imperios) {atacante} conquistou a comarca de {originales[v]}")
+                    print(f"(2 imperios) {atacante} conquistou a comarca de {G.nodes[v]['nombre_original']}")
+
                     eliminado = None
-                    if not any(nombres[n] == defensor for n in G.nodes):
+                    if not any(G.nodes[n]['nombre'] == defensor for n in G.nodes):
                         eliminado = defensor
                         print(f"¡O imperio '{defensor}' foi eliminado!")
+
                     return G, t, v, defensor, atacante, eliminado
+
         print("Non quedan opcións de conquista entre os dous imperios.")
         return None
 
     # Comportamiento normal con más de 2 imperios
-    imperios.sort(key=lambda imp: -tamanos[imp])
+    imperios.sort(key=lambda imp: -sum(G.nodes[n]['nombre'] == imp for n in G.nodes))
     random.shuffle(imperios)
 
     for imperio in imperios:
-        territorios = [n for n in G.nodes if nombres[n] == imperio]
+        territorios = [n for n in G.nodes if G.nodes[n]['nombre'] == imperio]
         vecinos_posibles = []
         for t in territorios:
             for v in G.neighbors(t):
-                if nombres[v] != imperio:
-                    vecinos_mismos = sum(nombres[n] == nombres[v] for n in G.neighbors(v))
+                if G.nodes[v]['nombre'] != imperio:
+                    vecinos_mismos = sum(G.nodes[n]['nombre'] == G.nodes[v]['nombre'] for n in G.neighbors(v))
                     vecinos_posibles.append((vecinos_mismos, t, v))
 
         if vecinos_posibles:
             vecinos_posibles.sort(key=lambda x: x[0])
             _, atacante_id, defensor_id = vecinos_posibles[0]
-            nombre_atacante = nombres[atacante_id]
-            nombre_defensor = nombres[defensor_id]
-            nombre_original_atacado = originales[defensor_id]
+
+            nombre_atacante = G.nodes[atacante_id]['nombre']
+            nombre_defensor = G.nodes[defensor_id]['nombre']
+            nombre_original_atacado = G.nodes[defensor_id]['nombre_original']
 
             print(f"A comarca de {nombre_atacante} conquistou a comarca de {nombre_original_atacado}, pertencente a {nombre_defensor}")
             G.nodes[defensor_id]['nombre'] = nombre_atacante
 
             eliminado = None
-            if not any(nombres[n] == nombre_defensor for n in G.nodes):
+            if not any(G.nodes[n]['nombre'] == nombre_defensor for n in G.nodes):
                 eliminado = nombre_defensor
                 print(f"¡O imperio '{nombre_defensor}' foi eliminado!")
 
@@ -218,6 +227,7 @@ def conquistar_concello(G):
 
     print("Non quedan conquistas posibles.")
     return None
+
 
 def mostrar_nombre_imperio(nombre_imperio, mapa, G, ax, color_texto):
     nombres = nx.get_node_attributes(G, 'nombre')
@@ -445,6 +455,7 @@ def simular_conquistas_2(G, galicia_map):
 
 
 def main():
+    random.seed(33)
     # Cargar grafo y mapa
     G = inicializar_grafo(concellos)
 
