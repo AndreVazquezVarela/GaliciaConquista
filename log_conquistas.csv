@@ -1,0 +1,3232 @@
+Día,Atacante,Concello conquistado,Pertenecía a
+1,Ortegal,Eume,Ortegal
+2,O Baixo Miño,O Condado,O Baixo Miño
+3,Santiago,A Barcala,Santiago
+4,Ferrol,Ortegal,Ferrol
+5,A Ulloa,Chantada,A Ulloa
+6,A Paradanta,O Condado,A Paradanta
+7,Caldas,Tabeirós-Terra De Montes,Caldas
+8,A Ulloa,Terra De Lemos,A Ulloa
+9,O Ribeiro,O Carballiño,O Ribeiro
+10,Ortegal,Betanzos,Ortegal
+11,Terra De Trives,Valdeorras,Terra De Trives
+12,Deza,Arzúa,Deza
+13,Sarria,Lugo,Sarria
+14,A Paradanta,Vigo,A Paradanta
+15,Ourense,Terra De Lemos,Ourense
+16,Ortegal,Arzúa,Ortegal
+17,A Mariña Occidental,Meira,A Mariña Occidental
+18,Terra De Caldelas,A Limia,Terra De Caldelas
+19,Noia,Xallas,Noia
+20,Os Ancares,Lugo,Os Ancares
+21,A Fonsagrada,Os Ancares,A Fonsagrada
+22,Quiroga,Terra De Lemos,Quiroga
+23,Terra De Celanova,O Ribeiro,Terra De Celanova
+24,Bergantiños,Ordes,Bergantiños
+25,Terra De Celanova,A Limia,Terra De Celanova
+26,Allariz-Maceda,A Limia,Allariz-Maceda
+27,Sarria,Lugo,Sarria
+28,Bergantiños,Xallas,Bergantiños
+29,A Ulloa,Lugo,A Ulloa
+30,Caldas,O Carballiño,Caldas
+31,Sarria,Chantada,Sarria
+32,Verín,Terra De Trives,Verín
+33,Terra Chá,Lugo,Terra Chá
+34,Viana,Terra De Trives,Viana
+35,Ortegal,Terra De Melide,Ortegal
+36,Terra De Celanova,Pontevedra,Terra De Celanova
+37,O Salnés,Caldas,O Salnés
+38,Ourense,O Carballiño,Ourense
+39,Viana,Quiroga,Viana
+40,Deza,O Carballiño,Deza
+41,Terra De Celanova,Ourense,Terra De Celanova
+42,Terra De Caldelas,Verín,Terra De Caldelas
+43,Deza,Terra De Melide,Deza
+44,A Paradanta,Pontevedra,A Paradanta
+45,Baixa Limia,A Limia,Baixa Limia
+46,Terra De Soneira,Xallas,Terra De Soneira
+47,Terra De Caldelas,Viana,Terra De Caldelas
+48,O Sar,Santiago,O Sar
+49,Terra De Caldelas,Valdeorras,Terra De Caldelas
+50,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+51,O Salnés,Barbanza,O Salnés
+52,A Mariña Oriental,Meira,A Mariña Oriental
+53,Ortegal,Ordes,Ortegal
+54,A Mariña Occidental,A Mariña Central,A Mariña Occidental
+55,Caldas,O Carballiño,Caldas
+56,O Sar,Arzúa,O Sar
+57,Quiroga,Ourense,Quiroga
+58,Bergantiños,Terra De Soneira,Bergantiños
+59,Quiroga,Chantada,Quiroga
+60,Caldas,Ourense,Caldas
+61,Terra Chá,Os Ancares,Terra Chá
+62,Terra De Caldelas,Allariz-Maceda,Terra De Caldelas
+63,Caldas,O Ribeiro,Caldas
+64,Quiroga,Lugo,Quiroga
+65,Sarria,Chantada,Sarria
+66,Viana,Verín,Viana
+67,O Sar,Xallas,O Sar
+68,Santiago,Xallas,Santiago
+69,Sarria,Lugo,Sarria
+70,Ortegal,Santiago,Ortegal
+71,O Morrazo,Pontevedra,O Morrazo
+72,Ortegal,Tabeirós-Terra De Montes,Ortegal
+73,Noia,Barbanza,Noia
+74,Deza,Tabeirós-Terra De Montes,Deza
+75,Fisterra,Terra De Soneira,Fisterra
+76,O Baixo Miño,O Condado,O Baixo Miño
+77,Ortegal,Terra Chá,Ortegal
+78,Noia,O Sar,Noia
+79,Viana,Os Ancares,Viana
+80,O Baixo Miño,A Paradanta,O Baixo Miño
+81,Baixa Limia,Terra De Caldelas,Baixa Limia
+82,Caldas,Pontevedra,Caldas
+83,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+84,A Paradanta,O Baixo Miño,A Paradanta
+85,O Morrazo,Pontevedra,O Morrazo
+86,A Mariña Occidental,Ortegal,A Mariña Occidental
+87,O Morrazo,Vigo,O Morrazo
+88,A Paradanta,Vigo,A Paradanta
+89,A Paradanta,A Paradanta,A Paradanta
+90,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+91,Santiago,Bergantiños,Santiago
+92,A Coruña,Betanzos,A Coruña
+93,A Mariña Occidental,A Mariña Occidental,A Mariña Occidental
+94,Quiroga,Sarria,Quiroga
+95,O Salnés,Pontevedra,O Salnés
+96,A Ulloa,Terra De Melide,A Ulloa
+97,A Paradanta,Terra De Celanova,A Paradanta
+98,Santiago,Noia,Santiago
+99,Fisterra,Xallas,Fisterra
+100,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+101,Terra De Caldelas,Verín,Terra De Caldelas
+102,Ortegal,Betanzos,Ortegal
+103,O Baixo Miño,A Paradanta,O Baixo Miño
+104,Deza,O Carballiño,Deza
+105,Noia,Noia,Noia
+106,Caldas,Pontevedra,Caldas
+107,A Paradanta,O Condado,A Paradanta
+108,Ferrol,Eume,Ferrol
+109,Fisterra,Muros,Fisterra
+110,O Morrazo,Pontevedra,O Morrazo
+111,Santiago,A Coruña,Santiago
+112,O Baixo Miño,Vigo,O Baixo Miño
+113,Fisterra,Noia,Fisterra
+114,Viana,Terra De Caldelas,Viana
+115,O Baixo Miño,O Baixo Miño,O Baixo Miño
+116,Noia,Tabeirós-Terra De Montes,Noia
+117,Ortegal,A Barcala,Ortegal
+118,Sarria,Deza,Sarria
+119,Quiroga,Ourense,Quiroga
+120,Ferrol,Ortegal,Ferrol
+121,Quiroga,Chantada,Quiroga
+122,O Morrazo,O Carballiño,O Morrazo
+123,O Sar,Santiago,O Sar
+124,A Paradanta,Ourense,A Paradanta
+125,O Morrazo,Deza,O Morrazo
+126,Sarria,Os Ancares,Sarria
+127,O Morrazo,Chantada,O Morrazo
+128,Santiago,Ordes,Santiago
+129,Caldas,Vigo,Caldas
+130,Baixa Limia,Allariz-Maceda,Baixa Limia
+131,Baixa Limia,Terra De Celanova,Baixa Limia
+132,Noia,O Carballiño,Noia
+133,A Mariña Oriental,Terra Chá,A Mariña Oriental
+134,A Mariña Oriental,Eume,A Mariña Oriental
+135,O Salnés,Barbanza,O Salnés
+136,A Ulloa,Arzúa,A Ulloa
+137,O Baixo Miño,O Condado,O Baixo Miño
+138,Santiago,Santiago,Santiago
+139,O Baixo Miño,Vigo,O Baixo Miño
+140,Fisterra,Bergantiños,Fisterra
+141,Ortegal,Arzúa,Ortegal
+142,Baixa Limia,Verín,Baixa Limia
+143,O Baixo Miño,O Ribeiro,O Baixo Miño
+144,O Baixo Miño,O Carballiño,O Baixo Miño
+145,Quiroga,Lugo,Quiroga
+146,O Morrazo,O Salnés,O Morrazo
+147,Viana,Sarria,Viana
+148,O Morrazo,Lugo,O Morrazo
+149,Santiago,O Sar,Santiago
+150,O Salnés,O Sar,O Salnés
+151,Baixa Limia,A Paradanta,Baixa Limia
+152,Ortegal,Xallas,Ortegal
+153,Ortegal,A Coruña,Ortegal
+154,A Paradanta,Chantada,A Paradanta
+155,Ortegal,Muros,Ortegal
+156,Viana,Viana,Viana
+157,Baixa Limia,O Ribeiro,Baixa Limia
+158,A Paradanta,O Ribeiro,A Paradanta
+159,Santiago,Xallas,Santiago
+160,A Mariña Oriental,Os Ancares,A Mariña Oriental
+161,A Paradanta,Terra De Lemos,A Paradanta
+162,Baixa Limia,Terra De Caldelas,Baixa Limia
+163,Fisterra,A Barcala,Fisterra
+164,Baixa Limia,Quiroga,Baixa Limia
+165,Santiago,Tabeirós-Terra De Montes,Santiago
+166,Baixa Limia,Terra De Trives,Baixa Limia
+167,Baixa Limia,Terra De Lemos,Baixa Limia
+168,Ferrol,Eume,Ferrol
+169,Fisterra,O Sar,Fisterra
+170,A Paradanta,Vigo,A Paradanta
+171,Fisterra,Muros,Fisterra
+172,Ferrol,Betanzos,Ferrol
+173,Ortegal,Terra De Melide,Ortegal
+174,Baixa Limia,Viana,Baixa Limia
+175,Terra De Caldelas,Viana,Terra De Caldelas
+176,A Mariña Oriental,Lugo,A Mariña Oriental
+177,A Ulloa,Terra De Melide,A Ulloa
+178,A Ulloa,Terra Chá,A Ulloa
+179,Viana,Os Ancares,Viana
+180,Fisterra,Xallas,Fisterra
+181,Baixa Limia,O Ribeiro,Baixa Limia
+182,O Baixo Miño,Tabeirós-Terra De Montes,O Baixo Miño
+183,O Baixo Miño,Pontevedra,O Baixo Miño
+184,O Salnés,O Salnés,O Salnés
+185,O Salnés,Pontevedra,O Salnés
+186,O Baixo Miño,A Paradanta,O Baixo Miño
+187,Baixa Limia,Vigo,Baixa Limia
+188,A Ulloa,Lugo,A Ulloa
+189,Fisterra,Ordes,Fisterra
+190,Baixa Limia,Ourense,Baixa Limia
+191,A Mariña Oriental,Lugo,A Mariña Oriental
+192,O Morrazo,O Carballiño,O Morrazo
+193,Ferrol,Terra Chá,Ferrol
+194,A Mariña Oriental,Terra Chá,A Mariña Oriental
+195,Fisterra,Santiago,Fisterra
+196,A Ulloa,Terra Chá,A Ulloa
+197,A Ulloa,Meira,A Ulloa
+198,O Salnés,Tabeirós-Terra De Montes,O Salnés
+199,O Morrazo,Ourense,O Morrazo
+200,A Paradanta,O Carballiño,A Paradanta
+201,Fisterra,Tabeirós-Terra De Montes,Fisterra
+202,A Ulloa,Eume,A Ulloa
+203,Fisterra,Barbanza,Fisterra
+204,O Morrazo,O Carballiño,O Morrazo
+205,Terra De Caldelas,Terra De Trives,Terra De Caldelas
+206,Viana,Terra De Lemos,Viana
+207,Terra De Caldelas,Verín,Terra De Caldelas
+208,Viana,Chantada,Viana
+209,A Ulloa,Lugo,A Ulloa
+210,Baixa Limia,A Paradanta,Baixa Limia
+211,Ortegal,Terra De Melide,Ortegal
+212,A Mariña Oriental,Meira,A Mariña Oriental
+213,Terra De Caldelas,Quiroga,Terra De Caldelas
+214,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+215,Viana,Lugo,Viana
+216,A Mariña Oriental,Terra Chá,A Mariña Oriental
+217,O Morrazo,Terra De Caldelas,O Morrazo
+218,Ortegal,Ordes,Ortegal
+219,Terra De Caldelas,A Limia,Terra De Caldelas
+220,A Mariña Oriental,Lugo,A Mariña Oriental
+221,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+222,Terra De Caldelas,Terra De Celanova,Terra De Caldelas
+223,A Ulloa,Betanzos,A Ulloa
+224,Terra De Caldelas,Allariz-Maceda,Terra De Caldelas
+225,Fisterra,Deza,Fisterra
+226,Viana,Quiroga,Viana
+227,O Salnés,O Morrazo,O Salnés
+228,O Salnés,O Sar,O Salnés
+229,O Baixo Miño,Vigo,O Baixo Miño
+230,Baixa Limia,Terra De Celanova,Baixa Limia
+231,Ortegal,Betanzos,Ortegal
+232,A Ulloa,Terra Chá,A Ulloa
+233,Fisterra,O Sar,Fisterra
+234,Fisterra,Ordes,Fisterra
+235,A Ulloa,A Mariña Occidental,A Ulloa
+236,Fisterra,Chantada,Fisterra
+237,A Ulloa,A Mariña Central,A Ulloa
+238,Ortegal,Terra Chá,Ortegal
+239,A Mariña Oriental,Sarria,A Mariña Oriental
+240,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+241,Viana,Terra De Caldelas,Viana
+242,O Baixo Miño,Pontevedra,O Baixo Miño
+243,Viana,A Limia,Viana
+244,Viana,Terra De Celanova,Viana
+245,Ferrol,Eume,Ferrol
+246,O Morrazo,O Ribeiro,O Morrazo
+247,Ortegal,Meira,Ortegal
+248,O Salnés,O Sar,O Salnés
+249,O Morrazo,Terra De Caldelas,O Morrazo
+250,O Morrazo,Chantada,O Morrazo
+251,Ortegal,A Mariña Occidental,Ortegal
+252,Viana,Baixa Limia,Viana
+253,Terra De Caldelas,Ourense,Terra De Caldelas
+254,O Baixo Miño,O Morrazo,O Baixo Miño
+255,O Salnés,Santiago,O Salnés
+256,A Mariña Oriental,Meira,A Mariña Oriental
+257,O Salnés,Tabeirós-Terra De Montes,O Salnés
+258,Ortegal,Santiago,Ortegal
+259,O Baixo Miño,O Carballiño,O Baixo Miño
+260,O Baixo Miño,O Ribeiro,O Baixo Miño
+261,O Morrazo,Ourense,O Morrazo
+262,Fisterra,A Coruña,Fisterra
+263,Ortegal,Deza,Ortegal
+264,Fisterra,Caldas,Fisterra
+265,O Salnés,Pontevedra,O Salnés
+266,Ortegal,Tabeirós-Terra De Montes,Ortegal
+267,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+268,Baixa Limia,O Ribeiro,Baixa Limia
+269,O Salnés,Caldas,O Salnés
+270,O Salnés,O Ribeiro,O Salnés
+271,Ferrol,Betanzos,Ferrol
+272,A Mariña Oriental,Arzúa,A Mariña Oriental
+273,A Mariña Oriental,Chantada,A Mariña Oriental
+274,Fisterra,Betanzos,Fisterra
+275,O Baixo Miño,A Paradanta,O Baixo Miño
+276,Fisterra,Santiago,Fisterra
+277,O Baixo Miño,Chantada,O Baixo Miño
+278,O Baixo Miño,O Ribeiro,O Baixo Miño
+279,Ortegal,A Mariña Central,Ortegal
+280,O Morrazo,Terra De Caldelas,O Morrazo
+281,O Salnés,O Ribeiro,O Salnés
+282,A Mariña Oriental,Os Ancares,A Mariña Oriental
+283,Ortegal,O Carballiño,Ortegal
+284,Fisterra,Terra Chá,Fisterra
+285,Fisterra,Terra De Melide,Fisterra
+286,Ortegal,Arzúa,Ortegal
+287,Ortegal,Betanzos,Ortegal
+288,Viana,A Paradanta,Viana
+289,Ortegal,Terra De Melide,Ortegal
+290,Terra De Caldelas,Quiroga,Terra De Caldelas
+291,A Ulloa,Lugo,A Ulloa
+292,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+293,Ferrol,Betanzos,Ferrol
+294,Fisterra,O Sar,Fisterra
+295,A Ulloa,Chantada,A Ulloa
+296,O Salnés,O Sar,O Salnés
+297,O Salnés,Tabeirós-Terra De Montes,O Salnés
+298,O Salnés,Ourense,O Salnés
+299,Ortegal,Pontevedra,Ortegal
+300,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+301,O Baixo Miño,O Ribeiro,O Baixo Miño
+302,Terra De Caldelas,Terra De Lemos,Terra De Caldelas
+303,A Ulloa,Deza,A Ulloa
+304,O Salnés,Terra De Caldelas,O Salnés
+305,A Mariña Oriental,Chantada,A Mariña Oriental
+306,A Ulloa,Terra De Melide,A Ulloa
+307,A Ulloa,Santiago,A Ulloa
+308,Fisterra,Meira,Fisterra
+309,Ferrol,Ordes,Ferrol
+310,O Baixo Miño,O Carballiño,O Baixo Miño
+311,Ferrol,Arzúa,Ferrol
+312,Ortegal,O Morrazo,Ortegal
+313,O Baixo Miño,Tabeirós-Terra De Montes,O Baixo Miño
+314,O Baixo Miño,Pontevedra,O Baixo Miño
+315,Ferrol,Xallas,Ferrol
+316,A Ulloa,Terra Chá,A Ulloa
+317,Ferrol,Muros,Ferrol
+318,A Mariña Oriental,Meira,A Mariña Oriental
+319,Terra De Caldelas,Os Ancares,Terra De Caldelas
+320,A Ulloa,Meira,A Ulloa
+321,Ferrol,Noia,Ferrol
+322,Terra De Caldelas,A Limia,Terra De Caldelas
+323,A Mariña Oriental,O Carballiño,A Mariña Oriental
+324,Ferrol,A Barcala,Ferrol
+325,Viana,Ourense,Viana
+326,A Mariña Oriental,Deza,A Mariña Oriental
+327,O Salnés,Santiago,O Salnés
+328,O Baixo Miño,A Paradanta,O Baixo Miño
+329,A Ulloa,A Mariña Occidental,A Ulloa
+330,A Mariña Oriental,Lugo,A Mariña Oriental
+331,A Ulloa,Deza,A Ulloa
+332,A Ulloa,A Mariña Central,A Ulloa
+333,Ortegal,Pontevedra,Ortegal
+334,A Ulloa,Santiago,A Ulloa
+335,Ferrol,Terra De Soneira,Ferrol
+336,Terra De Caldelas,Ourense,Terra De Caldelas
+337,Terra De Caldelas,Terra De Celanova,Terra De Caldelas
+338,O Salnés,Quiroga,O Salnés
+339,Viana,A Limia,Viana
+340,Ortegal,O Carballiño,Ortegal
+341,Ferrol,Santiago,Ferrol
+342,Fisterra,Xallas,Fisterra
+343,Ferrol,O Sar,Ferrol
+344,O Salnés,Terra De Lemos,O Salnés
+345,O Salnés,Allariz-Maceda,O Salnés
+346,Viana,Allariz-Maceda,Viana
+347,O Salnés,Valdeorras,O Salnés
+348,A Mariña Oriental,Meira,A Mariña Oriental
+349,Viana,Terra De Celanova,Viana
+350,A Ulloa,Betanzos,A Ulloa
+351,Fisterra,Terra De Soneira,Fisterra
+352,Ortegal,Tabeirós-Terra De Montes,Ortegal
+353,A Mariña Oriental,Terra Chá,A Mariña Oriental
+354,Fisterra,Ordes,Fisterra
+355,Ferrol,Tabeirós-Terra De Montes,Ferrol
+356,A Ulloa,Arzúa,A Ulloa
+357,O Salnés,Viana,O Salnés
+358,O Salnés,Terra De Trives,O Salnés
+359,Ferrol,Xallas,Ferrol
+360,Viana,O Ribeiro,Viana
+361,Ferrol,Terra Chá,Ferrol
+362,O Baixo Miño,O Ribeiro,O Baixo Miño
+363,Ferrol,Meira,Ferrol
+364,Ferrol,A Fonsagrada,Ferrol
+365,Terra De Caldelas,Chantada,Terra De Caldelas
+366,Ortegal,Ourense,Ortegal
+367,Ferrol,Lugo,Ferrol
+368,Ferrol,A Mariña Occidental,Ferrol
+369,O Baixo Miño,Ourense,O Baixo Miño
+370,A Ulloa,Santiago,A Ulloa
+371,Fisterra,Xallas,Fisterra
+372,O Salnés,Verín,O Salnés
+373,A Ulloa,O Carballiño,A Ulloa
+374,O Baixo Miño,O Carballiño,O Baixo Miño
+375,O Salnés,O Sar,O Salnés
+376,O Baixo Miño,Pontevedra,O Baixo Miño
+377,Fisterra,Caldas,Fisterra
+378,O Baixo Miño,Allariz-Maceda,O Baixo Miño
+379,Ferrol,Xallas,Ferrol
+380,O Baixo Miño,Tabeirós-Terra De Montes,O Baixo Miño
+381,Ortegal,Pontevedra,Ortegal
+382,O Baixo Miño,Deza,O Baixo Miño
+383,Ferrol,O Sar,Ferrol
+384,Ortegal,Caldas,Ortegal
+385,Ferrol,Os Ancares,Ferrol
+386,Ferrol,Bergantiños,Ferrol
+387,Viana,Allariz-Maceda,Viana
+388,Terra De Caldelas,Sarria,Terra De Caldelas
+389,Viana,Ourense,Viana
+390,Terra De Caldelas,Lugo,Terra De Caldelas
+391,Terra De Caldelas,Meira,Terra De Caldelas
+392,A Ulloa,Meira,A Ulloa
+393,Ortegal,O Sar,Ortegal
+394,Ortegal,Barbanza,Ortegal
+395,O Baixo Miño,Ourense,O Baixo Miño
+396,Fisterra,Santiago,Fisterra
+397,Viana,Terra De Caldelas,Viana
+398,Terra De Caldelas,Terra De Lemos,Terra De Caldelas
+399,O Salnés,Terra De Caldelas,O Salnés
+400,O Salnés,Ourense,O Salnés
+401,Ortegal,O Ribeiro,Ortegal
+402,Ferrol,Betanzos,Ferrol
+403,Terra De Caldelas,Deza,Terra De Caldelas
+404,O Baixo Miño,Terra De Celanova,O Baixo Miño
+405,Ortegal,Vigo,Ortegal
+406,Ferrol,Meira,Ferrol
+407,O Baixo Miño,A Limia,O Baixo Miño
+408,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+409,Terra De Caldelas,Os Ancares,Terra De Caldelas
+410,O Salnés,Allariz-Maceda,O Salnés
+411,Ortegal,O Condado,Ortegal
+412,Ferrol,Santiago,Ferrol
+413,A Mariña Oriental,Meira,A Mariña Oriental
+414,O Salnés,A Limia,O Salnés
+415,Ferrol,Arzúa,Ferrol
+416,Terra De Caldelas,Terra Chá,Terra De Caldelas
+417,O Baixo Miño,O Ribeiro,O Baixo Miño
+418,Viana,Terra De Celanova,Viana
+419,O Baixo Miño,Vigo,O Baixo Miño
+420,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+421,Ferrol,Meira,Ferrol
+422,A Mariña Oriental,Ortegal,A Mariña Oriental
+423,O Salnés,Terra De Lemos,O Salnés
+424,Ferrol,Ordes,Ferrol
+425,Viana,A Paradanta,Viana
+426,Terra De Caldelas,Terra De Melide,Terra De Caldelas
+427,Ferrol,Lugo,Ferrol
+428,Ortegal,Vigo,Ortegal
+429,Fisterra,Ordes,Fisterra
+430,Terra De Caldelas,Betanzos,Terra De Caldelas
+431,O Baixo Miño,Santiago,O Baixo Miño
+432,A Mariña Oriental,Meira,A Mariña Oriental
+433,Terra De Caldelas,Ourense,Terra De Caldelas
+434,A Mariña Oriental,Terra Chá,A Mariña Oriental
+435,A Mariña Oriental,Eume,A Mariña Oriental
+436,O Baixo Miño,Vigo,O Baixo Miño
+437,O Salnés,Ourense,O Salnés
+438,O Salnés,Pontevedra,O Salnés
+439,O Salnés,O Ribeiro,O Salnés
+440,Fisterra,Muros,Fisterra
+441,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+442,Ferrol,Santiago,Ferrol
+443,O Salnés,Tabeirós-Terra De Montes,O Salnés
+444,A Mariña Oriental,Lugo,A Mariña Oriental
+445,Ortegal,O Baixo Miño,Ortegal
+446,O Salnés,O Carballiño,O Salnés
+447,Terra De Caldelas,Arzúa,Terra De Caldelas
+448,A Mariña Oriental,A Ulloa,A Mariña Oriental
+449,O Salnés,Vigo,O Salnés
+450,Ferrol,Eume,Ferrol
+451,Fisterra,Santiago,Fisterra
+452,O Salnés,Caldas,O Salnés
+453,O Salnés,Santiago,O Salnés
+454,Terra De Caldelas,Lugo,Terra De Caldelas
+455,Viana,O Ribeiro,Viana
+456,Ortegal,Noia,Ortegal
+457,Fisterra,Bergantiños,Fisterra
+458,A Mariña Oriental,Lugo,A Mariña Oriental
+459,O Salnés,Deza,O Salnés
+460,Viana,A Limia,Viana
+461,O Salnés,A Limia,O Salnés
+462,O Salnés,A Paradanta,O Salnés
+463,Terra De Caldelas,Deza,Terra De Caldelas
+464,Viana,Vigo,Viana
+465,Ortegal,Tabeirós-Terra De Montes,Ortegal
+466,Viana,Allariz-Maceda,Viana
+467,Ferrol,Muros,Ferrol
+468,Terra De Caldelas,Tabeirós-Terra De Montes,Terra De Caldelas
+469,Ortegal,Pontevedra,Ortegal
+470,Terra De Caldelas,O Carballiño,Terra De Caldelas
+471,Terra De Caldelas,Ourense,Terra De Caldelas
+472,O Salnés,Arzúa,O Salnés
+473,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+474,Ferrol,Betanzos,Ferrol
+475,Ferrol,Fisterra,Ferrol
+476,Ferrol,A Coruña,Ferrol
+477,O Salnés,Baixa Limia,O Salnés
+478,Ferrol,Ordes,Ferrol
+479,Ferrol,Noia,Ferrol
+480,A Mariña Oriental,Betanzos,A Mariña Oriental
+481,Fisterra,Fisterra,Fisterra
+482,Ortegal,Noia,Ortegal
+483,Ortegal,Muros,Ortegal
+484,Viana,Ourense,Viana
+485,A Mariña Oriental,Arzúa,A Mariña Oriental
+486,A Mariña Oriental,Ferrol,A Mariña Oriental
+487,Fisterra,Xallas,Fisterra
+488,Ferrol,Bergantiños,Ferrol
+489,O Salnés,Terra De Celanova,O Salnés
+490,A Mariña Oriental,Os Ancares,A Mariña Oriental
+491,O Salnés,Arzúa,O Salnés
+492,Terra De Caldelas,Caldas,Terra De Caldelas
+493,Fisterra,Santiago,Fisterra
+494,A Mariña Oriental,Chantada,A Mariña Oriental
+495,Terra De Caldelas,Quiroga,Terra De Caldelas
+496,Fisterra,Ordes,Fisterra
+497,A Mariña Oriental,Eume,A Mariña Oriental
+498,O Salnés,Santiago,O Salnés
+499,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+500,A Mariña Oriental,Deza,A Mariña Oriental
+501,Fisterra,A Coruña,Fisterra
+502,Terra De Caldelas,Terra De Trives,Terra De Caldelas
+503,Ferrol,Noia,Ferrol
+504,O Salnés,Terra De Melide,O Salnés
+505,Ortegal,Vigo,Ortegal
+506,A Mariña Oriental,Arzúa,A Mariña Oriental
+507,O Salnés,O Ribeiro,O Salnés
+508,Viana,O Ribeiro,Viana
+509,Ferrol,O Sar,Ferrol
+510,Viana,A Limia,Viana
+511,Terra De Caldelas,Lugo,Terra De Caldelas
+512,Fisterra,Muros,Fisterra
+513,Ortegal,O Ribeiro,Ortegal
+514,O Salnés,A Barcala,O Salnés
+515,A Mariña Oriental,Quiroga,A Mariña Oriental
+516,Fisterra,Noia,Fisterra
+517,A Mariña Oriental,Sarria,A Mariña Oriental
+518,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+519,Fisterra,Santiago,Fisterra
+520,O Salnés,Terra De Trives,O Salnés
+521,Fisterra,O Sar,Fisterra
+522,Ortegal,Caldas,Ortegal
+523,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+524,Ferrol,A Coruña,Ferrol
+525,Ortegal,O Sar,Ortegal
+526,Terra De Caldelas,Os Ancares,Terra De Caldelas
+527,Viana,Terra De Celanova,Viana
+528,Ortegal,A Paradanta,Ortegal
+529,Viana,Terra De Caldelas,Viana
+530,Ferrol,Betanzos,Ferrol
+531,A Mariña Oriental,Ordes,A Mariña Oriental
+532,Terra De Caldelas,Terra Chá,Terra De Caldelas
+533,A Mariña Oriental,Santiago,A Mariña Oriental
+534,Terra De Caldelas,Betanzos,Terra De Caldelas
+535,Viana,Baixa Limia,Viana
+536,O Salnés,Caldas,O Salnés
+537,Fisterra,Ordes,Fisterra
+538,Viana,Verín,Viana
+539,Ferrol,Ordes,Ferrol
+540,Terra De Caldelas,A Coruña,Terra De Caldelas
+541,A Mariña Oriental,Ourense,A Mariña Oriental
+542,Viana,Quiroga,Viana
+543,O Salnés,Verín,O Salnés
+544,A Mariña Oriental,Ordes,A Mariña Oriental
+545,Terra De Caldelas,Pontevedra,Terra De Caldelas
+546,O Salnés,A Ulloa,O Salnés
+547,Fisterra,Santiago,Fisterra
+548,Fisterra,Deza,Fisterra
+549,Ortegal,Pontevedra,Ortegal
+550,Fisterra,Chantada,Fisterra
+551,Ferrol,Ordes,Ferrol
+552,Viana,Ourense,Viana
+553,Ortegal,O Carballiño,Ortegal
+554,Fisterra,Sarria,Fisterra
+555,Ortegal,Terra De Celanova,Ortegal
+556,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+557,Ortegal,Noia,Ortegal
+558,Ortegal,Muros,Ortegal
+559,Ortegal,Ourense,Ortegal
+560,A Mariña Oriental,Allariz-Maceda,A Mariña Oriental
+561,Terra De Caldelas,Arzúa,Terra De Caldelas
+562,Ferrol,Arzúa,Ferrol
+563,Viana,Verín,Viana
+564,Viana,Valdeorras,Viana
+565,O Salnés,Arzúa,O Salnés
+566,Fisterra,A Ulloa,Fisterra
+567,Terra De Caldelas,Ordes,Terra De Caldelas
+568,O Salnés,A Ulloa,O Salnés
+569,A Mariña Oriental,Os Ancares,A Mariña Oriental
+570,Terra De Caldelas,Eume,Terra De Caldelas
+571,Viana,Terra De Trives,Viana
+572,Terra De Caldelas,Meira,Terra De Caldelas
+573,Terra De Caldelas,Deza,Terra De Caldelas
+574,Ferrol,Xallas,Ferrol
+575,Viana,Allariz-Maceda,Viana
+576,A Mariña Oriental,Terra Chá,A Mariña Oriental
+577,O Salnés,Noia,O Salnés
+578,O Salnés,O Sar,O Salnés
+579,Viana,Terra De Celanova,Viana
+580,Ferrol,Terra De Soneira,Ferrol
+581,Ferrol,Fisterra,Ferrol
+582,Ortegal,O Salnés,Ortegal
+583,Terra De Caldelas,Arzúa,Terra De Caldelas
+584,Ortegal,O Sar,Ortegal
+585,A Mariña Oriental,Verín,A Mariña Oriental
+586,Viana,Sarria,Viana
+587,Terra De Caldelas,A Ulloa,Terra De Caldelas
+588,Ferrol,Muros,Ferrol
+589,Ortegal,Noia,Ortegal
+590,Viana,Lugo,Viana
+591,A Mariña Oriental,Betanzos,A Mariña Oriental
+592,Fisterra,O Carballiño,Fisterra
+593,Ferrol,Ordes,Ferrol
+594,O Salnés,Barbanza,O Salnés
+595,Ortegal,A Barcala,Ortegal
+596,Terra De Caldelas,Caldas,Terra De Caldelas
+597,Ferrol,A Barcala,Ferrol
+598,Ferrol,Noia,Ferrol
+599,Ortegal,Terra De Lemos,Ortegal
+600,Ortegal,Caldas,Ortegal
+601,Viana,Terra De Caldelas,Viana
+602,Ferrol,Santiago,Ferrol
+603,Terra De Caldelas,Bergantiños,Terra De Caldelas
+604,Viana,A Ulloa,Viana
+605,Ferrol,Arzúa,Ferrol
+606,Terra De Caldelas,Ortegal,Terra De Caldelas
+607,Terra De Caldelas,A Mariña Central,Terra De Caldelas
+608,Ortegal,Quiroga,Ortegal
+609,Terra De Caldelas,A Mariña Oriental,Terra De Caldelas
+610,Ortegal,Allariz-Maceda,Ortegal
+611,A Mariña Oriental,A Coruña,A Mariña Oriental
+612,A Mariña Oriental,Meira,A Mariña Oriental
+613,Ortegal,Chantada,Ortegal
+614,Fisterra,O Ribeiro,Fisterra
+615,Fisterra,Chantada,Fisterra
+616,Ortegal,Tabeirós-Terra De Montes,Ortegal
+617,Terra De Caldelas,O Carballiño,Terra De Caldelas
+618,Ferrol,Bergantiños,Ferrol
+619,Fisterra,O Carballiño,Fisterra
+620,Viana,Quiroga,Viana
+621,Viana,Verín,Viana
+622,O Salnés,Terra De Trives,O Salnés
+623,Viana,Terra De Trives,Viana
+624,O Salnés,Noia,O Salnés
+625,Ortegal,Terra De Caldelas,Ortegal
+626,O Salnés,A Barcala,O Salnés
+627,Fisterra,Sarria,Fisterra
+628,Terra De Caldelas,A Ulloa,Terra De Caldelas
+629,Viana,Viana,Viana
+630,Terra De Caldelas,Santiago,Terra De Caldelas
+631,Fisterra,Deza,Fisterra
+632,A Mariña Oriental,Sarria,A Mariña Oriental
+633,Viana,Terra De Melide,Viana
+634,A Mariña Oriental,Quiroga,A Mariña Oriental
+635,Ortegal,O Carballiño,Ortegal
+636,Ortegal,Chantada,Ortegal
+637,Fisterra,O Carballiño,Fisterra
+638,Terra De Caldelas,Tabeirós-Terra De Montes,Terra De Caldelas
+639,Terra De Caldelas,O Sar,Terra De Caldelas
+640,Viana,Terra De Caldelas,Viana
+641,Ferrol,Betanzos,Ferrol
+642,Ferrol,A Coruña,Ferrol
+643,Viana,Allariz-Maceda,Viana
+644,Viana,Chantada,Viana
+645,O Salnés,O Sar,O Salnés
+646,Terra De Caldelas,Arzúa,Terra De Caldelas
+647,Ortegal,O Ribeiro,Ortegal
+648,Terra De Caldelas,Meira,Terra De Caldelas
+649,O Salnés,Tabeirós-Terra De Montes,O Salnés
+650,Ortegal,Terra De Celanova,Ortegal
+651,Viana,Betanzos,Viana
+652,O Salnés,Deza,O Salnés
+653,Fisterra,Pontevedra,Fisterra
+654,Ferrol,Arzúa,Ferrol
+655,Ortegal,Pontevedra,Ortegal
+656,Viana,Quiroga,Viana
+657,Viana,Sarria,Viana
+658,Viana,Terra De Lemos,Viana
+659,Ortegal,Tabeirós-Terra De Montes,Ortegal
+660,Ortegal,Barbanza,Ortegal
+661,O Salnés,Chantada,O Salnés
+662,Viana,Deza,Viana
+663,Ferrol,Betanzos,Ferrol
+664,Ortegal,Terra De Caldelas,Ortegal
+665,Viana,Ourense,Viana
+666,Viana,Terra De Caldelas,Viana
+667,O Salnés,Santiago,O Salnés
+668,Terra De Caldelas,A Mariña Occidental,Terra De Caldelas
+669,Ferrol,Terra De Melide,Ferrol
+670,Fisterra,Tabeirós-Terra De Montes,Fisterra
+671,Ortegal,O Sar,Ortegal
+672,O Salnés,Arzúa,O Salnés
+673,Fisterra,O Sar,Fisterra
+674,Ortegal,Baixa Limia,Ortegal
+675,O Salnés,Ordes,O Salnés
+676,A Mariña Oriental,Lugo,A Mariña Oriental
+677,O Salnés,O Sar,O Salnés
+678,Ferrol,Terra Chá,Ferrol
+679,Ortegal,Allariz-Maceda,Ortegal
+680,Fisterra,Ourense,Fisterra
+681,Ferrol,Eume,Ferrol
+682,Fisterra,Pontevedra,Fisterra
+683,O Salnés,Muros,O Salnés
+684,Ortegal,A Limia,Ortegal
+685,Ortegal,Noia,Ortegal
+686,Fisterra,O Ribeiro,Fisterra
+687,O Salnés,Xallas,O Salnés
+688,Terra De Caldelas,Eume,Terra De Caldelas
+689,Terra De Caldelas,Lugo,Terra De Caldelas
+690,Ortegal,Terra De Caldelas,Ortegal
+691,Terra De Caldelas,Chantada,Terra De Caldelas
+692,O Salnés,Noia,O Salnés
+693,O Salnés,Terra De Soneira,O Salnés
+694,Terra De Caldelas,Ourense,Terra De Caldelas
+695,O Salnés,Terra De Melide,O Salnés
+696,Ferrol,Lugo,Ferrol
+697,Fisterra,Caldas,Fisterra
+698,A Mariña Oriental,Sarria,A Mariña Oriental
+699,A Mariña Oriental,Ortegal,A Mariña Oriental
+700,Terra De Caldelas,Deza,Terra De Caldelas
+701,Fisterra,Ourense,Fisterra
+702,Viana,Sarria,Viana
+703,Ortegal,Terra De Trives,Ortegal
+704,O Salnés,A Coruña,O Salnés
+705,Terra De Caldelas,Ortegal,Terra De Caldelas
+706,A Mariña Oriental,Ortegal,A Mariña Oriental
+707,Viana,Ourense,Viana
+708,Ortegal,O Ribeiro,Ortegal
+709,Viana,Terra De Trives,Viana
+710,Viana,Allariz-Maceda,Viana
+711,O Salnés,Bergantiños,O Salnés
+712,A Mariña Oriental,Meira,A Mariña Oriental
+713,O Salnés,Fisterra,O Salnés
+714,Terra De Caldelas,Terra De Lemos,Terra De Caldelas
+715,Ferrol,Ordes,Ferrol
+716,Viana,Chantada,Viana
+717,A Mariña Oriental,Quiroga,A Mariña Oriental
+718,O Salnés,Lugo,O Salnés
+719,Ortegal,Allariz-Maceda,Ortegal
+720,Ferrol,Santiago,Ferrol
+721,Viana,Lugo,Viana
+722,O Salnés,Deza,O Salnés
+723,O Salnés,Santiago,O Salnés
+724,Viana,Terra De Caldelas,Viana
+725,Fisterra,Santiago,Fisterra
+726,Ortegal,Pontevedra,Ortegal
+727,Viana,Meira,Viana
+728,Viana,Terra De Celanova,Viana
+729,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+730,Ortegal,Ourense,Ortegal
+731,O Salnés,Terra Chá,O Salnés
+732,Terra De Caldelas,Lugo,Terra De Caldelas
+733,Viana,A Paradanta,Viana
+734,A Mariña Oriental,Valdeorras,A Mariña Oriental
+735,Fisterra,Deza,Fisterra
+736,O Salnés,Ordes,O Salnés
+737,Terra De Caldelas,Ferrol,Terra De Caldelas
+738,Ferrol,Ordes,Ferrol
+739,Viana,O Carballiño,Viana
+740,Viana,Vigo,Viana
+741,Ortegal,Terra De Celanova,Ortegal
+742,Terra De Caldelas,Chantada,Terra De Caldelas
+743,Fisterra,Barbanza,Fisterra
+744,Fisterra,O Carballiño,Fisterra
+745,A Mariña Oriental,Meira,A Mariña Oriental
+746,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+747,Terra De Caldelas,O Carballiño,Terra De Caldelas
+748,Ortegal,Terra De Lemos,Ortegal
+749,Viana,Pontevedra,Viana
+750,Ferrol,A Coruña,Ferrol
+751,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+752,Ortegal,Chantada,Ortegal
+753,Fisterra,Ordes,Fisterra
+754,O Salnés,Deza,O Salnés
+755,O Salnés,Meira,O Salnés
+756,Viana,O Condado,Viana
+757,O Salnés,Lugo,O Salnés
+758,O Salnés,A Fonsagrada,O Salnés
+759,Ferrol,Eume,Ferrol
+760,Terra De Caldelas,Terra Chá,Terra De Caldelas
+761,Ferrol,Ortegal,Ferrol
+762,A Mariña Oriental,Verín,A Mariña Oriental
+763,Ferrol,Ordes,Ferrol
+764,Ferrol,Terra Chá,Ferrol
+765,Terra De Caldelas,Chantada,Terra De Caldelas
+766,Viana,O Carballiño,Viana
+767,O Salnés,Ordes,O Salnés
+768,O Salnés,Chantada,O Salnés
+769,Ferrol,Ferrol,Ferrol
+770,O Salnés,Barbanza,O Salnés
+771,O Salnés,Terra Chá,O Salnés
+772,Fisterra,Ordes,Fisterra
+773,O Salnés,Sarria,O Salnés
+774,Ferrol,Terra Chá,Ferrol
+775,Ortegal,O Carballiño,Ortegal
+776,Terra De Caldelas,Terra De Melide,Terra De Caldelas
+777,O Salnés,A Ulloa,O Salnés
+778,Terra De Caldelas,Deza,Terra De Caldelas
+779,Fisterra,Arzúa,Fisterra
+780,Viana,O Ribeiro,Viana
+781,Viana,Ourense,Viana
+782,O Salnés,A Coruña,O Salnés
+783,Ortegal,Ourense,Ortegal
+784,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+785,O Salnés,Ordes,O Salnés
+786,Terra De Caldelas,Meira,Terra De Caldelas
+787,Ferrol,Lugo,Ferrol
+788,Viana,O Carballiño,Viana
+789,Ferrol,Meira,Ferrol
+790,Viana,Terra De Lemos,Viana
+791,Viana,O Salnés,Viana
+792,Terra De Caldelas,A Ulloa,Terra De Caldelas
+793,Terra De Caldelas,Chantada,Terra De Caldelas
+794,Viana,O Baixo Miño,Viana
+795,Ortegal,O Ribeiro,Ortegal
+796,Viana,Chantada,Viana
+797,O Salnés,Santiago,O Salnés
+798,Viana,Caldas,Viana
+799,Viana,O Morrazo,Viana
+800,A Mariña Oriental,Lugo,A Mariña Oriental
+801,O Salnés,Os Ancares,O Salnés
+802,Fisterra,Ordes,Fisterra
+803,Ortegal,Terra De Caldelas,Ortegal
+804,Fisterra,A Coruña,Fisterra
+805,Viana,Terra De Caldelas,Viana
+806,O Salnés,Chantada,O Salnés
+807,Fisterra,Santiago,Fisterra
+808,O Salnés,Lugo,O Salnés
+809,Terra De Caldelas,Santiago,Terra De Caldelas
+810,Terra De Caldelas,Terra Chá,Terra De Caldelas
+811,Viana,Verín,Viana
+812,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+813,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+814,A Mariña Oriental,Verín,A Mariña Oriental
+815,A Mariña Oriental,Sarria,A Mariña Oriental
+816,Terra De Caldelas,Betanzos,Terra De Caldelas
+817,Viana,O Ribeiro,Viana
+818,O Salnés,Caldas,O Salnés
+819,A Mariña Oriental,Meira,A Mariña Oriental
+820,Fisterra,Pontevedra,Fisterra
+821,Ferrol,A Mariña Occidental,Ferrol
+822,Ferrol,Terra Chá,Ferrol
+823,Fisterra,O Morrazo,Fisterra
+824,Ferrol,Betanzos,Ferrol
+825,Fisterra,O Carballiño,Fisterra
+826,O Salnés,Santiago,O Salnés
+827,Fisterra,Vigo,Fisterra
+828,Ferrol,A Mariña Central,Ferrol
+829,A Mariña Oriental,Os Ancares,A Mariña Oriental
+830,Ortegal,Terra De Caldelas,Ortegal
+831,Ortegal,A Paradanta,Ortegal
+832,Ortegal,Terra De Lemos,Ortegal
+833,Viana,Vigo,Viana
+834,Ortegal,Terra De Trives,Ortegal
+835,Fisterra,O Ribeiro,Fisterra
+836,Viana,A Paradanta,Viana
+837,Terra De Caldelas,Chantada,Terra De Caldelas
+838,Ortegal,A Paradanta,Ortegal
+839,Terra De Caldelas,Lugo,Terra De Caldelas
+840,Ferrol,Terra De Melide,Ferrol
+841,O Salnés,A Coruña,O Salnés
+842,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+843,Ferrol,A Mariña Occidental,Ferrol
+844,Ortegal,Chantada,Ortegal
+845,Ferrol,Meira,Ferrol
+846,Fisterra,Caldas,Fisterra
+847,Fisterra,O Sar,Fisterra
+848,Fisterra,Santiago,Fisterra
+849,A Mariña Oriental,Lugo,A Mariña Oriental
+850,Terra De Caldelas,Lugo,Terra De Caldelas
+851,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+852,Viana,Caldas,Viana
+853,Ortegal,O Ribeiro,Ortegal
+854,Ortegal,Vigo,Ortegal
+855,Ortegal,Lugo,Ortegal
+856,O Salnés,Santiago,O Salnés
+857,Ferrol,Arzúa,Ferrol
+858,Terra De Caldelas,Arzúa,Terra De Caldelas
+859,Viana,Terra De Trives,Viana
+860,Fisterra,Barbanza,Fisterra
+861,Ortegal,O Condado,Ortegal
+862,O Salnés,O Sar,O Salnés
+863,Ferrol,Ordes,Ferrol
+864,A Mariña Oriental,Lugo,A Mariña Oriental
+865,O Salnés,Ordes,O Salnés
+866,O Salnés,Deza,O Salnés
+867,Fisterra,Deza,Fisterra
+868,Terra De Caldelas,Chantada,Terra De Caldelas
+869,Viana,Vigo,Viana
+870,Ferrol,A Ulloa,Ferrol
+871,Viana,Quiroga,Viana
+872,O Salnés,Betanzos,O Salnés
+873,Ortegal,Chantada,Ortegal
+874,O Salnés,Terra De Melide,O Salnés
+875,Ortegal,Sarria,Ortegal
+876,Terra De Caldelas,Terra De Melide,Terra De Caldelas
+877,A Mariña Oriental,Chantada,A Mariña Oriental
+878,Fisterra,Terra De Melide,Fisterra
+879,Terra De Caldelas,Ordes,Terra De Caldelas
+880,Fisterra,O Sar,Fisterra
+881,A Mariña Oriental,Quiroga,A Mariña Oriental
+882,O Salnés,Arzúa,O Salnés
+883,Viana,Pontevedra,Viana
+884,Ferrol,Chantada,Ferrol
+885,Ferrol,Ourense,Ferrol
+886,O Salnés,Tabeirós-Terra De Montes,O Salnés
+887,Ortegal,Quiroga,Ortegal
+888,Ortegal,Lugo,Ortegal
+889,A Mariña Oriental,Quiroga,A Mariña Oriental
+890,Terra De Caldelas,Betanzos,Terra De Caldelas
+891,O Salnés,Ordes,O Salnés
+892,A Mariña Oriental,Lugo,A Mariña Oriental
+893,A Mariña Oriental,Sarria,A Mariña Oriental
+894,Ortegal,Ourense,Ortegal
+895,Fisterra,A Ulloa,Fisterra
+896,Viana,Tabeirós-Terra De Montes,Viana
+897,Terra De Caldelas,Arzúa,Terra De Caldelas
+898,Viana,A Paradanta,Viana
+899,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+900,A Mariña Oriental,Ourense,A Mariña Oriental
+901,Terra De Caldelas,Deza,Terra De Caldelas
+902,Fisterra,Betanzos,Fisterra
+903,Ortegal,Ourense,Ortegal
+904,Ortegal,Terra De Trives,Ortegal
+905,Fisterra,Caldas,Fisterra
+906,Terra De Caldelas,O Carballiño,Terra De Caldelas
+907,Ferrol,A Ulloa,Ferrol
+908,Ortegal,O Carballiño,Ortegal
+909,A Mariña Oriental,Terra Chá,A Mariña Oriental
+910,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+911,Terra De Caldelas,Ordes,Terra De Caldelas
+912,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+913,Viana,O Ribeiro,Viana
+914,Fisterra,Terra Chá,Fisterra
+915,Fisterra,O Salnés,Fisterra
+916,O Salnés,Arzúa,O Salnés
+917,Terra De Caldelas,Chantada,Terra De Caldelas
+918,Ortegal,O Ribeiro,Ortegal
+919,O Salnés,Barbanza,O Salnés
+920,Fisterra,A Mariña Central,Fisterra
+921,Ortegal,Terra De Caldelas,Ortegal
+922,Viana,Caldas,Viana
+923,A Mariña Oriental,Meira,A Mariña Oriental
+924,Ortegal,O Baixo Miño,Ortegal
+925,Ferrol,Betanzos,Ferrol
+926,O Salnés,Ordes,O Salnés
+927,O Salnés,Betanzos,O Salnés
+928,Terra De Caldelas,Terra De Melide,Terra De Caldelas
+929,Ortegal,A Paradanta,Ortegal
+930,A Mariña Oriental,Viana,A Mariña Oriental
+931,Viana,Barbanza,Viana
+932,Fisterra,Meira,Fisterra
+933,Ferrol,A Mariña Central,Ferrol
+934,Ferrol,Terra De Melide,Ferrol
+935,Ferrol,Terra Chá,Ferrol
+936,O Salnés,O Sar,O Salnés
+937,A Mariña Oriental,Meira,A Mariña Oriental
+938,Viana,Deza,Viana
+939,Ferrol,Meira,Ferrol
+940,Fisterra,Caldas,Fisterra
+941,Ferrol,Betanzos,Ferrol
+942,Fisterra,O Sar,Fisterra
+943,A Mariña Oriental,Meira,A Mariña Oriental
+944,Ortegal,Vigo,Ortegal
+945,O Salnés,Tabeirós-Terra De Montes,O Salnés
+946,A Mariña Oriental,Terra Chá,A Mariña Oriental
+947,Terra De Caldelas,Sarria,Terra De Caldelas
+948,Viana,A Ulloa,Viana
+949,A Mariña Oriental,Sarria,A Mariña Oriental
+950,Ferrol,Deza,Ferrol
+951,Viana,Chantada,Viana
+952,Fisterra,Pontevedra,Fisterra
+953,Fisterra,Vigo,Fisterra
+954,Ortegal,Terra De Lemos,Ortegal
+955,Viana,Deza,Viana
+956,O Salnés,O Sar,O Salnés
+957,Ferrol,Terra Chá,Ferrol
+958,Viana,Caldas,Viana
+959,Viana,Lugo,Viana
+960,Ferrol,Meira,Ferrol
+961,Fisterra,Caldas,Fisterra
+962,Fisterra,O Ribeiro,Fisterra
+963,Ferrol,A Coruña,Ferrol
+964,O Salnés,A Coruña,O Salnés
+965,Ortegal,Tabeirós-Terra De Montes,Ortegal
+966,Ferrol,Arzúa,Ferrol
+967,A Mariña Oriental,Lugo,A Mariña Oriental
+968,A Mariña Oriental,Meira,A Mariña Oriental
+969,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+970,Ortegal,Terra De Lemos,Ortegal
+971,O Salnés,Barbanza,O Salnés
+972,Viana,O Carballiño,Viana
+973,Viana,Terra De Lemos,Viana
+974,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+975,Viana,Santiago,Viana
+976,Viana,Lugo,Viana
+977,Fisterra,O Sar,Fisterra
+978,Viana,Xallas,Viana
+979,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+980,A Mariña Oriental,A Limia,A Mariña Oriental
+981,Ortegal,O Ribeiro,Ortegal
+982,Fisterra,Santiago,Fisterra
+983,O Salnés,Xallas,O Salnés
+984,Ortegal,O Carballiño,Ortegal
+985,Ferrol,A Mariña Occidental,Ferrol
+986,Fisterra,A Paradanta,Fisterra
+987,Ortegal,Terra De Lemos,Ortegal
+988,Ferrol,Santiago,Ferrol
+989,Ferrol,A Mariña Oriental,Ferrol
+990,A Mariña Oriental,Terra Chá,A Mariña Oriental
+991,Ortegal,Chantada,Ortegal
+992,O Salnés,O Sar,O Salnés
+993,Ferrol,Terra Chá,Ferrol
+994,A Mariña Oriental,Baixa Limia,A Mariña Oriental
+995,O Salnés,Caldas,O Salnés
+996,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+997,Viana,Chantada,Viana
+998,Fisterra,O Ribeiro,Fisterra
+999,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+1000,O Salnés,Arzúa,O Salnés
+1001,Ortegal,O Ribeiro,Ortegal
+1002,Ferrol,Lugo,Ferrol
+1003,Fisterra,O Ribeiro,Fisterra
+1004,Viana,Lugo,Viana
+1005,O Salnés,Santiago,O Salnés
+1006,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1007,Ferrol,Ordes,Ferrol
+1008,O Salnés,Ordes,O Salnés
+1009,A Mariña Oriental,Ourense,A Mariña Oriental
+1010,A Mariña Oriental,Allariz-Maceda,A Mariña Oriental
+1011,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+1012,Ferrol,A Coruña,Ferrol
+1013,A Mariña Oriental,Lugo,A Mariña Oriental
+1014,Fisterra,O Carballiño,Fisterra
+1015,Ferrol,Ordes,Ferrol
+1016,Viana,O Carballiño,Viana
+1017,O Salnés,Betanzos,O Salnés
+1018,O Salnés,Ordes,O Salnés
+1019,Viana,Tabeirós-Terra De Montes,Viana
+1020,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1021,Viana,Terra De Melide,Viana
+1022,Ortegal,Ourense,Ortegal
+1023,A Mariña Oriental,Terra De Celanova,A Mariña Oriental
+1024,Ortegal,Vigo,Ortegal
+1025,O Salnés,Terra De Melide,O Salnés
+1026,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1027,Viana,Terra De Lemos,Viana
+1028,Viana,Quiroga,Viana
+1029,Viana,Ourense,Viana
+1030,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+1031,Viana,Terra De Caldelas,Viana
+1032,Ortegal,Pontevedra,Ortegal
+1033,O Salnés,Pontevedra,O Salnés
+1034,A Mariña Oriental,Quiroga,A Mariña Oriental
+1035,Viana,Verín,Viana
+1036,Fisterra,Terra De Celanova,Fisterra
+1037,Fisterra,Pontevedra,Fisterra
+1038,A Mariña Oriental,Verín,A Mariña Oriental
+1039,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+1040,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1041,Fisterra,Caldas,Fisterra
+1042,Ortegal,A Paradanta,Ortegal
+1043,Ferrol,Betanzos,Ferrol
+1044,Ferrol,Ordes,Ferrol
+1045,Fisterra,Vigo,Fisterra
+1046,Viana,Terra De Melide,Viana
+1047,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1048,A Mariña Oriental,Terra De Celanova,A Mariña Oriental
+1049,Ortegal,Vigo,Ortegal
+1050,Fisterra,O Carballiño,Fisterra
+1051,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1052,O Salnés,Caldas,O Salnés
+1053,Viana,Terra Chá,Viana
+1054,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+1055,O Salnés,Deza,O Salnés
+1056,Ferrol,A Mariña Occidental,Ferrol
+1057,Ferrol,Bergantiños,Ferrol
+1058,Ortegal,Pontevedra,Ortegal
+1059,A Mariña Oriental,Chantada,A Mariña Oriental
+1060,Ortegal,Caldas,Ortegal
+1061,Ortegal,Tabeirós-Terra De Montes,Ortegal
+1062,Fisterra,Pontevedra,Fisterra
+1063,Viana,O Carballiño,Viana
+1064,A Mariña Oriental,A Paradanta,A Mariña Oriental
+1065,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1066,Viana,Terra De Caldelas,Viana
+1067,Viana,Pontevedra,Viana
+1068,Viana,Allariz-Maceda,Viana
+1069,A Mariña Oriental,Eume,A Mariña Oriental
+1070,Viana,Deza,Viana
+1071,O Salnés,Betanzos,O Salnés
+1072,Ferrol,Santiago,Ferrol
+1073,Fisterra,Vigo,Fisterra
+1074,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1075,O Salnés,Terra De Melide,O Salnés
+1076,Viana,Terra De Lemos,Viana
+1077,O Salnés,Bergantiños,O Salnés
+1078,Ortegal,O Salnés,Ortegal
+1079,Ortegal,Tabeirós-Terra De Montes,Ortegal
+1080,Viana,Tabeirós-Terra De Montes,Viana
+1081,Fisterra,O Condado,Fisterra
+1082,Viana,Chantada,Viana
+1083,A Mariña Oriental,Chantada,A Mariña Oriental
+1084,Ferrol,Meira,Ferrol
+1085,A Mariña Oriental,Ourense,A Mariña Oriental
+1086,Fisterra,Terra De Celanova,Fisterra
+1087,A Mariña Oriental,Meira,A Mariña Oriental
+1088,Ortegal,Pontevedra,Ortegal
+1089,Fisterra,A Limia,Fisterra
+1090,A Mariña Oriental,Terra De Celanova,A Mariña Oriental
+1091,A Mariña Oriental,Betanzos,A Mariña Oriental
+1092,Fisterra,Allariz-Maceda,Fisterra
+1093,Ortegal,O Ribeiro,Ortegal
+1094,Ferrol,Bergantiños,Ferrol
+1095,Viana,Terra De Trives,Viana
+1096,Viana,Allariz-Maceda,Viana
+1097,Ferrol,Noia,Ferrol
+1098,Ortegal,Ourense,Ortegal
+1099,O Salnés,Santiago,O Salnés
+1100,Ortegal,Terra De Celanova,Ortegal
+1101,Fisterra,Baixa Limia,Fisterra
+1102,Ferrol,Arzúa,Ferrol
+1103,Viana,Valdeorras,Viana
+1104,Fisterra,A Paradanta,Fisterra
+1105,O Salnés,Bergantiños,O Salnés
+1106,A Mariña Oriental,O Carballiño,A Mariña Oriental
+1107,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+1108,Ferrol,Xallas,Ferrol
+1109,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+1110,Ortegal,Vigo,Ortegal
+1111,Ortegal,Chantada,Ortegal
+1112,Viana,Chantada,Viana
+1113,O Salnés,Arzúa,O Salnés
+1114,Ortegal,Terra De Lemos,Ortegal
+1115,Ortegal,O Carballiño,Ortegal
+1116,O Salnés,Xallas,O Salnés
+1117,Ortegal,Terra De Caldelas,Ortegal
+1118,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1119,O Salnés,Caldas,O Salnés
+1120,Viana,Lugo,Viana
+1121,O Salnés,Pontevedra,O Salnés
+1122,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1123,Ferrol,Eume,Ferrol
+1124,Ferrol,Santiago,Ferrol
+1125,Ferrol,Arzúa,Ferrol
+1126,Ferrol,A Mariña Occidental,Ferrol
+1127,Ferrol,A Mariña Central,Ferrol
+1128,Viana,Quiroga,Viana
+1129,Ferrol,Xallas,Ferrol
+1130,Ferrol,Bergantiños,Ferrol
+1131,Viana,Ourense,Viana
+1132,O Salnés,Santiago,O Salnés
+1133,Ferrol,Muros,Ferrol
+1134,A Mariña Oriental,Valdeorras,A Mariña Oriental
+1135,O Salnés,Deza,O Salnés
+1136,Viana,Sarria,Viana
+1137,Ortegal,Tabeirós-Terra De Montes,Ortegal
+1138,Ortegal,Deza,Ortegal
+1139,Ortegal,Verín,Ortegal
+1140,Viana,A Ulloa,Viana
+1141,Viana,Terra De Lemos,Viana
+1142,O Salnés,Noia,O Salnés
+1143,Fisterra,O Ribeiro,Fisterra
+1144,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1145,Fisterra,O Carballiño,Fisterra
+1146,A Mariña Oriental,Quiroga,A Mariña Oriental
+1147,Ferrol,Betanzos,Ferrol
+1148,Ortegal,O Sar,Ortegal
+1149,Fisterra,Terra De Celanova,Fisterra
+1150,Ortegal,O Ribeiro,Ortegal
+1151,Viana,Terra De Celanova,Viana
+1152,Viana,A Ulloa,Viana
+1153,O Salnés,O Sar,O Salnés
+1154,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1155,A Mariña Oriental,Chantada,A Mariña Oriental
+1156,Fisterra,O Baixo Miño,Fisterra
+1157,Ferrol,Noia,Ferrol
+1158,Ortegal,O Carballiño,Ortegal
+1159,Ortegal,Santiago,Ortegal
+1160,A Mariña Oriental,Deza,A Mariña Oriental
+1161,Viana,Chantada,Viana
+1162,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+1163,A Mariña Oriental,Betanzos,A Mariña Oriental
+1164,A Mariña Oriental,Lugo,A Mariña Oriental
+1165,Ferrol,Terra De Soneira,Ferrol
+1166,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+1167,O Salnés,Noia,O Salnés
+1168,O Salnés,Santiago,O Salnés
+1169,Ferrol,Fisterra,Ferrol
+1170,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1171,A Mariña Oriental,Chantada,A Mariña Oriental
+1172,Ortegal,O Baixo Miño,Ortegal
+1173,Viana,A Limia,Viana
+1174,Fisterra,Pontevedra,Fisterra
+1175,Fisterra,O Baixo Miño,Fisterra
+1176,O Salnés,Xallas,O Salnés
+1177,A Mariña Oriental,Sarria,A Mariña Oriental
+1178,A Mariña Oriental,O Carballiño,A Mariña Oriental
+1179,Ferrol,Betanzos,Ferrol
+1180,O Salnés,Deza,O Salnés
+1181,O Salnés,O Carballiño,O Salnés
+1182,Fisterra,Terra De Celanova,Fisterra
+1183,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1184,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+1185,Ferrol,Santiago,Ferrol
+1186,Fisterra,Vigo,Fisterra
+1187,A Mariña Oriental,Ourense,A Mariña Oriental
+1188,Ferrol,A Mariña Central,Ferrol
+1189,O Salnés,Chantada,O Salnés
+1190,Ortegal,A Limia,Ortegal
+1191,O Salnés,A Ulloa,O Salnés
+1192,Ortegal,Pontevedra,Ortegal
+1193,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+1194,Ortegal,Terra De Caldelas,Ortegal
+1195,Viana,Terra De Caldelas,Viana
+1196,Viana,Verín,Viana
+1197,Viana,Viana,Viana
+1198,O Salnés,Terra De Melide,O Salnés
+1199,Viana,Terra De Trives,Viana
+1200,O Salnés,Ourense,O Salnés
+1201,Viana,Quiroga,Viana
+1202,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+1203,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1204,Fisterra,O Sar,Fisterra
+1205,Viana,Ourense,Viana
+1206,Fisterra,A Limia,Fisterra
+1207,Ferrol,Xallas,Ferrol
+1208,Fisterra,Ourense,Fisterra
+1209,Ferrol,Tabeirós-Terra De Montes,Ferrol
+1210,O Salnés,O Sar,O Salnés
+1211,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1212,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1213,Ferrol,Terra Chá,Ferrol
+1214,Ferrol,Terra De Melide,Ferrol
+1215,O Salnés,Pontevedra,O Salnés
+1216,O Salnés,Xallas,O Salnés
+1217,O Salnés,O Salnés,O Salnés
+1218,O Salnés,Fisterra,O Salnés
+1219,Ortegal,Pontevedra,Ortegal
+1220,Fisterra,O Ribeiro,Fisterra
+1221,Viana,A Limia,Viana
+1222,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1223,Fisterra,Terra De Lemos,Fisterra
+1224,Ortegal,O Carballiño,Ortegal
+1225,Fisterra,A Limia,Fisterra
+1226,Ortegal,Tabeirós-Terra De Montes,Ortegal
+1227,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+1228,O Salnés,O Carballiño,O Salnés
+1229,O Salnés,Muros,O Salnés
+1230,Viana,Ourense,Viana
+1231,Ferrol,Deza,Ferrol
+1232,Viana,A Limia,Viana
+1233,Ortegal,Deza,Ortegal
+1234,Fisterra,Ourense,Fisterra
+1235,Ferrol,A Mariña Central,Ferrol
+1236,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1237,A Mariña Oriental,Betanzos,A Mariña Oriental
+1238,Fisterra,Terra De Caldelas,Fisterra
+1239,Fisterra,Quiroga,Fisterra
+1240,O Salnés,Terra De Lemos,O Salnés
+1241,Ferrol,Lugo,Ferrol
+1242,Ortegal,Arzúa,Ortegal
+1243,Ferrol,Betanzos,Ferrol
+1244,A Mariña Oriental,Quiroga,A Mariña Oriental
+1245,O Salnés,Deza,O Salnés
+1246,A Mariña Oriental,Betanzos,A Mariña Oriental
+1247,Ferrol,A Barcala,Ferrol
+1248,Fisterra,Terra De Trives,Fisterra
+1249,A Mariña Oriental,Viana,A Mariña Oriental
+1250,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1251,Ortegal,O Carballiño,Ortegal
+1252,Ferrol,Deza,Ferrol
+1253,Ortegal,Caldas,Ortegal
+1254,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+1255,Fisterra,Verín,Fisterra
+1256,Viana,Ourense,Viana
+1257,Ortegal,Betanzos,Ortegal
+1258,Ortegal,Terra De Melide,Ortegal
+1259,Fisterra,Terra De Lemos,Fisterra
+1260,Ferrol,Betanzos,Ferrol
+1261,A Mariña Oriental,Eume,A Mariña Oriental
+1262,Ferrol,Xallas,Ferrol
+1263,Ortegal,Santiago,Ortegal
+1264,Fisterra,Quiroga,Fisterra
+1265,A Mariña Oriental,Lugo,A Mariña Oriental
+1266,Fisterra,Pontevedra,Fisterra
+1267,Ortegal,A Ulloa,Ortegal
+1268,Ortegal,Tabeirós-Terra De Montes,Ortegal
+1269,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+1270,A Mariña Oriental,Quiroga,A Mariña Oriental
+1271,Ortegal,Ordes,Ortegal
+1272,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+1273,Fisterra,Terra De Trives,Fisterra
+1274,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1275,Viana,Terra De Caldelas,Viana
+1276,Ortegal,Chantada,Ortegal
+1277,Ferrol,Ordes,Ferrol
+1278,O Salnés,Caldas,O Salnés
+1279,A Mariña Oriental,Ourense,A Mariña Oriental
+1280,Viana,Verín,Viana
+1281,A Mariña Oriental,Terra De Trives,A Mariña Oriental
+1282,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+1283,Viana,Baixa Limia,Viana
+1284,Ortegal,Terra De Lemos,Ortegal
+1285,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+1286,O Salnés,Pontevedra,O Salnés
+1287,Ferrol,Terra De Melide,Ferrol
+1288,O Salnés,Xallas,O Salnés
+1289,Ferrol,O Carballiño,Ferrol
+1290,A Mariña Oriental,Betanzos,A Mariña Oriental
+1291,O Salnés,Santiago,O Salnés
+1292,O Salnés,A Barcala,O Salnés
+1293,Ortegal,Deza,Ortegal
+1294,A Mariña Oriental,Ordes,A Mariña Oriental
+1295,Ortegal,Terra De Melide,Ortegal
+1296,Fisterra,O Ribeiro,Fisterra
+1297,A Mariña Oriental,Xallas,A Mariña Oriental
+1298,Ferrol,Xallas,Ferrol
+1299,A Mariña Oriental,Verín,A Mariña Oriental
+1300,O Salnés,Ordes,O Salnés
+1301,A Mariña Oriental,Chantada,A Mariña Oriental
+1302,O Salnés,Bergantiños,O Salnés
+1303,Ortegal,Sarria,Ortegal
+1304,Ferrol,Chantada,Ferrol
+1305,Viana,Terra De Caldelas,Viana
+1306,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+1307,Viana,Terra De Celanova,Viana
+1308,Ferrol,Lugo,Ferrol
+1309,Ferrol,Terra De Lemos,Ferrol
+1310,Fisterra,Terra De Celanova,Fisterra
+1311,Ortegal,Os Ancares,Ortegal
+1312,O Salnés,O Carballiño,O Salnés
+1313,Ferrol,A Mariña Occidental,Ferrol
+1314,Viana,Verín,Viana
+1315,Viana,Viana,Viana
+1316,O Salnés,Xallas,O Salnés
+1317,Viana,Terra De Caldelas,Viana
+1318,Ferrol,Eume,Ferrol
+1319,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1320,Ferrol,Terra De Caldelas,Ferrol
+1321,O Salnés,Vigo,O Salnés
+1322,A Mariña Oriental,O Carballiño,A Mariña Oriental
+1323,Viana,Terra De Caldelas,Viana
+1324,Ferrol,Fisterra,Ferrol
+1325,Fisterra,Vigo,Fisterra
+1326,Fisterra,A Limia,Fisterra
+1327,Ortegal,Ordes,Ortegal
+1328,A Mariña Oriental,Viana,A Mariña Oriental
+1329,Ortegal,Terra De Melide,Ortegal
+1330,Ortegal,A Fonsagrada,Ortegal
+1331,Fisterra,Baixa Limia,Fisterra
+1332,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+1333,Ferrol,Muros,Ferrol
+1334,Viana,Ourense,Viana
+1335,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+1336,Ortegal,Terra Chá,Ortegal
+1337,Viana,Terra De Caldelas,Viana
+1338,Ferrol,Meira,Ferrol
+1339,Fisterra,Allariz-Maceda,Fisterra
+1340,Viana,Viana,Viana
+1341,O Salnés,Deza,O Salnés
+1342,Viana,A Limia,Viana
+1343,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1344,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+1345,A Mariña Oriental,Chantada,A Mariña Oriental
+1346,Viana,Chantada,Viana
+1347,Ortegal,Deza,Ortegal
+1348,Fisterra,O Carballiño,Fisterra
+1349,Ortegal,Santiago,Ortegal
+1350,A Mariña Oriental,Meira,A Mariña Oriental
+1351,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1352,O Salnés,A Coruña,O Salnés
+1353,Ortegal,Terra De Lemos,Ortegal
+1354,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+1355,O Salnés,Ordes,O Salnés
+1356,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1357,Ferrol,Sarria,Ferrol
+1358,A Mariña Oriental,Os Ancares,A Mariña Oriental
+1359,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+1360,O Salnés,O Carballiño,O Salnés
+1361,Ortegal,Chantada,Ortegal
+1362,Viana,Terra De Caldelas,Viana
+1363,Viana,O Carballiño,Viana
+1364,Viana,Chantada,Viana
+1365,Viana,Sarria,Viana
+1366,O Salnés,Betanzos,O Salnés
+1367,Viana,Quiroga,Viana
+1368,O Salnés,O Carballiño,O Salnés
+1369,Ferrol,Terra Chá,Ferrol
+1370,Ferrol,Xallas,Ferrol
+1371,Ortegal,Noia,Ortegal
+1372,Ferrol,A Mariña Occidental,Ferrol
+1373,O Salnés,Chantada,O Salnés
+1374,Ferrol,Sarria,Ferrol
+1375,Ferrol,Santiago,Ferrol
+1376,Ferrol,Os Ancares,Ferrol
+1377,Fisterra,Ourense,Fisterra
+1378,Viana,Terra De Trives,Viana
+1379,Fisterra,Terra De Lemos,Fisterra
+1380,A Mariña Oriental,Deza,A Mariña Oriental
+1381,Fisterra,A Limia,Fisterra
+1382,Fisterra,Pontevedra,Fisterra
+1383,Viana,Allariz-Maceda,Viana
+1384,Viana,A Limia,Viana
+1385,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1386,Ortegal,Ordes,Ortegal
+1387,Ortegal,A Coruña,Ortegal
+1388,Viana,Valdeorras,Viana
+1389,Viana,Terra De Celanova,Viana
+1390,Fisterra,Chantada,Fisterra
+1391,Ortegal,Santiago,Ortegal
+1392,O Salnés,Deza,O Salnés
+1393,Viana,Baixa Limia,Viana
+1394,Fisterra,O Carballiño,Fisterra
+1395,A Mariña Oriental,Eume,A Mariña Oriental
+1396,Fisterra,Quiroga,Fisterra
+1397,Ferrol,Chantada,Ferrol
+1398,Ortegal,Meira,Ortegal
+1399,Viana,Terra De Lemos,Viana
+1400,A Mariña Oriental,Lugo,A Mariña Oriental
+1401,A Mariña Oriental,Meira,A Mariña Oriental
+1402,Viana,Quiroga,Viana
+1403,Ortegal,Bergantiños,Ortegal
+1404,Viana,Os Ancares,Viana
+1405,Fisterra,Caldas,Fisterra
+1406,O Salnés,Noia,O Salnés
+1407,Fisterra,O Salnés,Fisterra
+1408,Ferrol,Terra Chá,Ferrol
+1409,O Salnés,Arzúa,O Salnés
+1410,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+1411,Fisterra,Chantada,Fisterra
+1412,Ortegal,Noia,Ortegal
+1413,Viana,Ourense,Viana
+1414,Ortegal,Arzúa,Ortegal
+1415,O Salnés,Terra Chá,O Salnés
+1416,Ortegal,Lugo,Ortegal
+1417,A Mariña Oriental,Ferrol,A Mariña Oriental
+1418,Ferrol,Santiago,Ferrol
+1419,Ortegal,Chantada,Ortegal
+1420,Ferrol,Ordes,Ferrol
+1421,O Salnés,Eume,O Salnés
+1422,O Salnés,Noia,O Salnés
+1423,Fisterra,Terra De Celanova,Fisterra
+1424,Fisterra,Ourense,Fisterra
+1425,Ferrol,Bergantiños,Ferrol
+1426,Viana,Sarria,Viana
+1427,Ortegal,Os Ancares,Ortegal
+1428,A Mariña Oriental,Ortegal,A Mariña Oriental
+1429,O Salnés,Pontevedra,O Salnés
+1430,O Salnés,Muros,O Salnés
+1431,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1432,Viana,Lugo,Viana
+1433,Fisterra,O Sar,Fisterra
+1434,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1435,A Mariña Oriental,Eume,A Mariña Oriental
+1436,Ortegal,Betanzos,Ortegal
+1437,A Mariña Oriental,Deza,A Mariña Oriental
+1438,Ortegal,Terra De Melide,Ortegal
+1439,Ortegal,Lugo,Ortegal
+1440,A Mariña Oriental,Betanzos,A Mariña Oriental
+1441,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1442,Ferrol,Muros,Ferrol
+1443,Viana,Ourense,Viana
+1444,Ortegal,Deza,Ortegal
+1445,Viana,Lugo,Viana
+1446,A Mariña Oriental,A Coruña,A Mariña Oriental
+1447,A Mariña Oriental,Arzúa,A Mariña Oriental
+1448,Fisterra,Pontevedra,Fisterra
+1449,Viana,Terra De Celanova,Viana
+1450,O Salnés,Xallas,O Salnés
+1451,A Mariña Oriental,Lugo,A Mariña Oriental
+1452,Ferrol,Noia,Ferrol
+1453,Ferrol,A Coruña,Ferrol
+1454,O Salnés,Noia,O Salnés
+1455,Fisterra,Noia,Fisterra
+1456,Fisterra,Terra De Celanova,Fisterra
+1457,O Salnés,Terra De Soneira,O Salnés
+1458,Ortegal,Santiago,Ortegal
+1459,Viana,O Ribeiro,Viana
+1460,Ortegal,Arzúa,Ortegal
+1461,Ortegal,Tabeirós-Terra De Montes,Ortegal
+1462,Fisterra,Chantada,Fisterra
+1463,Ferrol,Xallas,Ferrol
+1464,O Salnés,Bergantiños,O Salnés
+1465,Viana,Os Ancares,Viana
+1466,A Mariña Oriental,Arzúa,A Mariña Oriental
+1467,Ferrol,Bergantiños,Ferrol
+1468,O Salnés,Bergantiños,O Salnés
+1469,A Mariña Oriental,Ordes,A Mariña Oriental
+1470,Ortegal,Chantada,Ortegal
+1471,Viana,Terra De Celanova,Viana
+1472,O Salnés,Xallas,O Salnés
+1473,A Mariña Oriental,Chantada,A Mariña Oriental
+1474,Ortegal,Arzúa,Ortegal
+1475,Fisterra,Santiago,Fisterra
+1476,Ferrol,Bergantiños,Ferrol
+1477,Ferrol,Terra De Soneira,Ferrol
+1478,A Mariña Oriental,Arzúa,A Mariña Oriental
+1479,Ferrol,Ordes,Ferrol
+1480,O Salnés,Caldas,O Salnés
+1481,Viana,Pontevedra,Viana
+1482,O Salnés,Noia,O Salnés
+1483,O Salnés,Muros,O Salnés
+1484,A Mariña Oriental,Ordes,A Mariña Oriental
+1485,Ferrol,Xallas,Ferrol
+1486,Fisterra,Pontevedra,Fisterra
+1487,Ortegal,Os Ancares,Ortegal
+1488,O Salnés,O Sar,O Salnés
+1489,Ortegal,Chantada,Ortegal
+1490,Ortegal,Arzúa,Ortegal
+1491,Ferrol,Santiago,Ferrol
+1492,Viana,A Paradanta,Viana
+1493,Fisterra,Deza,Fisterra
+1494,Ferrol,Arzúa,Ferrol
+1495,A Mariña Oriental,Bergantiños,A Mariña Oriental
+1496,Fisterra,O Ribeiro,Fisterra
+1497,A Mariña Oriental,Arzúa,A Mariña Oriental
+1498,Ortegal,Lugo,Ortegal
+1499,Fisterra,Ourense,Fisterra
+1500,A Mariña Oriental,Santiago,A Mariña Oriental
+1501,Viana,Ourense,Viana
+1502,A Mariña Oriental,Deza,A Mariña Oriental
+1503,O Salnés,Xallas,O Salnés
+1504,O Salnés,Santiago,O Salnés
+1505,Viana,Chantada,Viana
+1506,Fisterra,Caldas,Fisterra
+1507,Ortegal,A Mariña Oriental,Ortegal
+1508,Viana,Lugo,Viana
+1509,A Mariña Oriental,Santiago,A Mariña Oriental
+1510,Fisterra,Terra De Celanova,Fisterra
+1511,A Mariña Oriental,Lugo,A Mariña Oriental
+1512,Viana,Terra De Celanova,Viana
+1513,Ortegal,Lugo,Ortegal
+1514,Viana,O Condado,Viana
+1515,O Salnés,Santiago,O Salnés
+1516,Ferrol,Xallas,Ferrol
+1517,O Salnés,Arzúa,O Salnés
+1518,Ferrol,Muros,Ferrol
+1519,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+1520,A Mariña Oriental,Lugo,A Mariña Oriental
+1521,Ortegal,A Mariña Central,Ortegal
+1522,Viana,Lugo,Viana
+1523,Viana,O Ribeiro,Viana
+1524,Ortegal,Chantada,Ortegal
+1525,Viana,Vigo,Viana
+1526,Ferrol,Ordes,Ferrol
+1527,Viana,O Carballiño,Viana
+1528,Ortegal,Terra De Lemos,Ortegal
+1529,Ortegal,A Mariña Occidental,Ortegal
+1530,O Salnés,Muros,O Salnés
+1531,Ferrol,Bergantiños,Ferrol
+1532,Ferrol,Betanzos,Ferrol
+1533,Viana,Chantada,Viana
+1534,Ferrol,Santiago,Ferrol
+1535,Ortegal,Chantada,Ortegal
+1536,O Salnés,Caldas,O Salnés
+1537,Ortegal,Pontevedra,Ortegal
+1538,O Salnés,Pontevedra,O Salnés
+1539,Ortegal,Ourense,Ortegal
+1540,A Mariña Oriental,Chantada,A Mariña Oriental
+1541,O Salnés,Ordes,O Salnés
+1542,Viana,Chantada,Viana
+1543,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1544,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1545,O Salnés,Betanzos,O Salnés
+1546,Fisterra,O Condado,Fisterra
+1547,Viana,Ourense,Viana
+1548,Ferrol,Arzúa,Ferrol
+1549,Viana,Deza,Viana
+1550,O Salnés,O Ribeiro,O Salnés
+1551,Viana,O Condado,Viana
+1552,O Salnés,A Coruña,O Salnés
+1553,O Salnés,Xallas,O Salnés
+1554,Fisterra,Vigo,Fisterra
+1555,Fisterra,Pontevedra,Fisterra
+1556,O Salnés,Fisterra,O Salnés
+1557,Viana,Terra De Lemos,Viana
+1558,Ortegal,Meira,Ortegal
+1559,Viana,Pontevedra,Viana
+1560,Fisterra,A Paradanta,Fisterra
+1561,Ferrol,Deza,Ferrol
+1562,A Mariña Oriental,Lugo,A Mariña Oriental
+1563,Viana,Deza,Viana
+1564,Fisterra,O Condado,Fisterra
+1565,Fisterra,Pontevedra,Fisterra
+1566,Fisterra,Caldas,Fisterra
+1567,Ferrol,Noia,Ferrol
+1568,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+1569,Fisterra,O Ribeiro,Fisterra
+1570,Viana,Lugo,Viana
+1571,Viana,A Ulloa,Viana
+1572,Ortegal,Terra Chá,Ortegal
+1573,A Mariña Oriental,Betanzos,A Mariña Oriental
+1574,A Mariña Oriental,Meira,A Mariña Oriental
+1575,O Salnés,Terra De Soneira,O Salnés
+1576,A Mariña Oriental,Ordes,A Mariña Oriental
+1577,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1578,O Salnés,Caldas,O Salnés
+1579,Fisterra,O Carballiño,Fisterra
+1580,Fisterra,Ourense,Fisterra
+1581,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+1582,A Mariña Oriental,Lugo,A Mariña Oriental
+1583,Ortegal,A Fonsagrada,Ortegal
+1584,O Salnés,Santiago,O Salnés
+1585,Viana,O Carballiño,Viana
+1586,Viana,Lugo,Viana
+1587,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+1588,O Salnés,Noia,O Salnés
+1589,Viana,A Fonsagrada,Viana
+1590,Viana,O Ribeiro,Viana
+1591,Viana,Meira,Viana
+1592,Viana,Santiago,Viana
+1593,Ferrol,Santiago,Ferrol
+1594,Fisterra,Terra De Lemos,Fisterra
+1595,Ortegal,Lugo,Ortegal
+1596,Ferrol,Xallas,Ferrol
+1597,Fisterra,Chantada,Fisterra
+1598,Ortegal,Sarria,Ortegal
+1599,Ortegal,Quiroga,Ortegal
+1600,O Salnés,Xallas,O Salnés
+1601,O Salnés,Ordes,O Salnés
+1602,Fisterra,O Ribeiro,Fisterra
+1603,Ortegal,A Fonsagrada,Ortegal
+1604,O Salnés,Betanzos,O Salnés
+1605,Fisterra,O Carballiño,Fisterra
+1606,O Salnés,Bergantiños,O Salnés
+1607,Fisterra,Quiroga,Fisterra
+1608,Ferrol,Noia,Ferrol
+1609,Ortegal,Quiroga,Ortegal
+1610,A Mariña Oriental,Meira,A Mariña Oriental
+1611,Fisterra,Allariz-Maceda,Fisterra
+1612,A Mariña Oriental,Betanzos,A Mariña Oriental
+1613,O Salnés,O Carballiño,O Salnés
+1614,O Salnés,Noia,O Salnés
+1615,O Salnés,Santiago,O Salnés
+1616,Ortegal,Terra De Caldelas,Ortegal
+1617,Fisterra,O Carballiño,Fisterra
+1618,O Salnés,O Salnés,O Salnés
+1619,O Salnés,Deza,O Salnés
+1620,Fisterra,Terra De Celanova,Fisterra
+1621,Ortegal,A Mariña Oriental,Ortegal
+1622,Ortegal,Terra De Trives,Ortegal
+1623,Viana,Quiroga,Viana
+1624,Fisterra,A Ulloa,Fisterra
+1625,O Salnés,Arzúa,O Salnés
+1626,A Mariña Oriental,Lugo,A Mariña Oriental
+1627,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1628,Fisterra,Deza,Fisterra
+1629,A Mariña Oriental,Deza,A Mariña Oriental
+1630,Viana,Terra De Lemos,Viana
+1631,A Mariña Oriental,Chantada,A Mariña Oriental
+1632,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+1633,Viana,Sarria,Viana
+1634,Viana,Terra De Caldelas,Viana
+1635,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+1636,O Salnés,Pontevedra,O Salnés
+1637,O Salnés,O Ribeiro,O Salnés
+1638,Fisterra,Baixa Limia,Fisterra
+1639,Viana,Lugo,Viana
+1640,A Mariña Oriental,Santiago,A Mariña Oriental
+1641,A Mariña Oriental,A Coruña,A Mariña Oriental
+1642,Ortegal,Quiroga,Ortegal
+1643,Ortegal,Valdeorras,Ortegal
+1644,Viana,Meira,Viana
+1645,Fisterra,A Limia,Fisterra
+1646,O Salnés,Betanzos,O Salnés
+1647,O Salnés,Terra Chá,O Salnés
+1648,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1649,Fisterra,O Ribeiro,Fisterra
+1650,A Mariña Oriental,Meira,A Mariña Oriental
+1651,Viana,Ourense,Viana
+1652,Fisterra,Chantada,Fisterra
+1653,Fisterra,Terra De Lemos,Fisterra
+1654,O Salnés,Lugo,O Salnés
+1655,A Mariña Oriental,Os Ancares,A Mariña Oriental
+1656,A Mariña Oriental,Ordes,A Mariña Oriental
+1657,Ortegal,Sarria,Ortegal
+1658,Viana,Quiroga,Viana
+1659,Ortegal,Terra De Lemos,Ortegal
+1660,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1661,O Salnés,Deza,O Salnés
+1662,Fisterra,Deza,Fisterra
+1663,Viana,A Limia,Viana
+1664,O Salnés,Santiago,O Salnés
+1665,Fisterra,Ourense,Fisterra
+1666,O Salnés,Meira,O Salnés
+1667,Fisterra,Pontevedra,Fisterra
+1668,O Salnés,Terra De Melide,O Salnés
+1669,Ortegal,Verín,Ortegal
+1670,O Salnés,Ordes,O Salnés
+1671,O Salnés,Sarria,O Salnés
+1672,Fisterra,Santiago,Fisterra
+1673,Fisterra,A Ulloa,Fisterra
+1674,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1675,Fisterra,Lugo,Fisterra
+1676,O Salnés,A Fonsagrada,O Salnés
+1677,Viana,Terra De Trives,Viana
+1678,Viana,Verín,Viana
+1679,Ortegal,Sarria,Ortegal
+1680,Ortegal,Lugo,Ortegal
+1681,Viana,Allariz-Maceda,Viana
+1682,A Mariña Oriental,Lugo,A Mariña Oriental
+1683,O Salnés,A Coruña,O Salnés
+1684,A Mariña Oriental,Sarria,A Mariña Oriental
+1685,A Mariña Oriental,Deza,A Mariña Oriental
+1686,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1687,Viana,Valdeorras,Viana
+1688,O Salnés,Santiago,O Salnés
+1689,Ortegal,Sarria,Ortegal
+1690,A Mariña Oriental,Meira,A Mariña Oriental
+1691,Fisterra,Allariz-Maceda,Fisterra
+1692,A Mariña Oriental,Arzúa,A Mariña Oriental
+1693,Fisterra,Lugo,Fisterra
+1694,Ortegal,Os Ancares,Ortegal
+1695,A Mariña Oriental,Chantada,A Mariña Oriental
+1696,O Salnés,Os Ancares,O Salnés
+1697,O Salnés,Deza,O Salnés
+1698,Ortegal,Os Ancares,Ortegal
+1699,Fisterra,Chantada,Fisterra
+1700,Fisterra,O Salnés,Fisterra
+1701,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+1702,A Mariña Oriental,Betanzos,A Mariña Oriental
+1703,Ortegal,Lugo,Ortegal
+1704,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1705,O Salnés,O Carballiño,O Salnés
+1706,Ortegal,A Fonsagrada,Ortegal
+1707,Ortegal,Ourense,Ortegal
+1708,O Salnés,Pontevedra,O Salnés
+1709,Viana,Os Ancares,Viana
+1710,Fisterra,O Sar,Fisterra
+1711,A Mariña Oriental,Lugo,A Mariña Oriental
+1712,Viana,A Fonsagrada,Viana
+1713,Viana,Meira,Viana
+1714,O Salnés,Chantada,O Salnés
+1715,O Salnés,Arzúa,O Salnés
+1716,Ortegal,Allariz-Maceda,Ortegal
+1717,A Mariña Oriental,Meira,A Mariña Oriental
+1718,Viana,A Mariña Oriental,Viana
+1719,Fisterra,Caldas,Fisterra
+1720,Viana,Ourense,Viana
+1721,Ortegal,Terra De Caldelas,Ortegal
+1722,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1723,Fisterra,Allariz-Maceda,Fisterra
+1724,Viana,Terra De Caldelas,Viana
+1725,Viana,Sarria,Viana
+1726,Viana,Lugo,Viana
+1727,O Salnés,A Ulloa,O Salnés
+1728,Fisterra,A Limia,Fisterra
+1729,Ortegal,Quiroga,Ortegal
+1730,Ortegal,Sarria,Ortegal
+1731,Viana,A Mariña Central,Viana
+1732,Ortegal,Chantada,Ortegal
+1733,Viana,Terra De Lemos,Viana
+1734,Fisterra,Terra De Caldelas,Fisterra
+1735,Ortegal,Terra De Lemos,Ortegal
+1736,Viana,Terra De Caldelas,Viana
+1737,A Mariña Oriental,Lugo,A Mariña Oriental
+1738,Fisterra,Santiago,Fisterra
+1739,Fisterra,Verín,Fisterra
+1740,Fisterra,Terra De Trives,Fisterra
+1741,Ortegal,Valdeorras,Ortegal
+1742,Fisterra,Pontevedra,Fisterra
+1743,Viana,Terra De Trives,Viana
+1744,Viana,Chantada,Viana
+1745,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+1746,A Mariña Oriental,Os Ancares,A Mariña Oriental
+1747,Fisterra,Deza,Fisterra
+1748,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1749,Fisterra,Arzúa,Fisterra
+1750,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1751,A Mariña Oriental,A Coruña,A Mariña Oriental
+1752,Viana,Lugo,Viana
+1753,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1754,Ortegal,Os Ancares,Ortegal
+1755,Ortegal,Terra De Trives,Ortegal
+1756,Ortegal,Lugo,Ortegal
+1757,Viana,Terra De Trives,Viana
+1758,O Salnés,Caldas,O Salnés
+1759,Fisterra,Xallas,Fisterra
+1760,Ortegal,Ourense,Ortegal
+1761,O Salnés,Pontevedra,O Salnés
+1762,A Mariña Oriental,Arzúa,A Mariña Oriental
+1763,Viana,Valdeorras,Viana
+1764,Ortegal,O Ribeiro,Ortegal
+1765,Viana,Os Ancares,Viana
+1766,Ortegal,Os Ancares,Ortegal
+1767,Ortegal,Chantada,Ortegal
+1768,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+1769,Ortegal,Terra De Celanova,Ortegal
+1770,O Salnés,O Salnés,O Salnés
+1771,Fisterra,A Barcala,Fisterra
+1772,Viana,Quiroga,Viana
+1773,A Mariña Oriental,Ordes,A Mariña Oriental
+1774,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1775,O Salnés,Xallas,O Salnés
+1776,A Mariña Oriental,Lugo,A Mariña Oriental
+1777,Fisterra,Xallas,Fisterra
+1778,Ortegal,Vigo,Ortegal
+1779,A Mariña Oriental,Deza,A Mariña Oriental
+1780,A Mariña Oriental,Xallas,A Mariña Oriental
+1781,Fisterra,Terra De Caldelas,Fisterra
+1782,Ortegal,Allariz-Maceda,Ortegal
+1783,Ortegal,A Fonsagrada,Ortegal
+1784,A Mariña Oriental,Bergantiños,A Mariña Oriental
+1785,Ortegal,A Limia,Ortegal
+1786,Ortegal,Lugo,Ortegal
+1787,A Mariña Oriental,Muros,A Mariña Oriental
+1788,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+1789,Ortegal,Terra De Melide,Ortegal
+1790,Viana,Verín,Viana
+1791,Ortegal,Baixa Limia,Ortegal
+1792,Fisterra,Xallas,Fisterra
+1793,Ortegal,Meira,Ortegal
+1794,O Salnés,Tabeirós-Terra De Montes,O Salnés
+1795,A Mariña Oriental,Xallas,A Mariña Oriental
+1796,Ortegal,O Baixo Miño,Ortegal
+1797,A Mariña Oriental,Terra De Soneira,A Mariña Oriental
+1798,Ortegal,Verín,Ortegal
+1799,O Salnés,O Ribeiro,O Salnés
+1800,O Salnés,O Sar,O Salnés
+1801,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1802,O Salnés,Muros,O Salnés
+1803,Viana,Terra De Caldelas,Viana
+1804,Fisterra,Deza,Fisterra
+1805,O Salnés,Santiago,O Salnés
+1806,O Salnés,Deza,O Salnés
+1807,Fisterra,Santiago,Fisterra
+1808,O Salnés,Vigo,O Salnés
+1809,O Salnés,A Ulloa,O Salnés
+1810,A Mariña Oriental,Santiago,A Mariña Oriental
+1811,Ortegal,Terra De Caldelas,Ortegal
+1812,O Salnés,O Condado,O Salnés
+1813,Ortegal,Terra Chá,Ortegal
+1814,Fisterra,Terra De Celanova,Fisterra
+1815,A Mariña Oriental,Meira,A Mariña Oriental
+1816,Viana,Verín,Viana
+1817,Ortegal,Betanzos,Ortegal
+1818,Viana,Terra De Caldelas,Viana
+1819,O Salnés,Terra De Soneira,O Salnés
+1820,Fisterra,Ourense,Fisterra
+1821,Viana,Ourense,Viana
+1822,Fisterra,Allariz-Maceda,Fisterra
+1823,A Mariña Oriental,A Barcala,A Mariña Oriental
+1824,Fisterra,Vigo,Fisterra
+1825,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1826,A Mariña Oriental,Terra De Soneira,A Mariña Oriental
+1827,Fisterra,O Baixo Miño,Fisterra
+1828,Fisterra,O Condado,Fisterra
+1829,O Salnés,O Morrazo,O Salnés
+1830,Ortegal,Terra De Caldelas,Ortegal
+1831,Fisterra,O Ribeiro,Fisterra
+1832,Viana,Terra De Caldelas,Viana
+1833,Ortegal,Quiroga,Ortegal
+1834,Ortegal,Terra Chá,Ortegal
+1835,O Salnés,Chantada,O Salnés
+1836,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1837,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+1838,A Mariña Oriental,A Ulloa,A Mariña Oriental
+1839,A Mariña Oriental,Noia,A Mariña Oriental
+1840,Ortegal,Verín,Ortegal
+1841,Viana,Verín,Viana
+1842,A Mariña Oriental,Betanzos,A Mariña Oriental
+1843,A Mariña Oriental,Muros,A Mariña Oriental
+1844,Fisterra,O Carballiño,Fisterra
+1845,A Mariña Oriental,Lugo,A Mariña Oriental
+1846,O Salnés,Vigo,O Salnés
+1847,Fisterra,Ourense,Fisterra
+1848,O Salnés,A Paradanta,O Salnés
+1849,Viana,Terra De Lemos,Viana
+1850,Fisterra,A Paradanta,Fisterra
+1851,Ortegal,Valdeorras,Ortegal
+1852,O Salnés,Terra De Melide,O Salnés
+1853,Viana,Ourense,Viana
+1854,Viana,O Carballiño,Viana
+1855,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1856,Ortegal,Lugo,Ortegal
+1857,Ortegal,Terra De Caldelas,Ortegal
+1858,A Mariña Oriental,Deza,A Mariña Oriental
+1859,O Salnés,O Ribeiro,O Salnés
+1860,A Mariña Oriental,O Carballiño,A Mariña Oriental
+1861,Fisterra,Ourense,Fisterra
+1862,Ortegal,Terra De Celanova,Ortegal
+1863,A Mariña Oriental,Lugo,A Mariña Oriental
+1864,A Mariña Oriental,Pontevedra,A Mariña Oriental
+1865,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+1866,Fisterra,Vigo,Fisterra
+1867,Viana,Quiroga,Viana
+1868,Ortegal,Quiroga,Ortegal
+1869,O Salnés,Muros,O Salnés
+1870,Fisterra,O Ribeiro,Fisterra
+1871,Fisterra,Terra De Lemos,Fisterra
+1872,Viana,A Limia,Viana
+1873,O Salnés,Noia,O Salnés
+1874,Ortegal,A Paradanta,Ortegal
+1875,Fisterra,Sarria,Fisterra
+1876,Ortegal,Terra De Lemos,Ortegal
+1877,A Mariña Oriental,Noia,A Mariña Oriental
+1878,Ortegal,O Condado,Ortegal
+1879,O Salnés,O Carballiño,O Salnés
+1880,Fisterra,Terra De Caldelas,Fisterra
+1881,Ortegal,Terra De Trives,Ortegal
+1882,O Salnés,Ourense,O Salnés
+1883,A Mariña Oriental,Os Ancares,A Mariña Oriental
+1884,A Mariña Oriental,Sarria,A Mariña Oriental
+1885,Viana,Terra De Caldelas,Viana
+1886,Viana,Terra De Celanova,Viana
+1887,Fisterra,Ourense,Fisterra
+1888,A Mariña Oriental,Vigo,A Mariña Oriental
+1889,Fisterra,Terra De Caldelas,Fisterra
+1890,A Mariña Oriental,O Condado,A Mariña Oriental
+1891,Ortegal,Viana,Ortegal
+1892,Ortegal,O Condado,Ortegal
+1893,Viana,O Ribeiro,Viana
+1894,O Salnés,Xallas,O Salnés
+1895,Fisterra,Verín,Fisterra
+1896,O Salnés,Ourense,O Salnés
+1897,A Mariña Oriental,Xallas,A Mariña Oriental
+1898,Viana,Baixa Limia,Viana
+1899,O Salnés,A Ulloa,O Salnés
+1900,Viana,Vigo,Viana
+1901,O Salnés,Lugo,O Salnés
+1902,O Salnés,Noia,O Salnés
+1903,Ortegal,Sarria,Ortegal
+1904,O Salnés,Terra Chá,O Salnés
+1905,Fisterra,A Limia,Fisterra
+1906,Ortegal,Verín,Ortegal
+1907,Ortegal,Ourense,Ortegal
+1908,A Mariña Oriental,Terra Chá,A Mariña Oriental
+1909,O Salnés,Pontevedra,O Salnés
+1910,O Salnés,Terra De Lemos,O Salnés
+1911,O Salnés,Terra De Soneira,O Salnés
+1912,Fisterra,Terra De Celanova,Fisterra
+1913,Viana,A Paradanta,Viana
+1914,Fisterra,Baixa Limia,Fisterra
+1915,O Salnés,Quiroga,O Salnés
+1916,Fisterra,Ourense,Fisterra
+1917,O Salnés,Os Ancares,O Salnés
+1918,Ortegal,Quiroga,Ortegal
+1919,Viana,Terra De Celanova,Viana
+1920,Ortegal,Vigo,Ortegal
+1921,Fisterra,Quiroga,Fisterra
+1922,Viana,O Condado,Viana
+1923,Fisterra,Terra De Celanova,Fisterra
+1924,Ortegal,A Paradanta,Ortegal
+1925,Ortegal,O Ribeiro,Ortegal
+1926,Viana,A Paradanta,Viana
+1927,Viana,O Ribeiro,Viana
+1928,Fisterra,O Carballiño,Fisterra
+1929,O Salnés,Terra De Caldelas,O Salnés
+1930,O Salnés,Xallas,O Salnés
+1931,A Mariña Oriental,Xallas,A Mariña Oriental
+1932,Fisterra,Terra De Caldelas,Fisterra
+1933,O Salnés,Xallas,O Salnés
+1934,Ortegal,Pontevedra,Ortegal
+1935,Fisterra,Terra De Trives,Fisterra
+1936,Fisterra,Tabeirós-Terra De Montes,Fisterra
+1937,Fisterra,Viana,Fisterra
+1938,O Salnés,Terra De Melide,O Salnés
+1939,O Salnés,Pontevedra,O Salnés
+1940,O Salnés,Sarria,O Salnés
+1941,Viana,Vigo,Viana
+1942,A Mariña Oriental,Xallas,A Mariña Oriental
+1943,O Salnés,Santiago,O Salnés
+1944,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+1945,Fisterra,O Ribeiro,Fisterra
+1946,Ortegal,Viana,Ortegal
+1947,Viana,O Baixo Miño,Viana
+1948,A Mariña Oriental,O Carballiño,A Mariña Oriental
+1949,Ortegal,A Limia,Ortegal
+1950,Ortegal,Terra De Trives,Ortegal
+1951,Fisterra,O Carballiño,Fisterra
+1952,O Salnés,A Barcala,O Salnés
+1953,Viana,O Ribeiro,Viana
+1954,A Mariña Oriental,Santiago,A Mariña Oriental
+1955,Ortegal,Terra De Caldelas,Ortegal
+1956,Ortegal,Ourense,Ortegal
+1957,Viana,Pontevedra,Viana
+1958,Viana,Tabeirós-Terra De Montes,Viana
+1959,Viana,O Carballiño,Viana
+1960,Ortegal,Allariz-Maceda,Ortegal
+1961,Ortegal,Terra De Celanova,Ortegal
+1962,Ortegal,Baixa Limia,Ortegal
+1963,Fisterra,Terra De Trives,Fisterra
+1964,Ortegal,Terra De Trives,Ortegal
+1965,Viana,Chantada,Viana
+1966,Fisterra,Terra De Trives,Fisterra
+1967,Fisterra,Verín,Fisterra
+1968,Viana,Ourense,Viana
+1969,A Mariña Oriental,A Barcala,A Mariña Oriental
+1970,Fisterra,Valdeorras,Fisterra
+1971,A Mariña Oriental,Os Ancares,A Mariña Oriental
+1972,O Salnés,A Fonsagrada,O Salnés
+1973,Ortegal,O Ribeiro,Ortegal
+1974,Fisterra,A Limia,Fisterra
+1975,O Salnés,Terra De Melide,O Salnés
+1976,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+1977,Viana,O Ribeiro,Viana
+1978,O Salnés,Meira,O Salnés
+1979,Viana,Terra De Lemos,Viana
+1980,Ortegal,Verín,Ortegal
+1981,Fisterra,Terra De Lemos,Fisterra
+1982,A Mariña Oriental,Terra De Soneira,A Mariña Oriental
+1983,Fisterra,Baixa Limia,Fisterra
+1984,Fisterra,Ourense,Fisterra
+1985,Viana,Deza,Viana
+1986,Viana,Ourense,Viana
+1987,A Mariña Oriental,Meira,A Mariña Oriental
+1988,Fisterra,Terra De Caldelas,Fisterra
+1989,Viana,O Salnés,Viana
+1990,Viana,Terra De Lemos,Viana
+1991,Ortegal,Terra De Trives,Ortegal
+1992,Ortegal,Quiroga,Ortegal
+1993,Viana,Sarria,Viana
+1994,Viana,Santiago,Viana
+1995,Ortegal,Terra De Caldelas,Ortegal
+1996,Fisterra,Terra De Caldelas,Fisterra
+1997,O Salnés,Pontevedra,O Salnés
+1998,O Salnés,Santiago,O Salnés
+1999,O Salnés,Terra Chá,O Salnés
+2000,Fisterra,Terra De Lemos,Fisterra
+2001,Viana,Pontevedra,Viana
+2002,Ortegal,Terra De Caldelas,Ortegal
+2003,Viana,O Sar,Viana
+2004,Ortegal,Ourense,Ortegal
+2005,Viana,Terra De Lemos,Viana
+2006,Viana,Barbanza,Viana
+2007,A Mariña Oriental,Santiago,A Mariña Oriental
+2008,Viana,Caldas,Viana
+2009,Ortegal,A Limia,Ortegal
+2010,Viana,Lugo,Viana
+2011,Ortegal,Valdeorras,Ortegal
+2012,Fisterra,A Limia,Fisterra
+2013,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2014,Ortegal,Os Ancares,Ortegal
+2015,Fisterra,Allariz-Maceda,Fisterra
+2016,O Salnés,Lugo,O Salnés
+2017,O Salnés,Betanzos,O Salnés
+2018,Ortegal,Baixa Limia,Ortegal
+2019,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2020,Viana,Ourense,Viana
+2021,Fisterra,Terra De Celanova,Fisterra
+2022,A Mariña Oriental,Noia,A Mariña Oriental
+2023,Ortegal,Sarria,Ortegal
+2024,Ortegal,Chantada,Ortegal
+2025,O Salnés,A Coruña,O Salnés
+2026,O Salnés,Os Ancares,O Salnés
+2027,A Mariña Oriental,Fisterra,A Mariña Oriental
+2028,O Salnés,A Fonsagrada,O Salnés
+2029,Ortegal,Terra De Lemos,Ortegal
+2030,Fisterra,Terra De Caldelas,Fisterra
+2031,Viana,Noia,Viana
+2032,Viana,Muros,Viana
+2033,Ortegal,Terra De Caldelas,Ortegal
+2034,O Salnés,Terra Chá,O Salnés
+2035,Fisterra,Verín,Fisterra
+2036,A Mariña Oriental,Muros,A Mariña Oriental
+2037,O Salnés,Chantada,O Salnés
+2038,A Mariña Oriental,Noia,A Mariña Oriental
+2039,O Salnés,Meira,O Salnés
+2040,Fisterra,Terra De Caldelas,Fisterra
+2041,Fisterra,Baixa Limia,Fisterra
+2042,O Salnés,Pontevedra,O Salnés
+2043,Ortegal,Terra De Caldelas,Ortegal
+2044,Fisterra,Ourense,Fisterra
+2045,Ortegal,Allariz-Maceda,Ortegal
+2046,Ortegal,Os Ancares,Ortegal
+2047,Ortegal,Lugo,Ortegal
+2048,Viana,Pontevedra,Viana
+2049,Fisterra,Terra De Trives,Fisterra
+2050,O Salnés,Ordes,O Salnés
+2051,Ortegal,Terra De Trives,Ortegal
+2052,A Mariña Oriental,O Sar,A Mariña Oriental
+2053,O Salnés,Lugo,O Salnés
+2054,O Salnés,Os Ancares,O Salnés
+2055,Viana,Noia,Viana
+2056,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2057,A Mariña Oriental,Ordes,A Mariña Oriental
+2058,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2059,O Salnés,Ordes,O Salnés
+2060,Ortegal,Ourense,Ortegal
+2061,O Salnés,Sarria,O Salnés
+2062,Viana,O Sar,Viana
+2063,A Mariña Oriental,Lugo,A Mariña Oriental
+2064,Ortegal,O Carballiño,Ortegal
+2065,A Mariña Oriental,Deza,A Mariña Oriental
+2066,Fisterra,A Paradanta,Fisterra
+2067,O Salnés,A Mariña Occidental,O Salnés
+2068,Viana,O Carballiño,Viana
+2069,Ortegal,Chantada,Ortegal
+2070,Ortegal,Verín,Ortegal
+2071,Viana,Muros,Viana
+2072,O Salnés,Lugo,O Salnés
+2073,A Mariña Oriental,Betanzos,A Mariña Oriental
+2074,O Salnés,A Mariña Oriental,O Salnés
+2075,A Mariña Oriental,Ordes,A Mariña Oriental
+2076,Ortegal,Terra De Celanova,Ortegal
+2077,Viana,A Paradanta,Viana
+2078,Viana,Santiago,Viana
+2079,Ortegal,Sarria,Ortegal
+2080,Fisterra,Terra De Caldelas,Fisterra
+2081,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+2082,Fisterra,Terra De Celanova,Fisterra
+2083,Fisterra,Terra De Trives,Fisterra
+2084,A Mariña Oriental,O Sar,A Mariña Oriental
+2085,A Mariña Oriental,Noia,A Mariña Oriental
+2086,O Salnés,A Mariña Central,O Salnés
+2087,Fisterra,Terra De Lemos,Fisterra
+2088,Viana,Ordes,Viana
+2089,Fisterra,Quiroga,Fisterra
+2090,O Salnés,Ordes,O Salnés
+2091,Viana,Deza,Viana
+2092,Viana,Chantada,Viana
+2093,Viana,Noia,Viana
+2094,O Salnés,Terra Chá,O Salnés
+2095,Fisterra,Allariz-Maceda,Fisterra
+2096,Fisterra,Ourense,Fisterra
+2097,Ortegal,Quiroga,Ortegal
+2098,Ortegal,Terra De Caldelas,Ortegal
+2099,Viana,Tabeirós-Terra De Montes,Viana
+2100,O Salnés,Xallas,O Salnés
+2101,A Mariña Oriental,Caldas,A Mariña Oriental
+2102,O Salnés,Sarria,O Salnés
+2103,Viana,Ourense,Viana
+2104,Ortegal,Allariz-Maceda,Ortegal
+2105,O Salnés,Noia,O Salnés
+2106,Fisterra,Verín,Fisterra
+2107,A Mariña Oriental,Deza,A Mariña Oriental
+2108,Fisterra,Terra De Caldelas,Fisterra
+2109,Fisterra,Viana,Fisterra
+2110,A Mariña Oriental,Santiago,A Mariña Oriental
+2111,Ortegal,Terra De Celanova,Ortegal
+2112,Ortegal,Terra De Caldelas,Ortegal
+2113,Viana,Xallas,Viana
+2114,A Mariña Oriental,Meira,A Mariña Oriental
+2115,Ortegal,Sarria,Ortegal
+2116,Fisterra,Allariz-Maceda,Fisterra
+2117,Ortegal,Allariz-Maceda,Ortegal
+2118,Viana,Deza,Viana
+2119,Viana,Ordes,Viana
+2120,A Mariña Oriental,Xallas,A Mariña Oriental
+2121,Ortegal,Terra De Lemos,Ortegal
+2122,A Mariña Oriental,Noia,A Mariña Oriental
+2123,Fisterra,Valdeorras,Fisterra
+2124,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+2125,O Salnés,Deza,O Salnés
+2126,O Salnés,Terra De Melide,O Salnés
+2127,A Mariña Oriental,Muros,A Mariña Oriental
+2128,Fisterra,Terra De Celanova,Fisterra
+2129,Fisterra,Ourense,Fisterra
+2130,Viana,Deza,Viana
+2131,A Mariña Oriental,Ordes,A Mariña Oriental
+2132,Viana,Terra De Melide,Viana
+2133,Ortegal,Verín,Ortegal
+2134,Fisterra,Allariz-Maceda,Fisterra
+2135,O Salnés,Ordes,O Salnés
+2136,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2137,O Salnés,Terra De Melide,O Salnés
+2138,Ortegal,Valdeorras,Ortegal
+2139,Viana,Terra De Lemos,Viana
+2140,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2141,Fisterra,Terra De Caldelas,Fisterra
+2142,Viana,Ourense,Viana
+2143,Viana,Caldas,Viana
+2144,Ortegal,Lugo,Ortegal
+2145,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2146,Fisterra,Valdeorras,Fisterra
+2147,Viana,Terra De Celanova,Viana
+2148,A Mariña Oriental,Barbanza,A Mariña Oriental
+2149,A Mariña Oriental,O Morrazo,A Mariña Oriental
+2150,Viana,Allariz-Maceda,Viana
+2151,Viana,Sarria,Viana
+2152,Viana,Santiago,Viana
+2153,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2154,A Mariña Oriental,Caldas,A Mariña Oriental
+2155,O Salnés,Arzúa,O Salnés
+2156,Viana,Lugo,Viana
+2157,A Mariña Oriental,Chantada,A Mariña Oriental
+2158,Viana,Noia,Viana
+2159,Viana,Baixa Limia,Viana
+2160,Fisterra,Verín,Fisterra
+2161,O Salnés,Meira,O Salnés
+2162,Viana,Xallas,Viana
+2163,A Mariña Oriental,Noia,A Mariña Oriental
+2164,O Salnés,Bergantiños,O Salnés
+2165,Ortegal,Sarria,Ortegal
+2166,O Salnés,Santiago,O Salnés
+2167,Viana,Pontevedra,Viana
+2168,O Salnés,Deza,O Salnés
+2169,Viana,Sarria,Viana
+2170,A Mariña Oriental,Terra De Lemos,A Mariña Oriental
+2171,A Mariña Oriental,Sarria,A Mariña Oriental
+2172,Viana,Santiago,Viana
+2173,Fisterra,Quiroga,Fisterra
+2174,Viana,Sarria,Viana
+2175,A Mariña Oriental,Deza,A Mariña Oriental
+2176,Viana,Quiroga,Viana
+2177,A Mariña Oriental,Bergantiños,A Mariña Oriental
+2178,O Salnés,Lugo,O Salnés
+2179,O Salnés,Santiago,O Salnés
+2180,Viana,Valdeorras,Viana
+2181,O Salnés,Deza,O Salnés
+2182,O Salnés,A Barcala,O Salnés
+2183,O Salnés,Bergantiños,O Salnés
+2184,Viana,Chantada,Viana
+2185,Fisterra,Allariz-Maceda,Fisterra
+2186,O Salnés,O Sar,O Salnés
+2187,O Salnés,Xallas,O Salnés
+2188,Fisterra,Valdeorras,Fisterra
+2189,O Salnés,Betanzos,O Salnés
+2190,Fisterra,Terra De Celanova,Fisterra
+2191,Viana,O Carballiño,Viana
+2192,O Salnés,Tabeirós-Terra De Montes,O Salnés
+2193,A Mariña Oriental,Bergantiños,A Mariña Oriental
+2194,Viana,Valdeorras,Viana
+2195,O Salnés,Terra De Soneira,O Salnés
+2196,O Salnés,Caldas,O Salnés
+2197,O Salnés,Chantada,O Salnés
+2198,A Mariña Oriental,Caldas,A Mariña Oriental
+2199,A Mariña Oriental,Sarria,A Mariña Oriental
+2200,A Mariña Oriental,Terra De Soneira,A Mariña Oriental
+2201,Viana,Viana,Viana
+2202,Viana,A Limia,Viana
+2203,O Salnés,Noia,O Salnés
+2204,Fisterra,O Ribeiro,Fisterra
+2205,Fisterra,A Paradanta,Fisterra
+2206,A Mariña Oriental,Xallas,A Mariña Oriental
+2207,A Mariña Oriental,Os Ancares,A Mariña Oriental
+2208,Viana,Allariz-Maceda,Viana
+2209,A Mariña Oriental,O Sar,A Mariña Oriental
+2210,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+2211,O Salnés,O Carballiño,O Salnés
+2212,Fisterra,Baixa Limia,Fisterra
+2213,A Mariña Oriental,Meira,A Mariña Oriental
+2214,Viana,Terra De Caldelas,Viana
+2215,O Salnés,Muros,O Salnés
+2216,A Mariña Oriental,O Salnés,A Mariña Oriental
+2217,Fisterra,Pontevedra,Fisterra
+2218,Viana,Pontevedra,Viana
+2219,Viana,Terra De Lemos,Viana
+2220,Viana,Chantada,Viana
+2221,O Salnés,Meira,O Salnés
+2222,A Mariña Oriental,Meira,A Mariña Oriental
+2223,Fisterra,Ourense,Fisterra
+2224,Viana,O Ribeiro,Viana
+2225,Fisterra,Allariz-Maceda,Fisterra
+2226,O Salnés,Xallas,O Salnés
+2227,O Salnés,Eume,O Salnés
+2228,Fisterra,A Limia,Fisterra
+2229,A Mariña Oriental,Quiroga,A Mariña Oriental
+2230,Fisterra,O Ribeiro,Fisterra
+2231,Fisterra,O Carballiño,Fisterra
+2232,O Salnés,Chantada,O Salnés
+2233,Fisterra,Tabeirós-Terra De Montes,Fisterra
+2234,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+2235,Viana,A Paradanta,Viana
+2236,O Salnés,O Carballiño,O Salnés
+2237,Fisterra,Pontevedra,Fisterra
+2238,Fisterra,Caldas,Fisterra
+2239,Fisterra,O Carballiño,Fisterra
+2240,Fisterra,Viana,Fisterra
+2241,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2242,A Mariña Oriental,Eume,A Mariña Oriental
+2243,Viana,A Limia,Viana
+2244,Viana,Terra De Trives,Viana
+2245,A Mariña Oriental,Caldas,A Mariña Oriental
+2246,Fisterra,A Limia,Fisterra
+2247,O Salnés,Terra Chá,O Salnés
+2248,Fisterra,Pontevedra,Fisterra
+2249,A Mariña Oriental,Valdeorras,A Mariña Oriental
+2250,A Mariña Oriental,Lugo,A Mariña Oriental
+2251,A Mariña Oriental,Terra De Caldelas,A Mariña Oriental
+2252,O Salnés,Barbanza,O Salnés
+2253,Fisterra,Deza,Fisterra
+2254,O Salnés,Lugo,O Salnés
+2255,Fisterra,Valdeorras,Fisterra
+2256,Viana,Quiroga,Viana
+2257,Fisterra,Terra De Caldelas,Fisterra
+2258,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2259,Viana,Terra De Caldelas,Viana
+2260,Fisterra,Terra De Caldelas,Fisterra
+2261,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2262,Viana,Sarria,Viana
+2263,Viana,Os Ancares,Viana
+2264,Viana,Terra De Celanova,Viana
+2265,O Salnés,Terra De Lemos,O Salnés
+2266,Viana,Terra De Caldelas,Viana
+2267,Viana,A Limia,Viana
+2268,O Salnés,Terra Chá,O Salnés
+2269,A Mariña Oriental,Ordes,A Mariña Oriental
+2270,Fisterra,Terra De Celanova,Fisterra
+2271,Viana,Valdeorras,Viana
+2272,Fisterra,O Salnés,Fisterra
+2273,Fisterra,A Paradanta,Fisterra
+2274,O Salnés,Sarria,O Salnés
+2275,Fisterra,A Limia,Fisterra
+2276,A Mariña Oriental,Xallas,A Mariña Oriental
+2277,O Salnés,O Sar,O Salnés
+2278,Viana,Verín,Viana
+2279,Fisterra,O Condado,Fisterra
+2280,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2281,Viana,Viana,Viana
+2282,O Salnés,Xallas,O Salnés
+2283,Fisterra,O Baixo Miño,Fisterra
+2284,Viana,A Fonsagrada,Viana
+2285,Fisterra,Santiago,Fisterra
+2286,A Mariña Oriental,Betanzos,A Mariña Oriental
+2287,O Salnés,Bergantiños,O Salnés
+2288,Viana,Ourense,Viana
+2289,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2290,Fisterra,Chantada,Fisterra
+2291,Viana,Lugo,Viana
+2292,Viana,Terra De Lemos,Viana
+2293,Fisterra,A Ulloa,Fisterra
+2294,Fisterra,Ordes,Fisterra
+2295,A Mariña Oriental,Muros,A Mariña Oriental
+2296,Fisterra,Lugo,Fisterra
+2297,O Salnés,Lugo,O Salnés
+2298,A Mariña Oriental,O Sar,A Mariña Oriental
+2299,Fisterra,Xallas,Fisterra
+2300,Fisterra,Terra De Melide,Fisterra
+2301,O Salnés,Santiago,O Salnés
+2302,O Salnés,Ordes,O Salnés
+2303,O Salnés,A Ulloa,O Salnés
+2304,O Salnés,Deza,O Salnés
+2305,A Mariña Oriental,Ordes,A Mariña Oriental
+2306,Viana,Meira,Viana
+2307,Fisterra,Vigo,Fisterra
+2308,O Salnés,Tabeirós-Terra De Montes,O Salnés
+2309,Viana,Terra De Celanova,Viana
+2310,Fisterra,Terra Chá,Fisterra
+2311,A Mariña Oriental,Arzúa,A Mariña Oriental
+2312,O Salnés,Ordes,O Salnés
+2313,Fisterra,Noia,Fisterra
+2314,O Salnés,Arzúa,O Salnés
+2315,O Salnés,Noia,O Salnés
+2316,Viana,Lugo,Viana
+2317,O Salnés,Xallas,O Salnés
+2318,Viana,Sarria,Viana
+2319,O Salnés,Muros,O Salnés
+2320,Fisterra,Lugo,Fisterra
+2321,Fisterra,A Ulloa,Fisterra
+2322,A Mariña Oriental,Ordes,A Mariña Oriental
+2323,Fisterra,Deza,Fisterra
+2324,A Mariña Oriental,O Salnés,A Mariña Oriental
+2325,O Salnés,Betanzos,O Salnés
+2326,Fisterra,Terra De Celanova,Fisterra
+2327,Fisterra,Santiago,Fisterra
+2328,Viana,Terra De Celanova,Viana
+2329,Viana,A Mariña Central,Viana
+2330,A Mariña Oriental,Meira,A Mariña Oriental
+2331,Fisterra,Terra De Celanova,Fisterra
+2332,A Mariña Oriental,Bergantiños,A Mariña Oriental
+2333,O Salnés,Fisterra,O Salnés
+2334,Viana,Chantada,Viana
+2335,Viana,A Limia,Viana
+2336,A Mariña Oriental,Xallas,A Mariña Oriental
+2337,Fisterra,Betanzos,Fisterra
+2338,A Mariña Oriental,Noia,A Mariña Oriental
+2339,Viana,Meira,Viana
+2340,Fisterra,Chantada,Fisterra
+2341,Viana,A Mariña Oriental,Viana
+2342,Viana,A Mariña Occidental,Viana
+2343,A Mariña Oriental,Arzúa,A Mariña Oriental
+2344,O Salnés,Xallas,O Salnés
+2345,O Salnés,Pontevedra,O Salnés
+2346,O Salnés,Caldas,O Salnés
+2347,O Salnés,O Carballiño,O Salnés
+2348,Viana,Terra De Celanova,Viana
+2349,O Salnés,Betanzos,O Salnés
+2350,Viana,Chantada,Viana
+2351,O Salnés,Deza,O Salnés
+2352,Fisterra,Arzúa,Fisterra
+2353,O Salnés,Noia,O Salnés
+2354,Fisterra,A Mariña Occidental,Fisterra
+2355,Fisterra,Meira,Fisterra
+2356,O Salnés,O Morrazo,O Salnés
+2357,Fisterra,Terra De Celanova,Fisterra
+2358,Fisterra,Deza,Fisterra
+2359,Viana,Meira,Viana
+2360,Fisterra,Tabeirós-Terra De Montes,Fisterra
+2361,Viana,Lugo,Viana
+2362,A Mariña Oriental,Fisterra,A Mariña Oriental
+2363,Viana,Deza,Viana
+2364,A Mariña Oriental,Santiago,A Mariña Oriental
+2365,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2366,Viana,A Mariña Occidental,Viana
+2367,Viana,A Ulloa,Viana
+2368,Fisterra,Ourense,Fisterra
+2369,A Mariña Oriental,Betanzos,A Mariña Oriental
+2370,Fisterra,Pontevedra,Fisterra
+2371,Viana,Ortegal,Viana
+2372,O Salnés,Santiago,O Salnés
+2373,Viana,Terra Chá,Viana
+2374,A Mariña Oriental,Xallas,A Mariña Oriental
+2375,O Salnés,Fisterra,O Salnés
+2376,Fisterra,A Limia,Fisterra
+2377,O Salnés,O Ribeiro,O Salnés
+2378,Fisterra,Terra De Caldelas,Fisterra
+2379,A Mariña Oriental,A Coruña,A Mariña Oriental
+2380,Viana,Terra De Caldelas,Viana
+2381,O Salnés,Xallas,O Salnés
+2382,A Mariña Oriental,Arzúa,A Mariña Oriental
+2383,Viana,O Carballiño,Viana
+2384,A Mariña Oriental,Fisterra,A Mariña Oriental
+2385,Fisterra,Tabeirós-Terra De Montes,Fisterra
+2386,Fisterra,O Carballiño,Fisterra
+2387,Viana,Eume,Viana
+2388,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2389,Viana,Terra De Melide,Viana
+2390,O Salnés,Tabeirós-Terra De Montes,O Salnés
+2391,O Salnés,O Sar,O Salnés
+2392,Fisterra,Verín,Fisterra
+2393,O Salnés,Arzúa,O Salnés
+2394,Fisterra,Viana,Fisterra
+2395,Viana,Viana,Viana
+2396,Viana,Arzúa,Viana
+2397,Viana,Santiago,Viana
+2398,O Salnés,Santiago,O Salnés
+2399,Fisterra,O Ribeiro,Fisterra
+2400,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2401,Viana,Ourense,Viana
+2402,Fisterra,Ourense,Fisterra
+2403,Fisterra,Deza,Fisterra
+2404,Viana,Ferrol,Viana
+2405,Viana,A Limia,Viana
+2406,O Salnés,Pontevedra,O Salnés
+2407,Fisterra,Chantada,Fisterra
+2408,Viana,Terra Chá,Viana
+2409,O Salnés,O Salnés,O Salnés
+2410,Viana,Deza,Viana
+2411,Fisterra,A Limia,Fisterra
+2412,Fisterra,Lugo,Fisterra
+2413,O Salnés,Deza,O Salnés
+2414,O Salnés,Arzúa,O Salnés
+2415,A Mariña Oriental,Muros,A Mariña Oriental
+2416,O Salnés,O Carballiño,O Salnés
+2417,A Mariña Oriental,Xallas,A Mariña Oriental
+2418,Viana,Chantada,Viana
+2419,Fisterra,Pontevedra,Fisterra
+2420,O Salnés,Ordes,O Salnés
+2421,Viana,Lugo,Viana
+2422,Fisterra,Tabeirós-Terra De Montes,Fisterra
+2423,A Mariña Oriental,Ordes,A Mariña Oriental
+2424,Fisterra,O Carballiño,Fisterra
+2425,Fisterra,Caldas,Fisterra
+2426,O Salnés,Caldas,O Salnés
+2427,Viana,Ourense,Viana
+2428,A Mariña Oriental,Eume,A Mariña Oriental
+2429,Fisterra,Ourense,Fisterra
+2430,A Mariña Oriental,Noia,A Mariña Oriental
+2431,O Salnés,Pontevedra,O Salnés
+2432,A Mariña Oriental,Santiago,A Mariña Oriental
+2433,O Salnés,Santiago,O Salnés
+2434,Fisterra,Terra De Caldelas,Fisterra
+2435,O Salnés,O Carballiño,O Salnés
+2436,Fisterra,Terra De Lemos,Fisterra
+2437,Fisterra,Terra De Trives,Fisterra
+2438,O Salnés,Noia,O Salnés
+2439,Fisterra,O Carballiño,Fisterra
+2440,Viana,Terra De Lemos,Viana
+2441,O Salnés,Ordes,O Salnés
+2442,Viana,Eume,Viana
+2443,Fisterra,O Sar,Fisterra
+2444,Fisterra,Pontevedra,Fisterra
+2445,Viana,Terra De Trives,Viana
+2446,Fisterra,Barbanza,Fisterra
+2447,Viana,Terra De Caldelas,Viana
+2448,Viana,Ourense,Viana
+2449,Fisterra,Caldas,Fisterra
+2450,Viana,Deza,Viana
+2451,Viana,Verín,Viana
+2452,A Mariña Oriental,A Barcala,A Mariña Oriental
+2453,O Salnés,A Barcala,O Salnés
+2454,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2455,Fisterra,O Morrazo,Fisterra
+2456,A Mariña Oriental,Ordes,A Mariña Oriental
+2457,A Mariña Oriental,Santiago,A Mariña Oriental
+2458,Fisterra,Noia,Fisterra
+2459,O Salnés,Deza,O Salnés
+2460,Viana,Betanzos,Viana
+2461,Fisterra,A Barcala,Fisterra
+2462,Viana,Deza,Viana
+2463,A Mariña Oriental,A Barcala,A Mariña Oriental
+2464,Viana,O Carballiño,Viana
+2465,A Mariña Oriental,Betanzos,A Mariña Oriental
+2466,Viana,Terra De Melide,Viana
+2467,O Salnés,Pontevedra,O Salnés
+2468,Viana,Arzúa,Viana
+2469,Viana,Santiago,Viana
+2470,A Mariña Oriental,Santiago,A Mariña Oriental
+2471,Fisterra,Ourense,Fisterra
+2472,O Salnés,Caldas,O Salnés
+2473,Fisterra,O Carballiño,Fisterra
+2474,O Salnés,O Morrazo,O Salnés
+2475,A Mariña Oriental,Eume,A Mariña Oriental
+2476,A Mariña Oriental,Noia,A Mariña Oriental
+2477,Fisterra,Chantada,Fisterra
+2478,Fisterra,Caldas,Fisterra
+2479,O Salnés,Caldas,O Salnés
+2480,Viana,Betanzos,Viana
+2481,A Mariña Oriental,Betanzos,A Mariña Oriental
+2482,A Mariña Oriental,Arzúa,A Mariña Oriental
+2483,A Mariña Oriental,Barbanza,A Mariña Oriental
+2484,O Salnés,Barbanza,O Salnés
+2485,A Mariña Oriental,Deza,A Mariña Oriental
+2486,Viana,Ourense,Viana
+2487,A Mariña Oriental,Ortegal,A Mariña Oriental
+2488,Fisterra,Pontevedra,Fisterra
+2489,Viana,O Ribeiro,Viana
+2490,Fisterra,Deza,Fisterra
+2491,Viana,Deza,Viana
+2492,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2493,Viana,Chantada,Viana
+2494,Viana,A Limia,Viana
+2495,Viana,Tabeirós-Terra De Montes,Viana
+2496,Fisterra,A Limia,Fisterra
+2497,Fisterra,O Salnés,Fisterra
+2498,O Salnés,Tabeirós-Terra De Montes,O Salnés
+2499,O Salnés,O Sar,O Salnés
+2500,O Salnés,O Salnés,O Salnés
+2501,O Salnés,Pontevedra,O Salnés
+2502,O Salnés,O Carballiño,O Salnés
+2503,A Mariña Oriental,O Sar,A Mariña Oriental
+2504,Viana,Ortegal,Viana
+2505,O Salnés,Vigo,O Salnés
+2506,Fisterra,Terra De Caldelas,Fisterra
+2507,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2508,A Mariña Oriental,Deza,A Mariña Oriental
+2509,Viana,O Carballiño,Viana
+2510,Viana,A Limia,Viana
+2511,Viana,Terra De Caldelas,Viana
+2512,O Salnés,O Condado,O Salnés
+2513,O Salnés,O Carballiño,O Salnés
+2514,A Mariña Oriental,Ferrol,A Mariña Oriental
+2515,O Salnés,Chantada,O Salnés
+2516,Fisterra,O Ribeiro,Fisterra
+2517,Viana,Terra Chá,Viana
+2518,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2519,O Salnés,A Paradanta,O Salnés
+2520,Fisterra,Vigo,Fisterra
+2521,A Mariña Oriental,Barbanza,A Mariña Oriental
+2522,Viana,Terra De Melide,Viana
+2523,Fisterra,Terra De Caldelas,Fisterra
+2524,O Salnés,A Ulloa,O Salnés
+2525,Fisterra,Terra De Trives,Fisterra
+2526,A Mariña Oriental,Ortegal,A Mariña Oriental
+2527,Viana,Terra De Celanova,Viana
+2528,Fisterra,O Carballiño,Fisterra
+2529,Fisterra,Quiroga,Fisterra
+2530,Viana,Baixa Limia,Viana
+2531,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2532,Fisterra,A Limia,Fisterra
+2533,Fisterra,Pontevedra,Fisterra
+2534,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2535,Fisterra,Terra De Lemos,Fisterra
+2536,O Salnés,Vigo,O Salnés
+2537,A Mariña Oriental,Chantada,A Mariña Oriental
+2538,Viana,Ortegal,Viana
+2539,Fisterra,Chantada,Fisterra
+2540,O Salnés,O Baixo Miño,O Salnés
+2541,A Mariña Oriental,Lugo,A Mariña Oriental
+2542,A Mariña Oriental,A Ulloa,A Mariña Oriental
+2543,Viana,Ferrol,Viana
+2544,A Mariña Oriental,Caldas,A Mariña Oriental
+2545,Fisterra,Sarria,Fisterra
+2546,Viana,Terra De Caldelas,Viana
+2547,O Salnés,Pontevedra,O Salnés
+2548,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2549,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+2550,A Mariña Oriental,O Salnés,A Mariña Oriental
+2551,Fisterra,Terra De Celanova,Fisterra
+2552,Viana,Terra De Celanova,Viana
+2553,Fisterra,Ourense,Fisterra
+2554,Viana,Terra De Trives,Viana
+2555,Viana,Quiroga,Viana
+2556,O Salnés,Terra De Celanova,O Salnés
+2557,O Salnés,O Ribeiro,O Salnés
+2558,A Mariña Oriental,Sarria,A Mariña Oriental
+2559,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+2560,Fisterra,Quiroga,Fisterra
+2561,Fisterra,Terra De Caldelas,Fisterra
+2562,Viana,A Fonsagrada,Viana
+2563,O Salnés,Pontevedra,O Salnés
+2564,Fisterra,O Carballiño,Fisterra
+2565,O Salnés,Ourense,O Salnés
+2566,Viana,Terra De Celanova,Viana
+2567,Fisterra,Sarria,Fisterra
+2568,O Salnés,Caldas,O Salnés
+2569,Fisterra,Ourense,Fisterra
+2570,Fisterra,Lugo,Fisterra
+2571,Fisterra,A Ulloa,Fisterra
+2572,Fisterra,Tabeirós-Terra De Montes,Fisterra
+2573,Viana,Quiroga,Viana
+2574,Fisterra,Verín,Fisterra
+2575,Viana,Terra De Lemos,Viana
+2576,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2577,Viana,Eume,Viana
+2578,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2579,O Salnés,Terra De Celanova,O Salnés
+2580,Viana,A Mariña Oriental,Viana
+2581,Viana,Betanzos,Viana
+2582,Fisterra,Quiroga,Fisterra
+2583,O Salnés,O Salnés,O Salnés
+2584,Viana,A Coruña,Viana
+2585,O Salnés,Ourense,O Salnés
+2586,Viana,Sarria,Viana
+2587,A Mariña Oriental,Betanzos,A Mariña Oriental
+2588,Fisterra,Tabeirós-Terra De Montes,Fisterra
+2589,Viana,Terra De Celanova,Viana
+2590,A Mariña Oriental,A Coruña,A Mariña Oriental
+2591,Viana,Lugo,Viana
+2592,Fisterra,Pontevedra,Fisterra
+2593,Fisterra,Caldas,Fisterra
+2594,O Salnés,Caldas,O Salnés
+2595,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2596,O Salnés,Allariz-Maceda,O Salnés
+2597,Fisterra,O Salnés,Fisterra
+2598,Viana,Quiroga,Viana
+2599,Fisterra,Viana,Fisterra
+2600,O Salnés,Terra De Celanova,O Salnés
+2601,A Mariña Oriental,Eume,A Mariña Oriental
+2602,O Salnés,Terra De Caldelas,O Salnés
+2603,Viana,Eume,Viana
+2604,Viana,Chantada,Viana
+2605,A Mariña Oriental,Eume,A Mariña Oriental
+2606,Fisterra,Allariz-Maceda,Fisterra
+2607,O Salnés,O Carballiño,O Salnés
+2608,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2609,O Salnés,Pontevedra,O Salnés
+2610,O Salnés,Terra De Lemos,O Salnés
+2611,Fisterra,Deza,Fisterra
+2612,Fisterra,Baixa Limia,Fisterra
+2613,O Salnés,O Salnés,O Salnés
+2614,O Salnés,Allariz-Maceda,O Salnés
+2615,O Salnés,A Limia,O Salnés
+2616,Viana,Viana,Viana
+2617,Fisterra,Viana,Fisterra
+2618,A Mariña Oriental,Ortegal,A Mariña Oriental
+2619,Viana,Terra Chá,Viana
+2620,Fisterra,Terra De Melide,Fisterra
+2621,Fisterra,Chantada,Fisterra
+2622,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2623,Viana,Eume,Viana
+2624,Viana,Viana,Viana
+2625,O Salnés,Quiroga,O Salnés
+2626,A Mariña Oriental,Caldas,A Mariña Oriental
+2627,A Mariña Oriental,Deza,A Mariña Oriental
+2628,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2629,Viana,Betanzos,Viana
+2630,Viana,Terra De Caldelas,Viana
+2631,Viana,Ortegal,Viana
+2632,Fisterra,A Limia,Fisterra
+2633,Viana,Chantada,Viana
+2634,Viana,Quiroga,Viana
+2635,O Salnés,Terra De Caldelas,O Salnés
+2636,A Mariña Oriental,A Ulloa,A Mariña Oriental
+2637,Viana,Ourense,Viana
+2638,Viana,Terra De Melide,Viana
+2639,O Salnés,A Limia,O Salnés
+2640,Viana,Terra De Caldelas,Viana
+2641,O Salnés,Sarria,O Salnés
+2642,A Mariña Oriental,O Morrazo,A Mariña Oriental
+2643,O Salnés,Lugo,O Salnés
+2644,Fisterra,Terra De Celanova,Fisterra
+2645,O Salnés,Tabeirós-Terra De Montes,O Salnés
+2646,A Mariña Oriental,Vigo,A Mariña Oriental
+2647,Fisterra,A Limia,Fisterra
+2648,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2649,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2650,Viana,O Carballiño,Viana
+2651,Viana,Deza,Viana
+2652,Viana,Terra De Melide,Viana
+2653,Viana,Terra Chá,Viana
+2654,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2655,O Salnés,Quiroga,O Salnés
+2656,Viana,Terra De Lemos,Viana
+2657,Fisterra,Allariz-Maceda,Fisterra
+2658,Fisterra,Terra De Caldelas,Fisterra
+2659,Viana,Terra De Caldelas,Viana
+2660,O Salnés,Terra De Celanova,O Salnés
+2661,A Mariña Oriental,Betanzos,A Mariña Oriental
+2662,A Mariña Oriental,Deza,A Mariña Oriental
+2663,O Salnés,Terra Chá,O Salnés
+2664,O Salnés,Eume,O Salnés
+2665,Fisterra,Terra De Celanova,Fisterra
+2666,O Salnés,A Mariña Central,O Salnés
+2667,O Salnés,Chantada,O Salnés
+2668,Viana,Quiroga,Viana
+2669,A Mariña Oriental,Lugo,A Mariña Oriental
+2670,Fisterra,A Paradanta,Fisterra
+2671,A Mariña Oriental,A Paradanta,A Mariña Oriental
+2672,O Salnés,Ourense,O Salnés
+2673,Viana,A Ulloa,Viana
+2674,Viana,Terra Chá,Viana
+2675,Fisterra,Ourense,Fisterra
+2676,Viana,Verín,Viana
+2677,Fisterra,Terra De Caldelas,Fisterra
+2678,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2679,Viana,A Limia,Viana
+2680,O Salnés,Vigo,O Salnés
+2681,A Mariña Oriental,Vigo,A Mariña Oriental
+2682,Viana,Terra De Caldelas,Viana
+2683,Viana,Terra De Melide,Viana
+2684,O Salnés,O Carballiño,O Salnés
+2685,Viana,A Mariña Central,Viana
+2686,Viana,Deza,Viana
+2687,Viana,Betanzos,Viana
+2688,Fisterra,O Carballiño,Fisterra
+2689,Viana,Arzúa,Viana
+2690,Fisterra,A Limia,Fisterra
+2691,Viana,Allariz-Maceda,Viana
+2692,A Mariña Oriental,Deza,A Mariña Oriental
+2693,Viana,Sarria,Viana
+2694,Fisterra,Verín,Fisterra
+2695,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2696,A Mariña Oriental,Arzúa,A Mariña Oriental
+2697,A Mariña Oriental,O Condado,A Mariña Oriental
+2698,Fisterra,Terra De Caldelas,Fisterra
+2699,A Mariña Oriental,Betanzos,A Mariña Oriental
+2700,A Mariña Oriental,Terra De Celanova,A Mariña Oriental
+2701,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2702,A Mariña Oriental,A Limia,A Mariña Oriental
+2703,O Salnés,Pontevedra,O Salnés
+2704,O Salnés,Lugo,O Salnés
+2705,Viana,Terra Chá,Viana
+2706,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+2707,A Mariña Oriental,A Ulloa,A Mariña Oriental
+2708,Viana,Terra De Caldelas,Viana
+2709,Viana,Verín,Viana
+2710,O Salnés,Ferrol,O Salnés
+2711,Viana,Ourense,Viana
+2712,Viana,Chantada,Viana
+2713,A Mariña Oriental,O Baixo Miño,A Mariña Oriental
+2714,O Salnés,Terra De Melide,O Salnés
+2715,O Salnés,Arzúa,O Salnés
+2716,O Salnés,Santiago,O Salnés
+2717,O Salnés,Terra Chá,O Salnés
+2718,Fisterra,Terra De Celanova,Fisterra
+2719,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2720,Fisterra,O Ribeiro,Fisterra
+2721,O Salnés,Meira,O Salnés
+2722,O Salnés,A Mariña Occidental,O Salnés
+2723,A Mariña Oriental,Santiago,A Mariña Oriental
+2724,Fisterra,Allariz-Maceda,Fisterra
+2725,Viana,Lugo,Viana
+2726,O Salnés,A Mariña Central,O Salnés
+2727,Viana,Allariz-Maceda,Viana
+2728,A Mariña Oriental,Terra De Celanova,A Mariña Oriental
+2729,Viana,A Limia,Viana
+2730,Fisterra,Terra De Celanova,Fisterra
+2731,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2732,Viana,O Carballiño,Viana
+2733,Fisterra,A Limia,Fisterra
+2734,Viana,O Ribeiro,Viana
+2735,Viana,A Ulloa,Viana
+2736,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2737,Fisterra,A Paradanta,Fisterra
+2738,A Mariña Oriental,Arzúa,A Mariña Oriental
+2739,A Mariña Oriental,Ourense,A Mariña Oriental
+2740,Fisterra,Allariz-Maceda,Fisterra
+2741,Fisterra,Terra De Caldelas,Fisterra
+2742,Fisterra,Terra De Lemos,Fisterra
+2743,Fisterra,Vigo,Fisterra
+2744,O Salnés,Betanzos,O Salnés
+2745,O Salnés,A Mariña Oriental,O Salnés
+2746,O Salnés,Terra De Melide,O Salnés
+2747,Fisterra,Quiroga,Fisterra
+2748,O Salnés,Caldas,O Salnés
+2749,Fisterra,Ourense,Fisterra
+2750,O Salnés,Pontevedra,O Salnés
+2751,Fisterra,Verín,Fisterra
+2752,A Mariña Oriental,Vigo,A Mariña Oriental
+2753,O Salnés,Vigo,O Salnés
+2754,Fisterra,Os Ancares,Fisterra
+2755,Fisterra,O Ribeiro,Fisterra
+2756,O Salnés,Arzúa,O Salnés
+2757,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+2758,Viana,Terra De Lemos,Viana
+2759,Fisterra,Lugo,Fisterra
+2760,Fisterra,Sarria,Fisterra
+2761,O Salnés,A Paradanta,O Salnés
+2762,Viana,Meira,Viana
+2763,A Mariña Oriental,Caldas,A Mariña Oriental
+2764,Viana,Ferrol,Viana
+2765,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2766,A Mariña Oriental,Arzúa,A Mariña Oriental
+2767,O Salnés,O Condado,O Salnés
+2768,Fisterra,Terra De Trives,Fisterra
+2769,Fisterra,Chantada,Fisterra
+2770,O Salnés,Meira,O Salnés
+2771,O Salnés,Terra De Celanova,O Salnés
+2772,Viana,Verín,Viana
+2773,O Salnés,O Ribeiro,O Salnés
+2774,O Salnés,O Carballiño,O Salnés
+2775,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2776,Viana,Os Ancares,Viana
+2777,Viana,Eume,Viana
+2778,Fisterra,A Ulloa,Fisterra
+2779,A Mariña Oriental,O Salnés,A Mariña Oriental
+2780,Fisterra,Verín,Fisterra
+2781,Viana,Ourense,Viana
+2782,Fisterra,O Carballiño,Fisterra
+2783,Viana,Betanzos,Viana
+2784,Viana,Terra De Trives,Viana
+2785,Viana,Terra Chá,Viana
+2786,Viana,Lugo,Viana
+2787,O Salnés,Deza,O Salnés
+2788,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2789,O Salnés,A Limia,O Salnés
+2790,Fisterra,A Limia,Fisterra
+2791,Fisterra,Terra De Trives,Fisterra
+2792,O Salnés,Terra Chá,O Salnés
+2793,Viana,Terra Chá,Viana
+2794,Viana,Chantada,Viana
+2795,Fisterra,Terra De Melide,Fisterra
+2796,O Salnés,Lugo,O Salnés
+2797,Viana,Deza,Viana
+2798,Viana,Tabeirós-Terra De Montes,Viana
+2799,Viana,O Ribeiro,Viana
+2800,A Mariña Oriental,Vigo,A Mariña Oriental
+2801,O Salnés,Sarria,O Salnés
+2802,Viana,Terra De Melide,Viana
+2803,O Salnés,A Fonsagrada,O Salnés
+2804,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2805,Viana,Terra De Trives,Viana
+2806,O Salnés,Terra De Melide,O Salnés
+2807,Fisterra,Ourense,Fisterra
+2808,O Salnés,Os Ancares,O Salnés
+2809,O Salnés,Deza,O Salnés
+2810,Fisterra,Terra De Lemos,Fisterra
+2811,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2812,Viana,Ourense,Viana
+2813,O Salnés,A Ulloa,O Salnés
+2814,Fisterra,Sarria,Fisterra
+2815,Viana,Quiroga,Viana
+2816,O Salnés,Terra Chá,O Salnés
+2817,O Salnés,O Carballiño,O Salnés
+2818,A Mariña Oriental,Deza,A Mariña Oriental
+2819,Viana,A Mariña Occidental,Viana
+2820,Viana,Terra De Caldelas,Viana
+2821,O Salnés,Sarria,O Salnés
+2822,Fisterra,Terra De Celanova,Fisterra
+2823,Fisterra,Terra De Caldelas,Fisterra
+2824,Viana,Terra Chá,Viana
+2825,Fisterra,Ourense,Fisterra
+2826,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+2827,O Salnés,Chantada,O Salnés
+2828,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2829,Viana,Sarria,Viana
+2830,Fisterra,Quiroga,Fisterra
+2831,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2832,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2833,Fisterra,O Ribeiro,Fisterra
+2834,Fisterra,A Paradanta,Fisterra
+2835,Fisterra,Sarria,Fisterra
+2836,A Mariña Oriental,Ourense,A Mariña Oriental
+2837,A Mariña Oriental,Tabeirós-Terra De Montes,A Mariña Oriental
+2838,Viana,Terra Chá,Viana
+2839,Viana,Lugo,Viana
+2840,Fisterra,Ourense,Fisterra
+2841,O Salnés,Ourense,O Salnés
+2842,Viana,Terra De Melide,Viana
+2843,O Salnés,O Baixo Miño,O Salnés
+2844,Viana,A Fonsagrada,Viana
+2845,A Mariña Oriental,Betanzos,A Mariña Oriental
+2846,A Mariña Oriental,A Paradanta,A Mariña Oriental
+2847,O Salnés,Terra De Melide,O Salnés
+2848,O Salnés,Deza,O Salnés
+2849,Viana,Meira,Viana
+2850,O Salnés,Terra De Caldelas,O Salnés
+2851,Viana,Verín,Viana
+2852,Viana,Terra De Melide,Viana
+2853,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2854,Viana,A Mariña Oriental,Viana
+2855,O Salnés,Arzúa,O Salnés
+2856,Fisterra,Valdeorras,Fisterra
+2857,A Mariña Oriental,O Baixo Miño,A Mariña Oriental
+2858,Viana,Betanzos,Viana
+2859,Viana,Quiroga,Viana
+2860,O Salnés,Santiago,O Salnés
+2861,O Salnés,Terra De Trives,O Salnés
+2862,O Salnés,O Carballiño,O Salnés
+2863,Fisterra,Chantada,Fisterra
+2864,Fisterra,Terra De Trives,Fisterra
+2865,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+2866,Viana,Sarria,Viana
+2867,O Salnés,O Baixo Miño,O Salnés
+2868,O Salnés,Sarria,O Salnés
+2869,O Salnés,Quiroga,O Salnés
+2870,Viana,Terra De Trives,Viana
+2871,Viana,A Mariña Central,Viana
+2872,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2873,Fisterra,Sarria,Fisterra
+2874,A Mariña Oriental,Betanzos,A Mariña Oriental
+2875,O Salnés,Verín,O Salnés
+2876,A Mariña Oriental,Arzúa,A Mariña Oriental
+2877,Fisterra,Quiroga,Fisterra
+2878,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+2879,A Mariña Oriental,Meira,A Mariña Oriental
+2880,Fisterra,Lugo,Fisterra
+2881,Viana,Terra Chá,Viana
+2882,Viana,A Mariña Central,Viana
+2883,O Salnés,O Sar,O Salnés
+2884,Viana,Lugo,Viana
+2885,Viana,Meira,Viana
+2886,Viana,Betanzos,Viana
+2887,Fisterra,Terra De Trives,Fisterra
+2888,Fisterra,Ourense,Fisterra
+2889,A Mariña Oriental,Deza,A Mariña Oriental
+2890,Fisterra,O Ribeiro,Fisterra
+2891,Fisterra,Viana,Fisterra
+2892,Viana,A Ulloa,Viana
+2893,O Salnés,A Limia,O Salnés
+2894,Fisterra,Os Ancares,Fisterra
+2895,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+2896,Viana,Os Ancares,Viana
+2897,O Salnés,Viana,O Salnés
+2898,A Mariña Oriental,Santiago,A Mariña Oriental
+2899,Fisterra,Viana,Fisterra
+2900,O Salnés,Ourense,O Salnés
+2901,A Mariña Oriental,Betanzos,A Mariña Oriental
+2902,Viana,Terra De Melide,Viana
+2903,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2904,Fisterra,Terra De Caldelas,Fisterra
+2905,A Mariña Oriental,O Sar,A Mariña Oriental
+2906,Viana,Deza,Viana
+2907,Viana,Arzúa,Viana
+2908,Viana,Betanzos,Viana
+2909,Fisterra,Deza,Fisterra
+2910,O Salnés,Allariz-Maceda,O Salnés
+2911,A Mariña Oriental,Betanzos,A Mariña Oriental
+2912,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2913,Viana,Quiroga,Viana
+2914,Fisterra,Lugo,Fisterra
+2915,Fisterra,Ourense,Fisterra
+2916,Fisterra,O Ribeiro,Fisterra
+2917,Fisterra,Quiroga,Fisterra
+2918,Fisterra,Vigo,Fisterra
+2919,Viana,Ordes,Viana
+2920,A Mariña Oriental,Arzúa,A Mariña Oriental
+2921,O Salnés,Ourense,O Salnés
+2922,A Mariña Oriental,Eume,A Mariña Oriental
+2923,Fisterra,O Carballiño,Fisterra
+2924,Fisterra,Arzúa,Fisterra
+2925,Fisterra,Terra De Melide,Fisterra
+2926,A Mariña Oriental,Terra Chá,A Mariña Oriental
+2927,Viana,Sarria,Viana
+2928,O Salnés,Terra De Trives,O Salnés
+2929,Viana,Chantada,Viana
+2930,Fisterra,Verín,Fisterra
+2931,Fisterra,Pontevedra,Fisterra
+2932,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2933,Viana,Lugo,Viana
+2934,Viana,Terra De Melide,Viana
+2935,Fisterra,A Limia,Fisterra
+2936,Fisterra,Ourense,Fisterra
+2937,O Salnés,Verín,O Salnés
+2938,O Salnés,Terra De Caldelas,O Salnés
+2939,A Mariña Oriental,Ordes,A Mariña Oriental
+2940,Fisterra,Os Ancares,Fisterra
+2941,A Mariña Oriental,Deza,A Mariña Oriental
+2942,O Salnés,Quiroga,O Salnés
+2943,Viana,O Carballiño,Viana
+2944,O Salnés,Vigo,O Salnés
+2945,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2946,O Salnés,A Limia,O Salnés
+2947,O Salnés,O Ribeiro,O Salnés
+2948,O Salnés,Pontevedra,O Salnés
+2949,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2950,A Mariña Oriental,Vigo,A Mariña Oriental
+2951,O Salnés,Valdeorras,O Salnés
+2952,Fisterra,Chantada,Fisterra
+2953,O Salnés,Pontevedra,O Salnés
+2954,O Salnés,Terra De Lemos,O Salnés
+2955,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2956,Fisterra,O Ribeiro,Fisterra
+2957,Viana,Pontevedra,Viana
+2958,A Mariña Oriental,O Condado,A Mariña Oriental
+2959,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2960,Fisterra,Lugo,Fisterra
+2961,A Mariña Oriental,O Carballiño,A Mariña Oriental
+2962,A Mariña Oriental,O Baixo Miño,A Mariña Oriental
+2963,Fisterra,A Fonsagrada,Fisterra
+2964,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+2965,Viana,Terra De Lemos,Viana
+2966,A Mariña Oriental,Terra De Melide,A Mariña Oriental
+2967,O Salnés,Terra De Celanova,O Salnés
+2968,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+2969,O Salnés,Sarria,O Salnés
+2970,Fisterra,Terra De Lemos,Fisterra
+2971,O Salnés,Lugo,O Salnés
+2972,O Salnés,Viana,O Salnés
+2973,O Salnés,Os Ancares,O Salnés
+2974,Fisterra,Sarria,Fisterra
+2975,Fisterra,Terra De Celanova,Fisterra
+2976,Fisterra,A Paradanta,Fisterra
+2977,A Mariña Oriental,Meira,A Mariña Oriental
+2978,Fisterra,Pontevedra,Fisterra
+2979,Fisterra,Ordes,Fisterra
+2980,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+2981,Viana,Deza,Viana
+2982,A Mariña Oriental,Lugo,A Mariña Oriental
+2983,Viana,O Carballiño,Viana
+2984,Fisterra,Deza,Fisterra
+2985,O Salnés,Ourense,O Salnés
+2986,O Salnés,Terra De Celanova,O Salnés
+2987,O Salnés,A Fonsagrada,O Salnés
+2988,Viana,Chantada,Viana
+2989,Viana,A Mariña Occidental,Viana
+2990,A Mariña Oriental,A Paradanta,A Mariña Oriental
+2991,Fisterra,Ourense,Fisterra
+2992,A Mariña Oriental,A Mariña Occidental,A Mariña Oriental
+2993,Viana,Lugo,Viana
+2994,A Mariña Oriental,O Ribeiro,A Mariña Oriental
+2995,Viana,Deza,Viana
+2996,O Salnés,Lugo,O Salnés
+2997,Fisterra,Terra De Celanova,Fisterra
+2998,A Mariña Oriental,Pontevedra,A Mariña Oriental
+2999,O Salnés,Meira,O Salnés
+3000,A Mariña Oriental,Deza,A Mariña Oriental
+3001,O Salnés,Terra De Lemos,O Salnés
+3002,Viana,O Ribeiro,Viana
+3003,Viana,Deza,Viana
+3004,O Salnés,Terra De Melide,O Salnés
+3005,O Salnés,Terra Chá,O Salnés
+3006,Fisterra,Bergantiños,Fisterra
+3007,Fisterra,Betanzos,Fisterra
+3008,A Mariña Oriental,Bergantiños,A Mariña Oriental
+3009,Fisterra,Deza,Fisterra
+1,O Condado,A Paradanta,A Paradanta,A Paradanta
+2,Ourense,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+3,Allariz-Maceda,A Limia,A Limia,A Limia
+4,Sarria,Os Ancares,Os Ancares,Os Ancares
+5,Baixa Limia,Terra De Celanova,Terra De Celanova,Terra De Celanova
+6,Noia,Xallas,Xallas,Xallas
+7,A Mariña Occidental,A Mariña Central,A Mariña Central,A Mariña Central
+8,O Carballiño,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes
+9,A Coruña,Betanzos,Betanzos,Betanzos
+10,Muros,Noia,Noia,
+11,Lugo,Meira,Meira,Meira
+12,Allariz-Maceda,Terra De Celanova,Baixa Limia,
+13,Viana,Terra De Trives,Terra De Trives,Terra De Trives
+14,Ourense,A Limia,Allariz-Maceda,
+15,O Baixo Miño,Vigo,Vigo,Vigo
+16,Lugo,Terra Chá,Terra Chá,Terra Chá
+17,Barbanza,Caldas,Caldas,Caldas
+18,A Mariña Occidental,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+19,Ordes,Arzúa,Arzúa,Arzúa
+20,Terra De Soneira,Bergantiños,Bergantiños,Bergantiños
+21,Muros,Santiago,Santiago,Santiago
+22,A Coruña,Terra Chá,Lugo,
+23,A Fonsagrada,Meira,Lugo,
+24,O Morrazo,Pontevedra,Pontevedra,Pontevedra
+25,Ortegal,Ferrol,Ferrol,Ferrol
+26,Ordes,Xallas,Noia,Noia
+27,A Coruña,Eume,Eume,Eume
+28,O Morrazo,Caldas,Barbanza,
+29,O Salnés,Pontevedra,O Morrazo,
+1,Sarria,Lugo,Lugo,Lugo
+2,Verín,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+3,Terra De Trives,Terra De Caldelas,Verín,
+4,A Barcala,Santiago,Santiago,Santiago
+5,Bergantiños,A Coruña,A Coruña,A Coruña
+6,Ortegal,Eume,Eume,Eume
+7,Valdeorras,Quiroga,Quiroga,Quiroga
+8,Pontevedra,O Salnés,O Salnés,O Salnés
+9,O Condado,O Baixo Miño,O Baixo Miño,O Baixo Miño
+10,Vigo,Pontevedra,Pontevedra,
+11,O Morrazo,Pontevedra,Vigo,
+12,Terra De Lemos,Terra De Caldelas,Terra De Trives,
+13,A Limia,Terra De Celanova,Terra De Celanova,Terra De Celanova
+14,A Mariña Oriental,A Mariña Central,A Mariña Central,A Mariña Central
+15,Chantada,Deza,Deza,Deza
+16,Ourense,Terra De Celanova,A Limia,
+17,Terra De Trives,Valdeorras,Valdeorras,
+18,Allariz-Maceda,A Limia,A Limia,A Limia
+19,Meira,A Mariña Oriental,A Mariña Oriental,
+20,A Ulloa,Deza,Chantada,
+21,A Paradanta,O Condado,O Condado,
+22,Ourense,Terra De Lemos,Terra De Lemos,
+23,Vigo,Pontevedra,O Morrazo,
+24,Baixa Limia,Terra De Celanova,Ourense,
+25,Fisterra,Muros,Muros,Muros
+26,O Sar,Caldas,Caldas,Caldas
+27,Viana,Valdeorras,Terra De Trives,
+28,O Morrazo,Pontevedra,Vigo,
+29,A Barcala,Xallas,Xallas,Xallas
+30,O Sar,Pontevedra,O Morrazo,
+31,O Sar,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes
+32,Betanzos,Terra Chá,Terra Chá,Terra Chá
+33,Pontevedra,Caldas,O Sar,
+34,A Ulloa,Arzúa,Arzúa,Arzúa
+35,O Sar,Noia,Noia,Noia
+36,O Morrazo,Pontevedra,O Sar,
+37,Chantada,Sarria,Sarria,
+1,Valdeorras,Viana,Viana,Viana
+2,Deza,A Ulloa,A Ulloa,A Ulloa
+3,Chantada,Terra De Lemos,Terra De Lemos,Terra De Lemos
+4,O Salnés,Caldas,Caldas,Caldas
+5,Allariz-Maceda,A Limia,A Limia,A Limia
+6,Allariz-Maceda,Ourense,Ourense,Ourense
+7,A Barcala,Xallas,Xallas,Xallas
+8,Baixa Limia,A Limia,Allariz-Maceda,
+9,O Sar,Barbanza,Barbanza,Barbanza
+10,A Barcala,Bergantiños,Bergantiños,Bergantiños
+11,Terra De Trives,Quiroga,Quiroga,Quiroga
+12,A Mariña Oriental,A Mariña Central,A Mariña Central,A Mariña Central
+13,Terra De Trives,Viana,Valdeorras,
+14,A Mariña Occidental,Terra Chá,Terra Chá,Terra Chá
+15,A Paradanta,O Ribeiro,O Ribeiro,O Ribeiro
+16,O Condado,Vigo,Vigo,Vigo
+17,Ordes,Arzúa,Arzúa,Arzúa
+18,A Coruña,Ordes,Ordes,
+19,A Coruña,Betanzos,Betanzos,Betanzos
+20,A Mariña Oriental,Terra Chá,A Mariña Occidental,
+21,Sarria,Chantada,Chantada,
+22,O Baixo Miño,Vigo,O Condado,
+23,Tabeirós-Terra De Montes,O Carballiño,O Carballiño,O Carballiño
+24,Santiago,Xallas,A Barcala,
+25,Chantada,Sarria,Sarria,
+26,Terra De Soneira,Fisterra,Fisterra,Fisterra
+27,Eume,Betanzos,A Coruña,
+28,Allariz-Maceda,O Ribeiro,A Paradanta,
+29,Chantada,Ourense,Allariz-Maceda,
+30,O Sar,Noia,Noia,Noia
+31,A Barcala,Santiago,Santiago,
+32,Os Ancares,Lugo,Lugo,Lugo
+1,A Mariña Occidental,Ortegal,Ortegal,Ortegal
+2,Muros,Noia,Noia,Noia
+3,O Morrazo,Pontevedra,Pontevedra,Pontevedra
+4,O Morrazo,O Carballiño,O Carballiño,O Carballiño
+5,Muros,Xallas,Xallas,Xallas
+6,O Baixo Miño,O Condado,O Condado,O Condado
+7,Terra De Soneira,Bergantiños,Bergantiños,Bergantiños
+1,Ortegal,Eume,Eume,Eume
+2,Ourense,O Ribeiro,O Ribeiro,O Ribeiro
+3,A Ulloa,Lugo,Lugo,Lugo
+4,A Mariña Central,Terra Chá,Terra Chá,Terra Chá
+5,Bergantiños,Terra De Soneira,Terra De Soneira,Terra De Soneira
+6,Barbanza,Noia,Noia,Noia
+7,A Mariña Occidental,A Mariña Central,A Mariña Central,
+8,Betanzos,Eume,Ortegal,
+9,Deza,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes
+10,Valdeorras,Quiroga,Quiroga,Quiroga
+11,Deza,A Ulloa,A Ulloa,
+12,Os Ancares,A Fonsagrada,A Fonsagrada,A Fonsagrada
+13,A Coruña,Bergantiños,Bergantiños,
+14,A Coruña,Terra De Soneira,Bergantiños,Bergantiños
+15,O Sar,Tabeirós-Terra De Montes,Deza,
+16,Chantada,Ourense,Ourense,
+17,Ourense,A Paradanta,A Paradanta,A Paradanta
+18,A Mariña Occidental,A Mariña Oriental,A Mariña Oriental,A Mariña Oriental
+19,A Mariña Central,A Mariña Central,A Mariña Occidental,
+20,Betanzos,Ortegal,Ortegal,Ortegal
+21,O Condado,O Baixo Miño,O Baixo Miño,O Baixo Miño
+22,Meira,Terra Chá,A Mariña Central,
+23,O Salnés,Caldas,Caldas,Caldas
+24,Terra De Melide,Lugo,A Ulloa,A Ulloa
+25,Arzúa,Betanzos,Betanzos,
+26,Terra De Melide,A Fonsagrada,Os Ancares,
+27,A Barcala,Xallas,Xallas,Xallas
+28,Valdeorras,Terra De Lemos,Terra De Lemos,Terra De Lemos
+29,Arzúa,Terra De Melide,Terra De Melide,
+1,Quiroga,Sarria,Sarria,Sarria
+2,Viana,Terra De Trives,Terra De Trives,Terra De Trives
+3,Meira,A Fonsagrada,A Fonsagrada,A Fonsagrada
+4,Muros,Xallas,Xallas,Xallas
+5,Viana,Valdeorras,Valdeorras,Valdeorras
+6,Caldas,Pontevedra,Pontevedra,Pontevedra
+7,Noia,Xallas,Muros,
+8,Barbanza,Noia,Noia,
+9,Deza,A Ulloa,A Ulloa,A Ulloa
+10,Terra De Celanova,Ourense,Ourense,Ourense
+11,O Carballiño,Ourense,Terra De Celanova,
+12,A Barcala,Santiago,Santiago,Santiago
+13,Vigo,O Condado,O Condado,O Condado
+14,A Mariña Central,A Mariña Occidental,A Mariña Occidental,A Mariña Occidental
+15,A Paradanta,Vigo,Vigo,
+16,Tabeirós-Terra De Montes,Deza,Deza,
+17,A Barcala,Xallas,Noia,Noia
+18,O Sar,Barbanza,Barbanza,
+19,Os Ancares,Quiroga,Quiroga,
+20,Terra De Soneira,Xallas,A Barcala,
+21,Caldas,O Sar,O Sar,
+22,Terra Chá,Eume,Eume,Eume
+23,O Baixo Miño,Vigo,A Paradanta,
+24,Deza,Chantada,Chantada,Chantada
+25,Os Ancares,Terra De Caldelas,Terra De Caldelas,Terra De Caldelas
+26,Allariz-Maceda,Terra De Caldelas,Os Ancares,
+27,Os Ancares,Terra De Caldelas,Allariz-Maceda,
+28,Fisterra,Xallas,Terra De Soneira,
+29,O Morrazo,Pontevedra,Caldas,
+30,Betanzos,Eume,Terra Chá,
+31,A Mariña Oriental,A Mariña Central,A Mariña Central,
+32,Viana,Quiroga,Os Ancares,
+33,O Baixo Miño,O Ribeiro,O Ribeiro,O Ribeiro
+34,Ferrol,Eume,Betanzos,
+35,Terra Chá,Eume,Ferrol,
+36,O Baixo Miño,O Condado,Vigo,Vigo
+37,Allariz-Maceda,Ourense,O Carballiño,
+38,Viana,Terra De Caldelas,Os Ancares,
+39,O Baixo Miño,A Paradanta,A Paradanta,A Paradanta
+40,Bergantiños,Ordes,Ordes,Ordes
+41,O Morrazo,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,
+42,Os Ancares,Lugo,Lugo,Lugo
+43,O Carballiño,Tabeirós-Terra De Montes,O Morrazo,
+44,Tabeirós-Terra De Montes,O Carballiño,O Carballiño,
+45,Terra De Celanova,Baixa Limia,Baixa Limia,Baixa Limia
+46,O Morrazo,O Salnés,O Salnés,O Salnés
+47,A Limia,Verín,Verín,Verín
+48,Quiroga,Terra De Lemos,Terra De Lemos,Terra De Lemos
+49,A Limia,Allariz-Maceda,Allariz-Maceda,
+50,O Baixo Miño,Pontevedra,O Morrazo,
+51,Fisterra,Noia,Barbanza,Barbanza
+52,O Sar,Noia,Fisterra,
+53,Meira,A Mariña Occidental,A Mariña Central,A Mariña Central
+54,Caldas,Santiago,A Barcala,
+55,Terra De Soneira,Bergantiños,Bergantiños,
+56,A Limia,Terra De Caldelas,Viana,
+57,Allariz-Maceda,Chantada,Deza,
+58,A Barcala,Santiago,Caldas,
+59,Os Ancares,Sarria,Quiroga,
+60,Allariz-Maceda,Terra De Celanova,Terra De Celanova,
+61,Terra De Celanova,Terra De Celanova,Allariz-Maceda,
+62,Tabeirós-Terra De Montes,O Ribeiro,O Baixo Miño,
+63,Viana,Verín,A Limia,
+64,Deza,Deza,Tabeirós-Terra De Montes,
+65,Betanzos,Ordes,Bergantiños,Bergantiños
+66,Ferrol,Ortegal,Ortegal,Ortegal
+67,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,O Carballiño,O Carballiño
+68,A Coruña,Ordes,Betanzos,
+69,Viana,Terra De Caldelas,A Limia,
+70,Terra De Soneira,A Coruña,A Coruña,
+71,Terra De Celanova,A Paradanta,O Baixo Miño,
+72,Deza,Chantada,Allariz-Maceda,
+73,Tabeirós-Terra De Montes,Chantada,Deza,
+74,Ferrol,Eume,Terra Chá,
+75,O Sar,Santiago,A Barcala,
+76,Os Ancares,Terra Chá,Terra Chá,Terra Chá
+77,A Barcala,Santiago,O Sar,
+78,A Mariña Oriental,A Mariña Occidental,Meira,
+79,Ferrol,A Mariña Occidental,A Mariña Oriental,
+80,A Barcala,Deza,Deza,
+81,O Sar,Santiago,A Barcala,
+82,Terra De Soneira,Betanzos,Betanzos,Betanzos
+83,Tabeirós-Terra De Montes,Deza,A Barcala,
+84,Muros,Fisterra,Fisterra,
+85,Caldas,O Salnés,O Morrazo,
+86,A Coruña,Arzúa,Arzúa,Arzúa
+87,Fisterra,Muros,Muros,
+88,Terra De Melide,Terra Chá,Os Ancares,

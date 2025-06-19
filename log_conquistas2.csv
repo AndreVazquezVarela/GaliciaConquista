@@ -1,0 +1,278 @@
+Día,Atacante,Concello conquistado,Pertenecía a
+1,Quiroga,Terra De Caldelas,Quiroga
+2,Terra Chá,Terra De Melide,Terra Chá
+3,A Mariña Occidental,A Mariña Central,A Mariña Occidental
+4,Noia,Xallas,Noia
+5,Terra De Celanova,A Limia,Terra De Celanova
+6,Ortegal,Eume,Ortegal
+7,Ordes,Bergantiños,Ordes
+8,Ferrol,Eume,Ferrol
+9,A Barcala,Xallas,A Barcala
+10,A Coruña,Bergantiños,A Coruña
+11,Quiroga,Terra De Lemos,Quiroga
+12,Terra Chá,Lugo,Terra Chá
+13,Sarria,Os Ancares,Sarria
+14,Muros,Xallas,Muros
+15,Valdeorras,Quiroga,Valdeorras
+16,Betanzos,Terra De Melide,Betanzos
+17,Tabeirós-Terra De Montes,O Sar,Tabeirós-Terra De Montes
+18,A Mariña Occidental,Terra Chá,A Mariña Occidental
+19,O Ribeiro,Terra De Celanova,O Ribeiro
+20,Sarria,Terra De Lemos,Sarria
+21,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+22,O Morrazo,Pontevedra,O Morrazo
+23,Barbanza,Caldas,Barbanza
+24,Barbanza,Noia,Barbanza
+25,Betanzos,Arzúa,Betanzos
+26,Tabeirós-Terra De Montes,Pontevedra,Tabeirós-Terra De Montes
+27,A Mariña Occidental,Betanzos,A Mariña Occidental
+28,O Ribeiro,Pontevedra,O Ribeiro
+29,O Salnés,Pontevedra,O Salnés
+30,O Salnés,Caldas,O Salnés
+31,Meira,A Fonsagrada,Meira
+32,A Coruña,Betanzos,A Coruña
+33,Terra De Celanova,Baixa Limia,Terra De Celanova
+34,Ordes,A Coruña,Ordes
+35,Allariz-Maceda,A Limia,Allariz-Maceda
+36,Sarria,Quiroga,Sarria
+37,Ordes,Santiago,Ordes
+38,Betanzos,Deza,Betanzos
+39,A Coruña,Ordes,A Coruña
+40,A Mariña Occidental,Meira,A Mariña Occidental
+41,O Baixo Miño,Vigo,O Baixo Miño
+42,O Ribeiro,A Paradanta,O Ribeiro
+43,Meira,Lugo,Meira
+44,Valdeorras,Viana,Valdeorras
+45,O Ribeiro,A Limia,O Ribeiro
+46,Meira,Meira,Meira
+47,Terra De Trives,Valdeorras,Terra De Trives
+48,Barbanza,Muros,Barbanza
+49,Ordes,A Barcala,Ordes
+50,Barbanza,Caldas,Barbanza
+51,Fisterra,Xallas,Fisterra
+52,Terra De Soneira,Xallas,Terra De Soneira
+53,Chantada,Sarria,Chantada
+54,Ourense,Terra De Caldelas,Ourense
+55,Ortegal,A Mariña Occidental,Ortegal
+56,A Coruña,A Coruña,A Coruña
+57,Ordes,Arzúa,Ordes
+58,Terra De Trives,Quiroga,Terra De Trives
+59,A Coruña,Xallas,A Coruña
+60,Terra De Trives,Viana,Terra De Trives
+61,Ourense,Terra De Lemos,Ourense
+62,O Baixo Miño,A Paradanta,O Baixo Miño
+63,Terra De Soneira,Fisterra,Terra De Soneira
+64,O Baixo Miño,Pontevedra,O Baixo Miño
+65,O Morrazo,Pontevedra,O Morrazo
+66,A Ulloa,Terra De Melide,A Ulloa
+67,Meira,A Ulloa,Meira
+68,Terra De Trives,Verín,Terra De Trives
+69,Chantada,Os Ancares,Chantada
+70,Betanzos,Santiago,Betanzos
+71,O Morrazo,Vigo,O Morrazo
+72,A Mariña Oriental,A Mariña Central,A Mariña Oriental
+73,Terra De Celanova,Terra De Celanova,Terra De Celanova
+74,Ourense,O Carballiño,Ourense
+75,A Mariña Oriental,Meira,A Mariña Oriental
+76,Chantada,Lugo,Chantada
+77,Terra De Soneira,Xallas,Terra De Soneira
+78,Tabeirós-Terra De Montes,Pontevedra,Tabeirós-Terra De Montes
+79,Terra De Trives,Terra De Caldelas,Terra De Trives
+80,Ourense,Pontevedra,Ourense
+81,O Condado,A Paradanta,O Condado
+82,Chantada,A Fonsagrada,Chantada
+83,A Coruña,Xallas,A Coruña
+84,Ourense,Chantada,Ourense
+85,O Morrazo,Pontevedra,O Morrazo
+86,Barbanza,O Salnés,Barbanza
+87,O Condado,Vigo,O Condado
+88,Betanzos,A Ulloa,Betanzos
+89,Tabeirós-Terra De Montes,Santiago,Tabeirós-Terra De Montes
+90,Terra De Trives,Ourense,Terra De Trives
+91,Allariz-Maceda,A Limia,Allariz-Maceda
+92,Terra De Soneira,Xallas,Terra De Soneira
+93,A Mariña Occidental,Lugo,A Mariña Occidental
+94,Betanzos,Chantada,Betanzos
+95,Terra De Trives,Allariz-Maceda,Terra De Trives
+96,A Coruña,Terra De Melide,A Coruña
+97,Betanzos,Santiago,Betanzos
+98,Ordes,Noia,Ordes
+99,Terra De Soneira,Bergantiños,Terra De Soneira
+100,Ferrol,Ortegal,Ferrol
+101,O Condado,Pontevedra,O Condado
+102,O Morrazo,Pontevedra,O Morrazo
+103,Ourense,Ourense,Ourense
+104,O Ribeiro,Terra De Celanova,O Ribeiro
+105,A Mariña Occidental,Chantada,A Mariña Occidental
+106,Ourense,Terra De Caldelas,Ourense
+107,O Condado,Terra De Celanova,O Condado
+108,O Baixo Miño,Vigo,O Baixo Miño
+109,Terra De Celanova,A Limia,Terra De Celanova
+110,A Mariña Oriental,A Fonsagrada,A Mariña Oriental
+111,O Condado,Baixa Limia,O Condado
+112,Betanzos,Tabeirós-Terra De Montes,Betanzos
+113,Ferrol,Betanzos,Ferrol
+114,Ordes,Xallas,Ordes
+115,A Coruña,Arzúa,A Coruña
+116,A Mariña Oriental,Terra Chá,A Mariña Oriental
+117,Terra De Trives,Terra De Caldelas,Terra De Trives
+118,A Coruña,Betanzos,A Coruña
+119,O Baixo Miño,A Paradanta,O Baixo Miño
+120,O Baixo Miño,O Condado,O Baixo Miño
+121,O Ribeiro,Terra De Celanova,O Ribeiro
+122,Ferrol,A Mariña Occidental,Ferrol
+123,O Morrazo,Caldas,O Morrazo
+124,Terra De Celanova,Verín,Terra De Celanova
+125,Tabeirós-Terra De Montes,Noia,Tabeirós-Terra De Montes
+126,O Morrazo,Barbanza,O Morrazo
+127,Barbanza,Xallas,Barbanza
+128,Betanzos,Terra De Melide,Betanzos
+129,Betanzos,O Carballiño,Betanzos
+130,O Ribeiro,O Carballiño,O Ribeiro
+131,Betanzos,Terra Chá,Betanzos
+132,Betanzos,Arzúa,Betanzos
+133,Terra De Trives,Sarria,Terra De Trives
+134,A Mariña Occidental,Sarria,A Mariña Occidental
+135,Terra De Celanova,Terra De Caldelas,Terra De Celanova
+136,O Baixo Miño,Pontevedra,O Baixo Miño
+137,Ferrol,A Mariña Central,Ferrol
+138,Betanzos,Lugo,Betanzos
+139,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes
+140,A Mariña Occidental,O Carballiño,A Mariña Occidental
+141,Ferrol,Terra Chá,Ferrol
+142,O Ribeiro,Allariz-Maceda,O Ribeiro
+143,Betanzos,Os Ancares,Betanzos
+144,A Mariña Occidental,Pontevedra,A Mariña Occidental
+145,Tabeirós-Terra De Montes,A Barcala,Tabeirós-Terra De Montes
+146,O Baixo Miño,Pontevedra,O Baixo Miño
+147,O Morrazo,Tabeirós-Terra De Montes,O Morrazo
+148,Betanzos,A Fonsagrada,Betanzos
+149,Ourense,Terra De Caldelas,Ourense
+150,Terra De Trives,Terra De Caldelas,Terra De Trives
+151,Ourense,Quiroga,Ourense
+152,O Ribeiro,A Limia,O Ribeiro
+153,O Morrazo,Pontevedra,O Morrazo
+154,Ourense,Os Ancares,Ourense
+155,Barbanza,Caldas,Barbanza
+156,A Coruña,Santiago,A Coruña
+157,Terra De Trives,Allariz-Maceda,Terra De Trives
+158,Terra De Trives,Terra De Lemos,Terra De Trives
+159,Ourense,Terra De Lemos,Ourense
+160,O Morrazo,Noia,O Morrazo
+161,Terra De Soneira,Muros,Terra De Soneira
+162,A Mariña Occidental,Lugo,A Mariña Occidental
+163,O Baixo Miño,O Ribeiro,O Baixo Miño
+164,O Morrazo,Santiago,O Morrazo
+165,Ourense,Terra De Celanova,Ourense
+166,Barbanza,Pontevedra,Barbanza
+167,A Mariña Occidental,Meira,A Mariña Occidental
+168,O Ribeiro,Baixa Limia,O Ribeiro
+169,O Morrazo,Arzúa,O Morrazo
+170,A Mariña Occidental,A Ulloa,A Mariña Occidental
+171,Ourense,Sarria,Ourense
+172,O Morrazo,O Carballiño,O Morrazo
+173,Terra De Celanova,Terra De Caldelas,Terra De Celanova
+174,Terra De Soneira,Noia,Terra De Soneira
+175,Terra De Soneira,Xallas,Terra De Soneira
+176,Terra De Soneira,Barbanza,Terra De Soneira
+177,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes
+178,O Morrazo,Ordes,O Morrazo
+179,Ourense,A Paradanta,Ourense
+180,Terra De Trives,Verín,Terra De Trives
+181,A Coruña,Terra Chá,A Coruña
+182,A Mariña Occidental,Terra De Melide,A Mariña Occidental
+183,Terra De Soneira,A Barcala,Terra De Soneira
+184,Betanzos,A Mariña Oriental,Betanzos
+185,O Ribeiro,Terra De Caldelas,O Ribeiro
+186,Terra De Soneira,A Coruña,Terra De Soneira
+187,A Mariña Occidental,Deza,A Mariña Occidental
+188,Ourense,Baixa Limia,Ourense
+189,O Ribeiro,Ourense,O Ribeiro
+190,O Morrazo,Terra De Melide,O Morrazo
+191,Betanzos,Lugo,Betanzos
+192,A Coruña,Terra De Melide,A Coruña
+193,Betanzos,Meira,Betanzos
+194,A Mariña Occidental,Sarria,A Mariña Occidental
+195,A Coruña,Ordes,A Coruña
+196,Ourense,Lugo,Ourense
+197,O Ribeiro,Allariz-Maceda,O Ribeiro
+198,O Ribeiro,Terra De Celanova,O Ribeiro
+199,Ourense,O Ribeiro,Ourense
+200,Tabeirós-Terra De Montes,Caldas,Tabeirós-Terra De Montes
+201,Terra De Soneira,O Sar,Terra De Soneira
+202,Barbanza,Caldas,Barbanza
+203,O Ribeiro,Terra De Trives,O Ribeiro
+204,Ferrol,A Mariña Oriental,Ferrol
+205,Betanzos,A Mariña Occidental,Betanzos
+206,O Morrazo,Tabeirós-Terra De Montes,O Morrazo
+207,Betanzos,Terra Chá,Betanzos
+208,Ourense,Terra De Caldelas,Ourense
+209,O Ribeiro,O Ribeiro,O Ribeiro
+210,Ourense,Valdeorras,Ourense
+211,O Morrazo,Betanzos,O Morrazo
+212,A Coruña,Arzúa,A Coruña
+213,Ourense,Terra Chá,Ourense
+214,O Baixo Miño,Pontevedra,O Baixo Miño
+215,A Coruña,A Coruña,A Coruña
+216,Terra De Soneira,Santiago,Terra De Soneira
+217,Ourense,Chantada,Ourense
+218,A Mariña Occidental,Chantada,A Mariña Occidental
+219,A Mariña Occidental,Lugo,A Mariña Occidental
+220,O Ribeiro,Verín,O Ribeiro
+221,Terra De Trives,Terra De Trives,Terra De Trives
+222,A Mariña Occidental,Terra De Melide,A Mariña Occidental
+223,Barbanza,Pontevedra,Barbanza
+224,Barbanza,O Sar,Barbanza
+225,Terra De Soneira,O Sar,Terra De Soneira
+226,Barbanza,O Sar,Barbanza
+227,O Baixo Miño,A Paradanta,O Baixo Miño
+228,Terra De Soneira,Caldas,Terra De Soneira
+229,Terra De Trives,Quiroga,Terra De Trives
+230,Terra De Soneira,Ordes,Terra De Soneira
+231,Barbanza,O Ribeiro,Barbanza
+232,A Coruña,Betanzos,A Coruña
+233,O Ribeiro,Terra De Caldelas,O Ribeiro
+234,A Coruña,Bergantiños,A Coruña
+235,O Morrazo,Chantada,O Morrazo
+236,A Coruña,Terra De Melide,A Coruña
+237,Terra De Trives,Terra De Caldelas,Terra De Trives
+238,Terra De Soneira,Bergantiños,Terra De Soneira
+239,O Morrazo,Pontevedra,O Morrazo
+240,O Morrazo,Sarria,O Morrazo
+241,Ferrol,Meira,Ferrol
+242,Ferrol,A Fonsagrada,Ferrol
+243,O Morrazo,Lugo,O Morrazo
+244,Terra De Soneira,O Sar,Terra De Soneira
+245,Betanzos,Ortegal,Betanzos
+246,O Ribeiro,Terra De Lemos,O Ribeiro
+247,A Coruña,A Ulloa,A Coruña
+248,Ourense,A Mariña Central,Ourense
+249,O Morrazo,Santiago,O Morrazo
+250,O Ribeiro,Terra De Caldelas,O Ribeiro
+251,O Ribeiro,O Ribeiro,O Ribeiro
+252,Ourense,Viana,Ourense
+253,Barbanza,Caldas,Barbanza
+254,O Baixo Miño,O Ribeiro,O Baixo Miño
+255,Ferrol,Os Ancares,Ferrol
+256,Betanzos,Meira,Betanzos
+257,A Mariña Occidental,Chantada,A Mariña Occidental
+258,Barbanza,Tabeirós-Terra De Montes,Barbanza
+259,Betanzos,Eume,Betanzos
+260,Terra De Soneira,Betanzos,Terra De Soneira
+261,O Baixo Miño,Ourense,O Baixo Miño
+262,Betanzos,A Mariña Central,Betanzos
+263,Ourense,Lugo,Ourense
+264,O Morrazo,Terra De Lemos,O Morrazo
+265,Ferrol,Meira,Ferrol
+266,Terra De Soneira,Terra De Melide,Terra De Soneira
+267,A Coruña,Bergantiños,A Coruña
+268,Ourense,Sarria,Ourense
+269,Barbanza,Pontevedra,Barbanza
+270,A Mariña Occidental,O Carballiño,A Mariña Occidental
+271,Betanzos,Terra Chá,Betanzos
+272,Betanzos,Ferrol,Betanzos
+273,Ourense,A Fonsagrada,Ourense
+274,A Mariña Occidental,Pontevedra,A Mariña Occidental
+275,Terra De Trives,Terra De Lemos,Terra De Trives
+276,Terra De Soneira,A Coruña,Terra De Soneira
+277,Terra De Trives,Sarria,Terra De Trives
