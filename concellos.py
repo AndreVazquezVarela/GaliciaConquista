@@ -145,7 +145,7 @@ def conquistar_concello(G):
             nombre_defensor = G.nodes[defensor_id]['nombre']
             nombre_original_atacado = G.nodes[defensor_id]['nombre_original']
 
-            print(f"A comarca de {nombre_atacante} conquistou o concello  de {nombre_original_atacado}, pertencente a {nombre_defensor}")
+            print(f"O Concello de {nombre_atacante} conquistou o concello  de {nombre_original_atacado}, pertencente a {nombre_defensor}")
             G.nodes[defensor_id]['nombre'] = nombre_atacante
 
             eliminado = None
