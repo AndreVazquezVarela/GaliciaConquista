@@ -112,7 +112,7 @@ def conquistar_concello(G):
             for v in vecinos:
                 if G.nodes[v]['nombre'] == defensor:
                     G.nodes[v]['nombre'] = atacante
-                    print(f"(2 imperios) {atacante} conquistou a comarca de {G.nodes[v]['nombre_original']}")
+                    print(f"(2 imperios) {atacante} conquistou o concello de {G.nodes[v]['nombre_original']}")
 
                     eliminado = None
                     if not any(G.nodes[n]['nombre'] == defensor for n in G.nodes):
@@ -145,7 +145,7 @@ def conquistar_concello(G):
             nombre_defensor = G.nodes[defensor_id]['nombre']
             nombre_original_atacado = G.nodes[defensor_id]['nombre_original']
 
-            print(f"A comarca de {nombre_atacante} conquistou a comarca de {nombre_original_atacado}, pertencente a {nombre_defensor}")
+            print(f"A comarca de {nombre_atacante} conquistou o concello  de {nombre_original_atacado}, pertencente a {nombre_defensor}")
             G.nodes[defensor_id]['nombre'] = nombre_atacante
 
             eliminado = None
@@ -262,7 +262,7 @@ def guardar_log_narrado(ruta_csv=LOG_PATH, ruta_txt="logs/log_narrado.txt"):
             if not dia or not atacante or not comarca or not antiguo:
                 continue  # línea malformada
 
-            texto = f"Día {dia}: O imperio de {atacante} conquistou á comarca de {comarca}, que pertencía a {antiguo}."
+            texto = f"Día {dia}: O imperio de {atacante} conquistou o concello de {comarca}, que pertencía a {antiguo}."
             f_txt.write(texto + "\n")
 
             if eliminado:
