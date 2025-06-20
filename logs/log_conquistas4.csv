@@ -21,3 +21,116 @@ Día,Atacante,Comarca conquistada,Pertenecía a,Eliminado
 20,Valdeorras,Terra De Trives,Terra De Trives,Terra De Trives
 21,Allariz-Maceda,Terra De Celanova,Terra De Celanova,Terra De Celanova
 22,Tabeirós-Terra De Montes,Caldas,Caldas,Caldas
+23,Terra De Caldelas,Os Ancares,Os Ancares,Os Ancares
+24,O Sar,Muros,Muros,Muros
+25,A Mariña Oriental,Terra Chá,Terra Chá,Terra Chá
+26,O Condado,A Paradanta,O Baixo Miño,
+27,Tabeirós-Terra De Montes,O Salnés,O Salnés,O Salnés
+28,O Condado,O Ribeiro,Pontevedra,
+29,O Baixo Miño,O Ribeiro,O Condado,
+30,A Coruña,Betanzos,Betanzos,Betanzos
+31,O Sar,A Barcala,Xallas,
+32,Sarria,O Carballiño,Pontevedra,Pontevedra
+33,Ordes,Arzúa,Terra De Melide,Terra De Melide
+34,Valdeorras,Viana,Viana,Viana
+35,Xallas,Bergantiños,Bergantiños,Bergantiños
+36,O Morrazo,O Ribeiro,O Baixo Miño,
+37,Valdeorras,Terra De Caldelas,Terra De Caldelas,
+38,Tabeirós-Terra De Montes,Santiago,Deza,
+39,O Sar,Santiago,Tabeirós-Terra De Montes,
+40,Ferrol,Eume,Eume,Eume
+41,Allariz-Maceda,Baixa Limia,Baixa Limia,Baixa Limia
+42,A Limia,Terra De Caldelas,Valdeorras,
+43,A Limia,Quiroga,Terra De Caldelas,
+44,O Morrazo,O Carballiño,Sarria,
+45,Deza,Arzúa,Ordes,
+46,Ortegal,Eume,Ferrol,
+47,O Sar,Ordes,Ordes,Ordes
+48,Deza,Terra De Melide,A Ulloa,
+49,A Coruña,Bergantiños,Xallas,
+50,A Ulloa,Lugo,Lugo,
+51,O Baixo Miño,A Paradanta,O Condado,
+52,Allariz-Maceda,Ourense,Ourense,
+53,Fisterra,Xallas,Xallas,Xallas
+54,Terra De Caldelas,A Fonsagrada,Lugo,Lugo
+55,A Ulloa,Chantada,Sarria,
+56,Allariz-Maceda,Terra De Lemos,Ourense,Ourense
+57,Deza,Betanzos,A Coruña,
+58,O Condado,A Paradanta,O Baixo Miño,
+59,Valdeorras,Quiroga,A Limia,
+60,Valdeorras,Sarria,Sarria,Sarria
+61,Allariz-Maceda,Sarria,Valdeorras,
+62,O Baixo Miño,A Paradanta,O Condado,
+63,Ferrol,Eume,Ortegal,
+64,Valdeorras,Os Ancares,Terra De Caldelas,
+65,Ortegal,Eume,Ferrol,
+66,Ferrol,Eume,Ortegal,
+67,Deza,A Coruña,A Coruña,
+68,A Mariña Central,Ortegal,Ortegal,Ortegal
+69,A Mariña Oriental,A Fonsagrada,Terra De Caldelas,Terra De Caldelas
+70,Allariz-Maceda,Os Ancares,Valdeorras,
+71,O Sar,Bergantiños,A Coruña,A Coruña
+72,Ferrol,Terra Chá,A Mariña Oriental,
+73,Allariz-Maceda,A Paradanta,O Baixo Miño,
+74,O Condado,A Paradanta,Allariz-Maceda,
+75,Fisterra,Bergantiños,O Sar,
+76,A Mariña Oriental,Os Ancares,Allariz-Maceda,
+77,Valdeorras,Os Ancares,A Mariña Oriental,
+78,Valdeorras,Sarria,Allariz-Maceda,
+79,Fisterra,Muros,O Sar,
+80,Allariz-Maceda,A Paradanta,O Condado,
+81,A Mariña Central,Ferrol,Ferrol,
+82,O Condado,A Paradanta,Allariz-Maceda,
+83,A Mariña Oriental,A Mariña Central,A Mariña Central,
+84,A Limia,Terra De Lemos,Allariz-Maceda,
+85,Deza,Ordes,O Sar,
+86,Fisterra,A Barcala,O Sar,
+87,O Condado,Vigo,O Baixo Miño,
+88,Tabeirós-Terra De Montes,Barbanza,O Sar,
+89,Deza,Eume,Ferrol,
+90,Valdeorras,Terra De Lemos,A Limia,
+91,A Ulloa,Terra Chá,Ferrol,Ferrol
+92,A Mariña Oriental,A Mariña Occidental,A Mariña Central,
+93,A Limia,Baixa Limia,Allariz-Maceda,
+94,O Baixo Miño,Vigo,O Condado,
+95,Allariz-Maceda,Baixa Limia,A Limia,
+96,O Baixo Miño,A Paradanta,O Condado,
+97,A Mariña Central,Eume,Deza,
+98,Tabeirós-Terra De Montes,O Sar,O Sar,
+99,Fisterra,Santiago,O Sar,
+100,A Ulloa,Eume,A Mariña Central,
+101,O Condado,A Paradanta,O Baixo Miño,
+102,Valdeorras,A Fonsagrada,A Mariña Oriental,
+103,A Ulloa,Ferrol,A Mariña Central,
+104,Valdeorras,A Mariña Oriental,A Mariña Oriental,
+105,A Mariña Central,Ferrol,A Ulloa,
+106,Valdeorras,Meira,A Mariña Oriental,
+107,O Baixo Miño,A Paradanta,O Condado,
+108,A Mariña Central,Eume,A Ulloa,
+109,O Morrazo,A Paradanta,O Baixo Miño,
+110,Fisterra,Noia,O Sar,O Sar
+111,Valdeorras,A Mariña Central,A Mariña Oriental,
+112,A Mariña Oriental,Terra Chá,A Ulloa,
+113,Deza,Terra Chá,A Mariña Oriental,
+114,A Ulloa,Deza,Deza,
+115,A Mariña Central,A Mariña Occidental,A Mariña Oriental,A Mariña Oriental
+116,Tabeirós-Terra De Montes,O Carballiño,O Morrazo,
+117,O Baixo Miño,O Condado,O Condado,O Condado
+118,A Mariña Central,Terra Chá,Deza,
+119,Allariz-Maceda,O Carballiño,Tabeirós-Terra De Montes,
+120,Deza,Bergantiños,Fisterra,
+121,Deza,Terra Chá,A Mariña Central,
+122,Tabeirós-Terra De Montes,O Carballiño,Allariz-Maceda,
+123,A Ulloa,O Carballiño,Tabeirós-Terra De Montes,
+124,A Limia,Baixa Limia,Allariz-Maceda,
+125,Deza,A Mariña Occidental,A Mariña Central,
+126,A Ulloa,Tabeirós-Terra De Montes,Tabeirós-Terra De Montes,
+127,A Mariña Central,A Mariña Occidental,Deza,
+128,Deza,A Mariña Occidental,A Mariña Central,
+129,O Baixo Miño,A Paradanta,O Morrazo,
+130,Deza,Eume,A Mariña Central,
+131,Valdeorras,A Mariña Occidental,Deza,
+132,Fisterra,O Sar,Tabeirós-Terra De Montes,
+133,A Limia,Terra De Lemos,Valdeorras,
+134,A Ulloa,Terra De Lemos,A Limia,
+135,Deza,Ferrol,A Mariña Central,

@@ -76,7 +76,7 @@ concellos = {
 
 
 IMAGEN_DIR = "Images/imagenes6"
-LOG_PATH = "logs/log_conquistas4.csv"
+LOG_PATH = "logs/log_conquistas5.csv"
 MAPA_BASE_PATH = "Images/mapa_galicia.png"
 VICTORIA_IMG_PATH = "Images/imagenes6/victoria.png"
 INTERACTIVOS_DIR = "mapas_interactivos"
